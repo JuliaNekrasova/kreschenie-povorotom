@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" font-family="DejaVu Sans, Arial, sans-serif">
+  <style>
+    .txt { font-size: 15px; fill: #1a1a1a; }
+    .sm { font-size: 13px; fill: #333; }
+    .lbl { font-size: 14px; fill: #1a1a1a; font-style: italic; }
+    .ttl { font-size: 19px; fill: #111; font-weight: bold; }
+    .lead { stroke: #666; stroke-width: 1; fill: none; }
+    .nerve { stroke: #c9a227; stroke-width: 4.5; fill: none; stroke-linecap: round; }
+    .vessel-v { fill: #6b8fb5; stroke: #46617f; stroke-width: 1.5; }
+    .vessel-a { fill: #b5606a; stroke: #8a444d; stroke-width: 1.5; }
+    .chamber { fill: #efe6dc; stroke: #7a6a5a; stroke-width: 2; }
+    .risk { fill: #b02418; }
+    .risknum { font-size: 14px; fill: #fff; font-weight: bold; text-anchor: middle; }
+  </style>
+
+  <text class="ttl" x="30" y="34">Диафрагмальные нервы: ход и точки риска при вмешательствах на сердце</text>
+  <text class="sm" x="30" y="56">Вид спереди. Правая сторона пациента — слева на схеме. Схема принципиальная, пропорции не соблюдены.</text>
+
+  <rect x="425" y="80" width="52" height="120" rx="8" fill="#e8e4de" stroke="#8a8378" stroke-width="1.5"/>
+  <text class="sm" x="441" y="106">C3</text>
+  <text class="sm" x="441" y="140">C4</text>
+  <text class="sm" x="441" y="174">C5</text>
+  <text class="lbl" x="300" y="76">корешки C3-C5</text>
+  <path class="lead" d="M 400 80 L 428 96"/>
+
+  <path class="nerve" d="M 425 100 C 400 120 385 140 378 168 C 368 205 362 250 360 300 C 358 355 362 410 368 452"/>
+  <path class="nerve" d="M 477 100 C 505 122 522 145 532 175 C 548 215 570 258 585 305 C 598 350 600 400 594 448"/>
+
+  <rect class="vessel-v" x="393" y="150" width="34" height="150" rx="14"/>
+  <text class="lbl" x="238" y="168">верхняя полая вена</text>
+  <path class="lead" d="M 372 172 L 393 178"/>
+
+  <path class="vessel-a" d="M 470 205 C 470 168 540 168 540 210 L 540 240 L 520 240 L 520 212 C 520 190 490 190 490 212 L 490 240 L 470 240 Z"/>
+  <text class="lbl" x="600" y="196">дуга аорты</text>
+  <path class="lead" d="M 596 200 L 545 205"/>
+
+  <ellipse class="chamber" cx="418" cy="330" rx="46" ry="52"/>
+  <text class="txt" x="404" y="336">ПП</text>
+  <ellipse class="chamber" cx="518" cy="322" rx="46" ry="46"/>
+  <text class="txt" x="504" y="328">ЛП</text>
+
+  <path class="chamber" d="M 556 300 C 578 288 596 296 598 312 C 600 328 580 336 562 330 Z"/>
+  <text class="lbl" x="624" y="286">ушко ЛП</text>
+  <path class="lead" d="M 620 290 L 594 302"/>
+
+  <rect class="vessel-v" x="440" y="286" width="42" height="20" rx="9" transform="rotate(-16 440 286)"/>
+  <rect class="vessel-v" x="552" y="336" width="42" height="20" rx="9" transform="rotate(14 552 336)"/>
+  <text class="lbl" x="236" y="238">правая верхняя</text>
+  <text class="lbl" x="236" y="256">лёгочная вена</text>
+  <path class="lead" d="M 332 250 L 452 272"/>
+
+  <path class="chamber" d="M 402 378 C 392 420 406 470 448 486 C 500 504 546 470 552 420 C 556 392 550 372 544 360 C 512 372 452 374 402 378 Z"/>
+  <text class="txt" x="430" y="434">ПЖ</text>
+  <text class="txt" x="500" y="430">ЛЖ</text>
+
+  <path d="M 552 396 C 570 402 580 418 578 440" stroke="#8a5a8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text class="lbl" x="618" y="452">заднебоковая ветвь</text>
+  <text class="lbl" x="618" y="470">коронарного синуса</text>
+  <path class="lead" d="M 614 452 L 582 436"/>
+
+  <path d="M 300 500 C 360 462 420 456 476 470 C 532 456 596 462 652 500" stroke="#8a7a68" stroke-width="5" fill="none"/>
+  <path d="M 300 500 C 380 530 560 530 652 500 L 652 512 C 560 542 380 542 300 512 Z" fill="#efe6dc" stroke="#8a7a68" stroke-width="1.5"/>
+  <text class="lbl" x="678" y="514">диафрагма</text>
+  <path class="lead" d="M 674 510 L 646 504"/>
+
+  <path class="nerve" d="M 368 452 C 372 470 366 484 356 496" stroke-width="3"/>
+  <path class="nerve" d="M 594 448 C 592 468 598 482 606 494" stroke-width="3"/>
+
+  <text class="txt" x="150" y="352">правый</text>
+  <text class="txt" x="150" y="372">диафрагмальный</text>
+  <text class="txt" x="150" y="392">нерв</text>
+  <path class="lead" d="M 290 368 L 358 352"/>
+  <text class="txt" x="700" y="342">левый</text>
+  <text class="txt" x="700" y="362">диафрагмальный</text>
+  <text class="txt" x="700" y="382">нерв</text>
+  <path class="lead" d="M 696 362 L 590 348"/>
+
+  <circle class="risk" cx="366" cy="284" r="14"/>
+  <text class="risknum" x="366" y="289">1</text>
+  <circle class="risk" cx="374" cy="196" r="14"/>
+  <text class="risknum" x="374" y="201">2</text>
+  <circle class="risk" cx="586" cy="424" r="14"/>
+  <text class="risknum" x="586" y="429">3</text>
+  <circle class="risk" cx="580" cy="308" r="14"/>
+  <text class="risknum" x="580" y="313">4</text>
+
+  <line x1="30" y1="566" x2="870" y2="566" stroke="#bbb" stroke-width="1"/>
+  <text class="ttl" x="30" y="596" font-size="16">Где катетер встречает нерв</text>
+
+  <circle class="risk" cx="44" cy="622" r="12"/>
+  <text class="risknum" x="44" y="627">1</text>
+  <text class="txt" x="68" y="627">Криобаллонная изоляция правой верхней лёгочной вены - самое частое место пареза правого нерва.</text>
+
+  <circle class="risk" cx="44" cy="654" r="12"/>
+  <text class="risknum" x="44" y="659">2</text>
+  <text class="txt" x="68" y="659">Изоляция верхней полой вены и аблация в правом предсердии: нерв идёт по её латеральной стенке.</text>
+
+  <circle class="risk" cx="44" cy="686" r="12"/>
+  <text class="risknum" x="44" y="691">3</text>
+  <text class="txt" x="68" y="691">Электрод ЛЖ при CRT в заднебоковой ветви - стимуляция диафрагмы вместо пареза.</text>
+
+  <circle class="risk" cx="44" cy="718" r="12"/>
+  <text class="risknum" x="44" y="723">4</text>
+  <text class="txt" x="68" y="723">Аблация ушка ЛП и эпикардиальная аблация по боковой стенке - риск для левого нерва.</text>
+
+  <text class="sm" x="30" y="752">Своя схема, лицензия CC BY-NC-SA 4.0. Анатомическая основа сверена с планом 806 из Gray's Anatomy (public domain).</text>
+</svg>

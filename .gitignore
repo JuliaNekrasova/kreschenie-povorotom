@@ -1,0 +1,15 @@
+# Служебное
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Промежуточные файлы сборки
+**/_sborka.html
+
+# Черновики: всё, что лежит в drafts/, не публикуется
+drafts/
