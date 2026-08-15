@@ -9,8 +9,8 @@ message: "Если материал оказался полезен в рабо�
 type: dataset
 authors:
   - family-names: "Некрасова"
-    given-names: "Александра"
-    alias: "Aleksandra Nekrasova"
+    given-names: "Юлия"
+    alias: "Julia Nekrasova"
     # orcid: "https://orcid.org/0000-0000-0000-0000"  # заполнить после регистрации ORCID
 license: CC-BY-NC-SA-4.0
 license-url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"

@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Сборка PDF и титульной страницы проекта «Крещение поворотом».
+"""Сборка PDF и страниц сайта проекта «Крещение поворотом».
 
-    python3 _tools/sobrat.py            # PDF материалов и титульная страница
+    python3 _tools/sobrat.py            # PDF материалов и страницы сайта
     python3 _tools/sobrat.py --pdf      # только PDF
-    python3 _tools/sobrat.py --web      # только титульная страница
+    python3 _tools/sobrat.py --web      # только страницы сайта
 
-Материал существует в одном виде — как PDF формата A4, вёрстка которого
-сделана под чтение и печать. HTML-пересборка текста не делается намеренно:
-она ломает типографику, ради которой эта вёрстка и существует. Сайт —
-только полка: список материалов со ссылками на файлы.
+Страницы сайта собираются из markdown-файлов репозитория: титульная из README.md,
+оговорки из DISCLAIMER.md, журнал изменений из CHANGELOG.md. Текста, зашитого в
+скрипт, нет намеренно — иначе один и тот же абзац приходится править в двух
+местах, и сайт неизбежно расходится с репозиторием.
+
+Материал существует в одном виде — PDF формата A4, вёрстка которого сделана под
+чтение и печать. HTML-пересборка текста материала не делается намеренно: она
+ломает типографику, ради которой эта вёрстка и существует.
 
 Нужны pandoc и weasyprint.
 """
@@ -25,16 +29,29 @@ KOREN = Path(__file__).resolve().parent.parent
 SAYT = KOREN / "docs"
 
 PROEKT = "Крещение поворотом"
-ADRES_ISSUES = "https://github.com/JuliaNekrasova/kreschenie-povorotom/issues"
+ADRES_REPO = "https://github.com/JuliaNekrasova/kreschenie-povorotom"
+ADRES_ISSUES = f"{ADRES_REPO}/issues"
+
+# Разделы README, нужные в репозитории, но не нужные читателю сайта.
+RAZDELY_NE_DLYA_SAYTA = ("Как собрать локально",)
+
+# Ссылки в markdown ведут на файлы репозитория; на сайте у них другие адреса.
+ZAMENY_SSYLOK = {
+    'href="docs/': 'href="',
+    'href="DISCLAIMER.md"': 'href="ogovorki.html"',
+    'href="CHANGELOG.md"': 'href="izmeneniya.html"',
+    'href="README.md"': 'href="./"',
+    'href="LICENSE"': 'href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru"',
+    'href="LICENSE-CODE"': f'href="{ADRES_REPO}/blob/main/LICENSE-CODE"',
+    'href="../../issues/new/choose"': f'href="{ADRES_ISSUES}/new/choose"',
+    'href="../../issues"': f'href="{ADRES_ISSUES}"',
+}
 
 
 @dataclass
 class Material:
     papka: str  # папка внутри razbory/
     zagolovok: str
-    podzagolovok: str
-    versiya: str
-    data: str
 
     @property
     def istochnik(self) -> Path:
@@ -49,28 +66,14 @@ class Material:
         return SAYT / "razbory" / self.papka
 
     @property
-    def imya_pdf(self) -> str:
-        return f"{self.papka}.pdf"
-
-    @property
     def pdf(self) -> Path:
-        return self.papka_sayta / self.imya_pdf
-
-    @property
-    def stranits_pdf(self) -> str:
-        return stranits(self.pdf) if self.pdf.exists() else "?"
+        return self.papka_sayta / f"{self.papka}.pdf"
 
 
 MATERIALY: list[Material] = [
     Material(
         papka="bol_v_grudi_posle_invazivnoy_kardiologii",
         zagolovok="Боль в груди после инвазивного вмешательства на сердце",
-        podzagolovok=(
-            "Катетерная аблация, ЧКВ, имплантация устройств: маршруты доступа, "
-            "осложнения по срокам, распознавание на догоспитальном этапе"
-        ),
-        versiya="1.0",
-        data="15.08.2026",
     ),
 ]
 
@@ -82,13 +85,13 @@ STRANITSA = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{opisanie}">
-<link rel="stylesheet" href="{koren}assets/site.css">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <header class="verh">
-  <a class="nazad" href="{koren}">{proekt}</a>
+  <a class="nazad" href="./">{proekt}</a>
 </header>
-<main class="{klass}">
+<main class="tekst">
 {telo}
 </main>
 <footer class="niz">
@@ -97,6 +100,14 @@ STRANITSA = """<!DOCTYPE html>
 </body>
 </html>
 """
+
+PODVAL = (
+    '<p>Тексты и схемы — <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">'
+    "CC BY-NC-SA 4.0</a>, код — MIT. Проект личный, с работодателем автора не связан.</p>"
+    '<p><a href="ogovorki.html">Оговорки</a> · '
+    '<a href="izmeneniya.html">Журнал изменений</a> · '
+    f'<a href="{ADRES_ISSUES}/new/choose">Сообщить об ошибке в материале</a></p>'
+)
 
 
 def v_html(istochnik: Path) -> str:
@@ -109,6 +120,53 @@ def v_html(istochnik: Path) -> str:
     ).stdout
 
 
+def bez_razdelov(tekst: str, zagolovki: tuple[str, ...]) -> str:
+    """Выбрасывает разделы (## ...), перечисленные в zagolovki."""
+    stroki, ostavlyat = [], True
+    for stroka in tekst.split("\n"):
+        if stroka.startswith("## "):
+            ostavlyat = stroka[3:].strip() not in zagolovki
+        if ostavlyat:
+            stroki.append(stroka)
+    return "\n".join(stroki)
+
+
+def stranitsa_iz_markdown(
+    istochnik: Path,
+    imya: str,
+    zagolovok: str,
+    opisanie: str,
+    razdely_ubrat: tuple[str, ...] = (),
+) -> Path:
+    tekst = istochnik.read_text(encoding="utf-8")
+    if razdely_ubrat:
+        tekst = bez_razdelov(tekst, razdely_ubrat)
+
+    vremennyy = istochnik.parent / "_stranitsa.md"
+    vremennyy.write_text(tekst, encoding="utf-8")
+    try:
+        telo = v_html(vremennyy)
+    finally:
+        vremennyy.unlink(missing_ok=True)
+
+    for bylo, stalo in ZAMENY_SSYLOK.items():
+        telo = telo.replace(bylo, stalo)
+
+    SAYT.mkdir(parents=True, exist_ok=True)
+    cel = SAYT / imya
+    cel.write_text(
+        STRANITSA.format(
+            title=zagolovok,
+            opisanie=html.escape(opisanie, quote=True),
+            proekt=PROEKT,
+            telo=telo,
+            podval=PODVAL,
+        ),
+        encoding="utf-8",
+    )
+    return cel
+
+
 def sobrat_pdf(material: Material) -> Path:
     papka = material.istochnik.parent
     vremennyy = papka / "_sborka.html"
@@ -119,10 +177,15 @@ def sobrat_pdf(material: Material) -> Path:
         encoding="utf-8",
     )
     material.papka_sayta.mkdir(parents=True, exist_ok=True)
-    cel = material.papka_sayta / material.imya_pdf
     try:
         subprocess.run(
-            ["weasyprint", "-s", material.stil_pechati.name, vremennyy.name, str(cel)],
+            [
+                "weasyprint",
+                "-s",
+                material.stil_pechati.name,
+                vremennyy.name,
+                str(material.pdf),
+            ],
             cwd=papka,
             check=True,
             capture_output=True,
@@ -130,7 +193,7 @@ def sobrat_pdf(material: Material) -> Path:
         )
     finally:
         vremennyy.unlink(missing_ok=True)
-    return cel
+    return material.pdf
 
 
 def stranits(pdf: Path) -> str:
@@ -143,62 +206,31 @@ def stranits(pdf: Path) -> str:
     return "?"
 
 
-def sobrat_titul() -> None:
-    stroki = []
-    for material in MATERIALY:
-        ssylka = f"razbory/{material.papka}/{material.imya_pdf}"
-        stroki.append(
-            f'<li><a class="karta" href="{ssylka}">'
-            f"<span class=\"nazvanie\">{html.escape(material.zagolovok)}</span>"
-            f"<span class=\"opisanie\">{html.escape(material.podzagolovok)}</span>"
-            f'<span class="sluzhebnoe">PDF, {material.stranits_pdf} стр. · '
-            f'версия {material.versiya} от {material.data}</span>'
-            f"</a></li>"
-        )
-
-    telo = f"""<h1>{PROEKT}</h1>
-<p class="lid">Клинические разборы догоспитальной практики: случай, теория, итог случая.</p>
-
-<blockquote class="epigraf">
-<p>«Эх, Додерляйна бы сейчас почитать!» — тоскливо думал я, намыливая руки. Увы, сделать это сейчас было невозможно.</p>
-<p class="podpis">М. А. Булгаков, «Крещение поворотом»</p>
-</blockquote>
-
-<p>Читать во время вызова невозможно — значит, читать надо до него. Ветвлений и вариантов ответа здесь нет:
-у реального вызова их тоже не бывает. Дойдя до места, где надо решать, остановитесь и скажите вслух, что делаете,
-и только потом читайте дальше.</p>
-
-<h2>Разборы</h2>
-<ul class="spisok">
-{chr(10).join(stroki)}
-</ul>
-
-<h2>Оговорка</h2>
-<p>Материалы учебные. Они не заменяют действующие протоколы, клинические рекомендации и распоряжения службы.
-Дозы, показания и маршрутизацию проверяйте по первоисточникам, действующим на момент чтения.
-Клинические случаи — обезличенные учебные виньетки, а не выписки из медицинской документации.</p>
-"""
-
-    podval = (
-        '<p>Тексты и схемы — <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>, '
-        'код — MIT. Проект личный, с работодателем автора не связан.</p>'
-        f'<p><a href="{ADRES_ISSUES}/new/choose">Сообщить об ошибке в материале</a></p>'
-    )
-
-    SAYT.mkdir(parents=True, exist_ok=True)
-    (SAYT / "index.html").write_text(
-        STRANITSA.format(
-            title=PROEKT,
-            opisanie="Клинические разборы догоспитальной практики: случай, теория, итог случая.",
-            koren="",
-            proekt=PROEKT,
-            klass="titul",
-            telo=telo,
-            podval=podval,
+def sobrat_sayt() -> None:
+    stranitsy = [
+        stranitsa_iz_markdown(
+            KOREN / "README.md",
+            "index.html",
+            PROEKT,
+            "Клинические разборы реальных случаев из практики скорой медицинской помощи.",
+            RAZDELY_NE_DLYA_SAYTA,
         ),
-        encoding="utf-8",
-    )
+        stranitsa_iz_markdown(
+            KOREN / "DISCLAIMER.md",
+            "ogovorki.html",
+            f"Оговорки — {PROEKT}",
+            "Статус материалов, клинические случаи, изображения, ошибки.",
+        ),
+        stranitsa_iz_markdown(
+            KOREN / "CHANGELOG.md",
+            "izmeneniya.html",
+            f"Журнал изменений — {PROEKT}",
+            "Что и когда изменилось в материалах.",
+        ),
+    ]
     (SAYT / ".nojekyll").write_text("", encoding="utf-8")
+    for stranitsa in stranitsy:
+        print(f"страница: {stranitsa.relative_to(KOREN)}")
 
 
 def main() -> None:
@@ -212,8 +244,7 @@ def main() -> None:
             print(f"PDF: {pdf.relative_to(KOREN)} — {stranits(pdf)} стр.")
 
     if delat_veb:
-        sobrat_titul()
-        print(f"титульная: {(SAYT / 'index.html').relative_to(KOREN)}")
+        sobrat_sayt()
 
 
 if __name__ == "__main__":

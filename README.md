@@ -19,9 +19,9 @@
 
 ## Клинические разборы
 
-| Материал | Версия | Читать | Печать |
-|---|---|---|---|
-| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [страница](https://julianekrasova.github.io/kreschenie-povorotom/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/) | [PDF, A4](docs/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+| Материал | Версия | Файл |
+|---|---|---|
+| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [PDF, A4, 17 стр.](docs/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
 
 ## Кто пишет
 
@@ -44,8 +44,9 @@
 ## Как собрать локально
 
 ```
-python3 _tools/sobrat.py          # веб-версия в docs/ и PDF для печати
+python3 _tools/sobrat.py          # PDF материалов и страницы сайта
 python3 _tools/sobrat.py --pdf    # только PDF
+python3 _tools/sobrat.py --web    # только страницы сайта
 ```
 
-Нужны `pandoc` и `weasyprint`.
+Нужны `pandoc` и `weasyprint`. Титульная страница сайта собирается из этого файла: правится README — меняется и репозиторий, и сайт.
