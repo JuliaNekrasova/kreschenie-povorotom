@@ -21,7 +21,18 @@
 
 | Материал | Версия | Файл |
 |---|---|---|
-| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [PDF, A4, 17 стр.](razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+| Боль в груди после инвазивного вмешательства на сердце | 1.1 · 15.08.2026 | [PDF, A4, 22 стр.](razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+
+## Тренажёры
+
+Два браузерных тренажёра. Каждый — один файл, работает без интернета и без установки: файл надо скачать (кнопка **Download raw file** на странице файла) и открыть в браузере.
+
+| Тренажёр | Что отрабатывается | Сборка | Файлы |
+|---|---|---|---|
+| **КОНТУР** — транспортная ИВЛ, Dräger Oxylog 3000 plus | Панель и режимы аппарата, связь уставок с механикой и газообменом, 11 задач от ЧМТ и ОРДС до НИВЛ и массивной ТЭЛА, автоматический разбор сессии | 15.08.2026 | [тренажёр](trenazhery/oxylog_3000_plus/kontur_trenazher.html) · [краткий гайд, PDF, 6 стр.](trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf) · [описание](trenazhery/oxylog_3000_plus/README.md) |
+| **ТИТР** — шприцевой дозатор ДШП 5-20 «Шмель» | Сборка шприца, растворитель, режимы, расчёт скорости по времени, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии | 15.08.2026 | [тренажёр](trenazhery/shmel_titr/titr_trenazher.html) · [краткий гайд, PDF, 6 стр.](trenazhery/shmel_titr/TITR_kratkiy_guide.pdf) · [описание](trenazhery/shmel_titr/README.md) |
+
+Оба — учебные модели, а не сертифицированные симуляторы производителей и не медицинские изделия. При расхождении с руководствами по эксплуатации и действующими алгоритмами службы приоритет у последних.
 
 ## Кто пишет
 
@@ -49,5 +60,7 @@
 python3 _tools/sobrat.py                                  # все материалы
 python3 _tools/sobrat.py bol_v_grudi_posle_invazivnoy_kardiologii   # один
 ```
+
+Краткие гайды тренажёров собираются своими скриптами: `python3 trenazhery/oxylog_3000_plus/guide/sobrat_guide.py` и `python3 trenazhery/shmel_titr/guide/sobrat_guide.py`.
 
 Нужны `pandoc` и `weasyprint`. Отдельной веб-версии текста нет: вёрстка A4 сделана под чтение и печать, а HTML её только ломает. На GitHub PDF открывается прямо в браузере.
