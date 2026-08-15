@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Сборка сайта и PDF для проекта «Крещение поворотом».
+"""Сборка PDF и титульной страницы проекта «Крещение поворотом».
 
-    python3 _tools/sobrat.py            # сайт в docs/ и PDF для печати
+    python3 _tools/sobrat.py            # PDF материалов и титульная страница
     python3 _tools/sobrat.py --pdf      # только PDF
-    python3 _tools/sobrat.py --web      # только сайт
+    python3 _tools/sobrat.py --web      # только титульная страница
 
-Веб-версия и PDF собираются из одного и того же markdown: расхождение между
-тем, что человек читает с телефона, и тем, что он распечатал на подстанции,
-недопустимо. Разница только в CSS.
+Материал существует в одном виде — как PDF формата A4, вёрстка которого
+сделана под чтение и печать. HTML-пересборка текста не делается намеренно:
+она ломает типографику, ради которой эта вёрстка и существует. Сайт —
+только полка: список материалов со ссылками на файлы.
 
 Нужны pandoc и weasyprint.
 """
@@ -15,7 +16,6 @@
 from __future__ import annotations
 
 import html
-import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -51,6 +51,14 @@ class Material:
     @property
     def imya_pdf(self) -> str:
         return f"{self.papka}.pdf"
+
+    @property
+    def pdf(self) -> Path:
+        return self.papka_sayta / self.imya_pdf
+
+    @property
+    def stranits_pdf(self) -> str:
+        return stranits(self.pdf) if self.pdf.exists() else "?"
 
 
 MATERIALY: list[Material] = [
@@ -135,48 +143,16 @@ def stranits(pdf: Path) -> str:
     return "?"
 
 
-def sobrat_stranitsu(material: Material) -> None:
-    material.papka_sayta.mkdir(parents=True, exist_ok=True)
-
-    kartinki = material.istochnik.parent / "images"
-    if kartinki.is_dir():
-        cel = material.papka_sayta / "images"
-        if cel.exists():
-            shutil.rmtree(cel)
-        shutil.copytree(kartinki, cel)
-
-    podval = (
-        f'<p>Версия {material.versiya} от {material.data}. '
-        f'<a href="{material.imya_pdf}">Скачать PDF для печати</a>.</p>'
-        f'<p>Текст и оригинальные схемы — лицензия '
-        f'<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>. '
-        f'Материал учебный и не заменяет действующие протоколы.</p>'
-        f'<p>Нашли ошибку в дозе, сроке или механизме — '
-        f'<a href="{ADRES_ISSUES}/new/choose">сообщите</a>. Это важнее вежливости.</p>'
-    )
-
-    (material.papka_sayta / "index.html").write_text(
-        STRANITSA.format(
-            title=f"{material.zagolovok} — {PROEKT}",
-            opisanie=material.podzagolovok,
-            koren="../../",
-            proekt=PROEKT,
-            klass="material",
-            telo=v_html(material.istochnik),
-            podval=podval,
-        ),
-        encoding="utf-8",
-    )
-
-
 def sobrat_titul() -> None:
     stroki = []
     for material in MATERIALY:
+        ssylka = f"razbory/{material.papka}/{material.imya_pdf}"
         stroki.append(
-            f'<li><a class="karta" href="razbory/{material.papka}/">'
+            f'<li><a class="karta" href="{ssylka}">'
             f"<span class=\"nazvanie\">{html.escape(material.zagolovok)}</span>"
             f"<span class=\"opisanie\">{html.escape(material.podzagolovok)}</span>"
-            f'<span class="sluzhebnoe">версия {material.versiya} от {material.data}</span>'
+            f'<span class="sluzhebnoe">PDF, {material.stranits_pdf} стр. · '
+            f'версия {material.versiya} от {material.data}</span>'
             f"</a></li>"
         )
 
@@ -230,13 +206,10 @@ def main() -> None:
     delat_pdf = not argumenty or "--pdf" in argumenty
     delat_veb = not argumenty or "--web" in argumenty
 
-    for material in MATERIALY:
-        if delat_pdf:
+    if delat_pdf:
+        for material in MATERIALY:
             pdf = sobrat_pdf(material)
             print(f"PDF: {pdf.relative_to(KOREN)} — {stranits(pdf)} стр.")
-        if delat_veb:
-            sobrat_stranitsu(material)
-            print(f"страница: {(material.papka_sayta / 'index.html').relative_to(KOREN)}")
 
     if delat_veb:
         sobrat_titul()

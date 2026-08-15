@@ -14,9 +14,11 @@
 
 ## Разборы
 
-| Материал | Версия | Читать | Печать |
-|---|---|---|---|
-| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [страница](https://julianekrasova.github.io/kreschenie-povorotom/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/) | [PDF, A4](docs/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+| Материал | Версия | Файл |
+|---|---|---|
+| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [PDF, A4, 17 стр.](docs/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+
+Материал существует в одном виде — PDF формата A4: вёрстка сделана под чтение с экрана и под печать, и HTML-пересборка её только ломает. Сайт проекта — полка со списком материалов, а не отдельная веб-версия текста.
 
 ## Кто пишет
 
@@ -41,8 +43,9 @@
 ## Как собрать локально
 
 ```
-python3 _tools/sobrat.py          # веб-версия в docs/ и PDF для печати
+python3 _tools/sobrat.py          # PDF материалов и титульная страница
 python3 _tools/sobrat.py --pdf    # только PDF
+python3 _tools/sobrat.py --web    # только титульная страница
 ```
 
 Нужны `pandoc` и `weasyprint`.
