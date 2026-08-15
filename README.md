@@ -21,7 +21,7 @@
 
 | Материал | Версия | Файл |
 |---|---|---|
-| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [PDF, A4, 17 стр.](docs/razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
+| Боль в груди после инвазивного вмешательства на сердце | 1.0 · 15.08.2026 | [PDF, A4, 17 стр.](razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf) |
 
 ## Кто пишет
 
@@ -43,10 +43,11 @@
 
 ## Как собрать локально
 
+Материал живёт в одном файле — `razbory/<материал>/razbor.md`. PDF собирается из него и лежит рядом:
+
 ```
-python3 _tools/sobrat.py          # PDF материалов и страницы сайта
-python3 _tools/sobrat.py --pdf    # только PDF
-python3 _tools/sobrat.py --web    # только страницы сайта
+python3 _tools/sobrat.py                                  # все материалы
+python3 _tools/sobrat.py bol_v_grudi_posle_invazivnoy_kardiologii   # один
 ```
 
-Нужны `pandoc` и `weasyprint`. Титульная страница сайта собирается из этого файла: правится README — меняется и репозиторий, и сайт.
+Нужны `pandoc` и `weasyprint`. Отдельной веб-версии текста нет: вёрстка A4 сделана под чтение и печать, а HTML её только ломает. На GitHub PDF открывается прямо в браузере.
