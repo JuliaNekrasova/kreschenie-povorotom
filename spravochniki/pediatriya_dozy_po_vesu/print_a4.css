@@ -1,0 +1,111 @@
+@page {
+  size: A4;
+  margin: 14mm 14mm 14mm 14mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+    font-size: 8pt;
+    color: #95a5a6;
+  }
+  @bottom-right {
+    content: "Педиатрические дозы по массе · справочник";
+    font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+    font-size: 7pt;
+    color: #bdc3c7;
+  }
+}
+@page :first {
+  @bottom-center { content: ""; }
+  @bottom-right { content: ""; }
+}
+
+* { box-sizing: border-box; }
+#title-block-header { display: none; }
+
+body {
+  font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+  font-size: 9.8pt;
+  line-height: 1.35;
+  color: #1a1a1a;
+  hyphens: none;
+}
+
+.titlepage {
+  break-after: page;
+  text-align: center;
+  padding-top: 55mm;
+}
+.titlepage .kicker {
+  font-size: 10pt;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #7f8c8d;
+  margin-bottom: 14mm;
+}
+.titlepage .maintitle {
+  font-size: 26pt;
+  font-weight: bold;
+  line-height: 1.15;
+  color: #1c2833;
+  margin-bottom: 4mm;
+}
+.titlepage .subtitle {
+  font-size: 13pt;
+  color: #34495e;
+  margin-bottom: 16mm;
+}
+.titlepage .rule {
+  width: 52mm;
+  height: 3px;
+  background: #2c3e50;
+  margin: 0 auto 16mm auto;
+}
+.titlepage .source {
+  font-size: 10pt;
+  color: #34495e;
+  line-height: 1.6;
+}
+.titlepage .src-last { margin-bottom: 18mm; }
+
+h1 {
+  break-after: avoid;
+  break-inside: avoid;
+  font-size: 13.5pt;
+  margin: 11px 0 6px 0;
+  padding-bottom: 4px;
+  color: #1c2833;
+  border-bottom: 2.5px solid #2c3e50;
+}
+h1:first-of-type { margin-top: 0; }
+
+p { margin: 3px 0; orphans: 2; widows: 2; }
+hr { display: none; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5px 0 8px 0;
+  font-size: 8.2pt;
+  break-inside: avoid;
+}
+th {
+  background: #2c3e50;
+  color: #fff;
+  padding: 3px 4px;
+  border: 1px solid #2c3e50;
+  text-align: center;
+  font-size: 7.8pt;
+  font-weight: bold;
+}
+td {
+  padding: 3px 4px;
+  border: 1px solid #c9d1d3;
+  text-align: center;
+  vertical-align: middle;
+}
+td:first-child { text-align: left; }
+tr:nth-child(even) td { background: #f5f7f8; }
+
+ul, ol { margin: 3px 0 6px 0; padding-left: 18px; }
+li { padding: 1px 0; }
+em { color: #566573; font-style: italic; }

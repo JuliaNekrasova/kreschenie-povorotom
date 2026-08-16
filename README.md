@@ -10,6 +10,7 @@
 <tr><td><a href="#экг">ЭКГ кейсы</a></td><td>Разборы реальных плёнок с вызовов</td></tr>
 <tr><td><a href="#виньетки">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
 <tr><td><a href="#чеклисты">Чеклисты</a></td><td>Последовательность осмотра и чтения ЭКГ: неврологический, педиатрический, «ПРИВЕТ, ДОКТОР»</td></tr>
+<tr><td><a href="#справочные-материалы">Справочные материалы</a></td><td>Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
 <tr><td><a href="#тренажёры">Тренажёры</a></td><td><strong>КОНТУР</strong> — транспортная ИВЛ Oxylog 3000 plus · <strong>ТИТР</strong> — шприцевой дозатор «Шмель»</td></tr>
 </tbody>
 </table>
@@ -68,6 +69,15 @@
 <tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Осмотр ребёнка</strong></td><td>Pediatric Assessment Triangle, ABCDE, возрастные нормы, дегидратация, осмотр от головы к пяткам, безнадзорный ребёнок</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/osmotr_rebenka/osmotr_rebenka.pdf">PDF, A4, 5 стр.</a></td></tr>
 <tr><td><strong>Алгоритм чтения ЭКГ "ПРИВЕТ, ДОКТОР"</strong></td><td>Систематическое чтение ЭКГ: ритм, интервалы, вольтаж, ось, ST–T, дополнительные отведения, резюме</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/privet_doktor/privet_doktor.pdf">PDF, A4, 6 стр.</a></td></tr>
+</tbody>
+</table>
+
+## Справочные материалы
+
+<table width="100%">
+<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
+<tbody>
+<tr><td><strong>Педиатрические дозы по массе</strong></td><td>Энергия, реанимация, инфузия, анафилаксия, судороги, лихорадка, круп. Столбцы 3–30 кг, страницы Алгоритмов СМП 2025</td><td>1.0 · 16.08.2026</td><td><a href="spravochniki/pediatriya_dozy_po_vesu/pediatriya_dozy_po_vesu.pdf">PDF, A4, 4 стр.</a></td></tr>
 </tbody>
 </table>
 
