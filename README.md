@@ -42,6 +42,7 @@
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.2 · 16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
+<tr><td><strong>Гипертрофия левого желудочка и strain</strong></td><td>Дискордантные подъёмы и депрессии ST при гипертрофии, Корнелл против Соколова у пожилых, когда за strain прячется инфаркт</td><td>1.0 · 16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/glzh_strain/glzh_strain.pdf">PDF, A4, 7 стр.</a></td></tr>
 </tbody>
 </table>
 
