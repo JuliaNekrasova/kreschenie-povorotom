@@ -121,7 +121,7 @@
 
 <figure>
   <img src="images/pheochromocytoma_ct.png" alt="Феохромоцитома на КТ">
-  <figcaption>Феохромоцитома надпочечника на КТ: объёмное образование в проекции надпочечника. У пациента с НФ1 частота феохромоцитомы многократно выше популяционной.</figcaption>
+  <figcaption>Феохромоцитома на КТ, фронтальный срез с подписями автора снимка: L — печень, S — позвоночник, rK и lK — правая и левая почки, звёздочка — сама опухоль. Она лежит над верхним полюсом левой почки, отграничена от неё и по объёму сопоставима с почкой. У пациента с НФ1 частота феохромоцитомы многократно выше популяционной.</figcaption>
 </figure>
 
 <figure>
@@ -270,7 +270,7 @@
 | `cutaneous_neurofibromas.png` | Множественные кожные нейрофибромы | Nicke.me, [Викисклад](https://commons.wikimedia.org/wiki/File:Dermal_Neurofibroma.jpg). CC BY-SA 3.0, изображение уменьшено |
 | `lisch_nodules.png` | Узелки Лиша на радужке | Dimitrios Malamos, [Викисклад](https://commons.wikimedia.org/wiki/File:Lisch_nodules.JPG). CC BY 4.0, изображение уменьшено |
 | `mccune_albright_cal.png` | Пятно при синдроме Мак-Кьюна — Олбрайта | Dumitrescu C. E., Collins M. T. McCune-Albright syndrome. *Orphanet Journal of Rare Diseases*, 2008; 3: 12, через [Викисклад](https://commons.wikimedia.org/wiki/File:Mccune-albrightsyndrome1.jpg). CC BY 2.0 |
-| `pheochromocytoma_ct.png` | Феохромоцитома надпочечника, КТ | Источник уточняется |
+| `pheochromocytoma_ct.png` | Феохромоцитома надпочечника, КТ | Drahreg01, [Викисклад](https://commons.wikimedia.org/wiki/File:Phaeochromozytoma_CT_coronal_labelled.jpg). CC BY-SA 3.0, подписи на снимке авторские |
 | `pheochromocytoma_gross.png` | Феохромоцитома, макропрепарат | Case courtesy of Andrew Ryan, [Radiopaedia.org](https://radiopaedia.org/), rID: [22683](https://radiopaedia.org/cases/22683). CC BY-NC-SA 3.0 |
 | `mpnst.png` | Опухоль оболочки нерва шеи, КТ с контрастом | Case courtesy of Mohammad Taghi Niknejad, [Radiopaedia.org](https://radiopaedia.org/), rID: [37810](https://radiopaedia.org/cases/37810). CC BY-NC-SA 3.0 |
 | `tibial_pseudarthrosis.png` | Псевдоартроз большеберцовой кости | Case courtesy of Leonardo Lustosa, [Radiopaedia.org](https://radiopaedia.org/), rID: [207706](https://radiopaedia.org/cases/207706). CC BY-NC-SA 3.0 |
