@@ -86,7 +86,7 @@
 
 <figure>
   <img src="images/lisch_nodules.png" alt="Узелки Лиша">
-  <figcaption>Узелки Лиша — гамартомы радужки (осмотр со щелевой лампой). Клинического значения не имеют, но помогают поставить диагноз (есть у &gt; 90 % взрослых с НФ1).</figcaption>
+  <figcaption>Узелки Лиша — гамартомы радужки: округлые коричневатые возвышающиеся папулы, особенно заметные на светлой радужке; надёжно выявляются при осмотре со щелевой лампой. Клинического значения не имеют, но помогают поставить диагноз (есть у &gt; 90 % взрослых с НФ1).</figcaption>
 </figure>
 
 # Не всякое пятно — нейрофиброматоз
@@ -263,8 +263,8 @@
 | `axillary_freckling.png` | Симптом Кроу — веснушчатость подмышек | Image sourced from [DermNet](https://dermnetnz.org/). CC BY-NC-ND 4.0, водяной знак сохранён |
 | `plexiform_neurofibroma.png` | Плексиформная нейрофиброма | Image sourced from [DermNet](https://dermnetnz.org/). CC BY-NC-ND 4.0, водяной знак сохранён |
 | `cutaneous_neurofibromas.png` | Множественные кожные нейрофибромы | Nicke.me, [Викисклад](https://commons.wikimedia.org/wiki/File:Dermal_Neurofibroma.jpg). CC BY-SA 3.0, изображение уменьшено |
-| `lisch_nodules.png` | Узелки Лиша на радужке | Источник уточняется |
-| `mccune_albright_cal.png` | Пятно при синдроме Мак-Кьюна — Олбрайта | Викисклад, общественное достояние — требуется точная ссылка на файл |
+| `lisch_nodules.png` | Узелки Лиша на радужке | Dimitrios Malamos, [Викисклад](https://commons.wikimedia.org/wiki/File:Lisch_nodules.JPG). CC BY 4.0, изображение уменьшено |
+| `mccune_albright_cal.png` | Пятно при синдроме Мак-Кьюна — Олбрайта | Dumitrescu C. E., Collins M. T. McCune-Albright syndrome. *Orphanet Journal of Rare Diseases*, 2008; 3: 12, через [Викисклад](https://commons.wikimedia.org/wiki/File:Mccune-albrightsyndrome1.jpg). CC BY 2.0 |
 | `pheochromocytoma_ct.png` | Феохромоцитома надпочечника, КТ | Источник уточняется |
 | `pheochromocytoma_gross.png` | Феохромоцитома, макропрепарат | Case courtesy of Andrew Ryan, [Radiopaedia.org](https://radiopaedia.org/), rID: [22683](https://radiopaedia.org/cases/22683). CC BY-NC-SA 3.0 |
 | `mpnst.png` | Опухоль оболочки нерва шеи, КТ с контрастом | Case courtesy of Mohammad Taghi Niknejad, [Radiopaedia.org](https://radiopaedia.org/), rID: [37810](https://radiopaedia.org/cases/37810). CC BY-NC-SA 3.0 |
