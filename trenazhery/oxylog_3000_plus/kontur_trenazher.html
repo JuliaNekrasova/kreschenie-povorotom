@@ -1692,12 +1692,19 @@ function terminalReason(metrics,resources){
    PEEP, то есть работа выполняется пациентом. */
 function spontaneousWaveforms(s,l,m){
   const peep=s.peep||0; const tau=m.tau; const psupp=m.psupp||0; const pmus=m.pmus||0;
+  const syncDip=s.mode==="VC-SIMV"&&l.drive>0?clamp(pmus*0.22,0.7,1.8):0;
   const list=[];
   if(m.freqMand>0){
     const perCycle=m.rrSpn/Math.max(m.freqMand,0.001);
+    let emitted=0;
     for(let c=0;c<3;c++){
       list.push({kind:"mand",ti:m.ti,vt:m.deliveredPatient,pTop:m.ppeak});
-      const extra=Math.floor(perCycle)+((c%2===0&&perCycle%1>=0.45)?1:0);
+      /* Накопительное округление сохраняет редкие собственные вдохи на экране.
+         Иначе, например, 4 спонтанных при SIMV 16/мин округлялись в ноль
+         отдельно в каждом показанном цикле. */
+      const expected=Math.round((c+1)*perCycle);
+      const extra=Math.max(0,expected-emitted);
+      emitted+=extra;
       for(let j=0;j<Math.min(extra,4);j++)list.push({kind:"spn",ti:m.tiSpn||0.8,vt:m.vtSpnPatient});
     }
   }else if(m.rrSpn>0){
@@ -1755,6 +1762,15 @@ function spontaneousWaveforms(s,l,m){
       vLung=m.trapped+(vEnd-m.trapped)*Math.exp(-td/tau);
       q=-(((vEnd-m.trapped)/1000)/tau)*Math.exp(-td/tau);
       p=peep; co2v=2+(m.etco2-2)*(1-Math.exp(-td/0.12));
+      /* В SIMV аппаратный вдох синхронизируется с попыткой пациента. Перед
+         обязательным вдохом показываем короткую отрицательную дефлексию;
+         собственные вдохи между обязательными рисуются отдельными циклами. */
+      const next=list[(index+1)%list.length];
+      const pretrigger=0.16;
+      if(syncDip&&next.kind==="mand"&&td>b.te-pretrigger){
+        const phase=clamp((td-(b.te-pretrigger))/pretrigger,0,1);
+        p-=syncDip*Math.sin(Math.PI*phase);
+      }
     }
     paw.push({t,v:p}); flow.push({t,v:q}); vol.push({t,v:vLung}); co2.push({t,v:co2v});
   }
@@ -1766,7 +1782,8 @@ function waveforms(s,l,m){
     return waveforms({...s,mode:"VC-CMV",vt:APNEA_VT,freq:APNEA_RR,ieE:1.5,psupp:0},l,
       {...m,apneaBackup:false,supportMode:false,rrSpn:0,freqMand:APNEA_RR});
   }
-  if(m.supportMode&&(m.rrSpn>0||!m.mandatoryMode))return spontaneousWaveforms(s,l,m);
+  if(m.supportMode&&(m.rrSpn>0||!m.mandatoryMode
+    ||(s.mode==="VC-SIMV"&&(l.drive||0)>0)))return spontaneousWaveforms(s,l,m);
   const pattern=(l.drive||0)>0?(l.asyncPattern||null):null;
   const pcLike=s.mode==="PC-BIPAP"||s.autoflow;
   const cycles=[];
