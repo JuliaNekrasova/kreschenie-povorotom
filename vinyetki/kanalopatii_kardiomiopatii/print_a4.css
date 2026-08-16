@@ -145,19 +145,27 @@ tr:nth-child(even) td { background: #f5f7f8; }
 
 .vyvody table {
   table-layout: fixed;
+  width: 100%;
+}
+.vyvody col.nomer { width: 8mm; }
+.vyvody col.vyvod { width: auto; }
+.vyvody th,
+.vyvody td {
+  vertical-align: top;
 }
 .vyvody th:first-child,
 .vyvody td:first-child {
-  width: 11mm;
+  width: 8mm;
+  max-width: 8mm;
   text-align: center;
   white-space: nowrap;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding: 3px 0;
 }
 .vyvody th:last-child,
 .vyvody td:last-child {
-  text-align: left;
   width: auto;
+  text-align: left;
+  padding: 3px 8px;
 }
 
 ul, ol { margin: 4px 0 7px 0; padding-left: 19px; }
