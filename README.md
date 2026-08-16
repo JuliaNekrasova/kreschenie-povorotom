@@ -31,7 +31,7 @@
 <tr><td><strong>Отравления психотропными средствами</strong></td><td>Токсидромы и ЭКГ, α₁-блокада, три гипертермических синдрома, что и когда не стоит вводить</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psihotropnye/psihotropnye.pdf">PDF, A4, 20 стр.</a></td></tr>
 <tr><td><strong>Псориаз</strong></td><td>Псориаз фон Цумбуша после отмены преднизолона, эритродермия, симптом Никольского, септический псориатический артрит</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psoriaz/psoriaz.pdf">PDF, A4, 22 стр.</a></td></tr>
 <tr><td><strong>Инородные тела дыхательных путей</strong></td><td>Кашель определяет тактику, уровень инородного тела относительно связок, мнимое благополучие после аспирации</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_dp/inorodnye_tela_dp.pdf">PDF, A4, 13 стр.</a></td></tr>
-<tr><td><strong>Острая кишечная непроходимость у взрослых</strong></td><td>Бедренная грыжа у неоперированной, инвагинация у взрослого, странгуляция, УЗИ у постели больного</td><td>1.0 · 16.08.2026</td><td><a href="razbory/kishechnaya_neprohodimost/kishechnaya_neprohodimost.pdf">PDF, A4, 21 стр.</a></td></tr>
+<tr><td><strong>Острая кишечная непроходимость у взрослых</strong></td><td>Бедренная грыжа у неоперированных пациентов, инвагинация у взрослых, странгуляция, находки на УЗИ</td><td>1.0 · 16.08.2026</td><td><a href="razbory/kishechnaya_neprohodimost/kishechnaya_neprohodimost.pdf">PDF, A4, 21 стр.</a></td></tr>
 </tbody>
 </table>
 
