@@ -21,6 +21,7 @@ from pathlib import Path
 
 KOREN = Path(__file__).resolve().parent.parent
 RAZBORY = KOREN / "razbory"
+VINYETKI = KOREN / "vinyetki"
 
 
 def istochnik_materiala(papka: Path) -> Path:
@@ -83,8 +84,23 @@ def sobrat(papka: Path) -> Path:
     return cel
 
 
+def vse_papki() -> list[Path]:
+    papki = []
+    for koren in (RAZBORY, VINYETKI):
+        if not koren.is_dir():
+            continue
+        papki.extend(
+            sorted(
+                p
+                for p in koren.iterdir()
+                if p.is_dir() and (p / "razbor.md").exists()
+            )
+        )
+    return papki
+
+
 def vybor(argumenty: list[str]) -> list[Path]:
-    papki = sorted(p for p in RAZBORY.iterdir() if p.is_dir())
+    papki = vse_papki()
     if not argumenty:
         return papki
     otobrano = []
