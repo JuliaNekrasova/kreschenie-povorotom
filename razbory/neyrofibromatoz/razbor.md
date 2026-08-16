@@ -195,7 +195,12 @@
 
 <figure>
   <img src="images/bilateral_vestibular_schwannoma.png" alt="Двусторонние вестибулярные шванномы, МРТ">
-  <figcaption>Двусторонние объёмные образования в мостомозжечковых углах с активным накоплением контраста, распространяющиеся в слуховые проходы и расширяющие их («snow cone» — форма рожка мороженого). Патогномонично для НФ2-ассоциированного шванноматоза.</figcaption>
+  <figcaption>Двусторонние объёмные образования в мостомозжечковых углах с активным накоплением контраста, входящие в слуховые проходы и расширяющие их («snow cone» — форма рожка мороженого). Мост и мозжечок сдавлены с обеих сторон. Патогномонично для НФ2-ассоциированного шванноматоза.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/nf2_gidrocefaliya.png" alt="Обструктивная гидроцефалия при НФ2">
+  <figcaption>Тот же механизм, доведённый до конца: масса задней ямки перекрывает пути оттока ликвора, боковой желудочок резко расширен, ликвор просачивается в перивентрикулярное белое вещество. Это то, из-за чего пациент с НФ2 попадает на скорую с головной болью, рвотой и угнетением сознания, — и то, из-за чего у многих стоит вентрикуло-перитонеальный шунт.</figcaption>
 </figure>
 
 # Шванноматоз без опухолей слуха
@@ -269,7 +274,8 @@
 | `pheochromocytoma_gross.png` | Феохромоцитома, макропрепарат | Case courtesy of Andrew Ryan, [Radiopaedia.org](https://radiopaedia.org/), rID: [22683](https://radiopaedia.org/cases/22683). CC BY-NC-SA 3.0 |
 | `mpnst.png` | Опухоль оболочки нерва шеи, КТ с контрастом | Case courtesy of Mohammad Taghi Niknejad, [Radiopaedia.org](https://radiopaedia.org/), rID: [37810](https://radiopaedia.org/cases/37810). CC BY-NC-SA 3.0 |
 | `tibial_pseudarthrosis.png` | Псевдоартроз большеберцовой кости | Case courtesy of Leonardo Lustosa, [Radiopaedia.org](https://radiopaedia.org/), rID: [207706](https://radiopaedia.org/cases/207706). CC BY-NC-SA 3.0 |
-| `bilateral_vestibular_schwannoma.png` | Двусторонние вестибулярные шванномы, МРТ | Источник уточняется |
+| `bilateral_vestibular_schwannoma.png` | Двусторонние вестибулярные шванномы, МРТ | Case courtesy of Keshaw Kumar, [Radiopaedia.org](https://radiopaedia.org/), rID: [226800](https://radiopaedia.org/cases/226800). CC BY-NC-SA 3.0 |
+| `nf2_gidrocefaliya.png` | Обструктивная гидроцефалия при НФ2, МРТ | Case courtesy of Keshaw Kumar, [Radiopaedia.org](https://radiopaedia.org/), rID: [226800](https://radiopaedia.org/cases/226800). CC BY-NC-SA 3.0 |
 
 # Выходные данные
 
