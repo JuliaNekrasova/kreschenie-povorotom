@@ -143,6 +143,23 @@ td {
 td:first-child { text-align: left; }
 tr:nth-child(even) td { background: #f5f7f8; }
 
+.vyvody table {
+  table-layout: fixed;
+}
+.vyvody th:first-child,
+.vyvody td:first-child {
+  width: 11mm;
+  text-align: center;
+  white-space: nowrap;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.vyvody th:last-child,
+.vyvody td:last-child {
+  text-align: left;
+  width: auto;
+}
+
 ul, ol { margin: 4px 0 7px 0; padding-left: 19px; }
 li { padding: 1.5px 0; }
 
