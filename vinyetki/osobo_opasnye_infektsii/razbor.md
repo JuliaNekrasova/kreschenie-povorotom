@@ -1,6 +1,6 @@
 <div class="titlepage">
   <div class="kicker">Виньетки</div>
-  <div class="maintitle">Санитарная охрана</div>
+  <div class="maintitle">Особо опасные инфекции</div>
   <div class="subtitle">Пять вызовов: чума, холера, малярия, менингококкемия и крымская геморрагическая лихорадка</div>
   <div class="rule"></div>
   <div class="source">Сначала все задачи, затем все решения.</div>

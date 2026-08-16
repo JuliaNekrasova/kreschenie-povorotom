@@ -22,6 +22,7 @@ from pathlib import Path
 KOREN = Path(__file__).resolve().parent.parent
 RAZBORY = KOREN / "razbory"
 VINYETKI = KOREN / "vinyetki"
+EKG = KOREN / "ekg"
 
 
 def istochnik_materiala(papka: Path) -> Path:
@@ -86,7 +87,7 @@ def sobrat(papka: Path) -> Path:
 
 def vse_papki() -> list[Path]:
     papki = []
-    for koren in (RAZBORY, VINYETKI):
+    for koren in (RAZBORY, VINYETKI, EKG):
         if not koren.is_dir():
             continue
         papki.extend(
