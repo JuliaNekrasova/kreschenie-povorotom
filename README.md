@@ -67,7 +67,7 @@
 <tbody>
 <tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Осмотр ребёнка</strong></td><td>Pediatric Assessment Triangle, ABCDE, возрастные нормы, дегидратация, осмотр от головы к пяткам, безнадзорный ребёнок</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/osmotr_rebenka/osmotr_rebenka.pdf">PDF, A4, 5 стр.</a></td></tr>
-<tr><td><strong>ПРИВЕТ, ДОКТОР</strong></td><td>Систематическое чтение ЭКГ: ритм, интервалы, вольтаж, ось, ST–T, дополнительные отведения, резюме</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/privet_doktor/privet_doktor.pdf">PDF, A4, 6 стр.</a></td></tr>
+<tr><td><strong>Алгоритм чтения ЭКГ "ПРИВЕТ, ДОКТОР"</strong></td><td>Систематическое чтение ЭКГ: ритм, интервалы, вольтаж, ось, ST–T, дополнительные отведения, резюме</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/privet_doktor/privet_doktor.pdf">PDF, A4, 6 стр.</a></td></tr>
 </tbody>
 </table>
 
