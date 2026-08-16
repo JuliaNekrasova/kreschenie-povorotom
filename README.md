@@ -10,16 +10,15 @@
 <tr><td><a href="#клинические-разборы">Клинические разборы</a></td><td>Разборы реальных вызовов: презентация кейса → предварительные вопросы для размышления → теория по разбираемому вопросу → анализ кейса, его исход, результат</td></tr>
 <tr><td><a href="#экг">ЭКГ кейсы</a></td><td>Разборы реальных плёнок с вызовов</td></tr>
 <tr><td><a href="#виньетки">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
+<tr><td><a href="#чеклисты">Чеклисты</a></td><td>Последовательность осмотра: неврологический и педиатрический</td></tr>
 <tr><td><a href="#тренажёры">Тренажёры</a></td><td><strong>КОНТУР</strong> — транспортная ИВЛ Oxylog 3000 plus · <strong>ТИТР</strong> — шприцевой дозатор «Шмель»</td></tr>
 </tbody>
 </table>
 
-## Клинические разборы
-
 <table width="100%">
-<colgroup><col width="28%"><col width="44%"><col width="12%"><col width="16%"></colgroup>
 <thead><tr><th>Материал</th><th>О чём</th><th>Версия</th><th>Файл</th></tr></thead>
 <tbody>
+<tr><th colspan="4" align="left"><a id="клинические-разборы"></a>Клинические разборы</th></tr>
 <tr><td><strong>Боль в груди после инвазивного вмешательства на сердце</strong></td><td>Катетерная аблация, ЧКВ, имплантация устройств: осложнения по срокам от вмешательства, объём осмотра, доступный выездной бригаде</td><td>1.2 · 16.08.2026</td><td><a href="razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf">PDF, A4, 24 стр.</a></td></tr>
 <tr><td><strong>Инородные тела пищеварительного тракта</strong></td><td>Категории проглоченных предметов по опасности и срочности вмешательства, дисковые батарейи и магниты, что видно и чего не видно на рентгенограмме</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_zhkt/inorodnye_tela_zhkt.pdf">PDF, A4, 15 стр.</a></td></tr>
 <tr><td><strong>Нейрофиброматоз</strong></td><td>Три разных заболевания под одним старым названием, критерии НФ1 и его синдромы-двойники, опасные осложнения: феохромоцитома, разрыв сосуда, MPNST, компрессия спинного мозга</td><td>1.0 · 16.08.2026</td><td><a href="razbory/neyrofibromatoz/neyrofibromatoz.pdf">PDF, A4, 18 стр.</a></td></tr>
@@ -31,25 +30,9 @@
 <tr><td><strong>Инородные тела дыхательных путей</strong></td><td>Кашель определяет тактику, уровень инородного тела относительно связок, мнимое благополучие после аспирации</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_dp/inorodnye_tela_dp.pdf">PDF, A4, 13 стр.</a></td></tr>
 <tr><td><strong>Острая кишечная непроходимость у взрослых</strong></td><td>Бедренная грыжа у неоперированной, инвагинация у взрослого, странгуляция, УЗИ у постели больного</td><td>1.0 · 16.08.2026</td><td><a href="razbory/kishechnaya_neprohodimost/kishechnaya_neprohodimost.pdf">PDF, A4, 21 стр.</a></td></tr>
 <tr><td><strong>Псориаз</strong></td><td>Псориаз фон Цумбуша после отмены преднизолона, эритродермия, симптом Никольского, септический псориатический артрит</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psoriaz/psoriaz.pdf">PDF, A4, 22 стр.</a></td></tr>
-</tbody>
-</table>
-
-## ЭКГ кейсы
-
-<table width="100%">
-<colgroup><col width="28%"><col width="44%"><col width="12%"><col width="16%"></colgroup>
-<thead><tr><th>Материал</th><th>О чём</th><th>Версия</th><th>Файл</th></tr></thead>
-<tbody>
+<tr><th colspan="4" align="left"><a id="экг"></a>ЭКГ кейсы</th></tr>
 <tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.1 · 16.08.2026</td><td><a href="ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
-</tbody>
-</table>
-
-## Виньетки
-
-<table width="100%">
-<colgroup><col width="28%"><col width="44%"><col width="12%"><col width="16%"></colgroup>
-<thead><tr><th>Материал</th><th>О чём</th><th>Версия</th><th>Файл</th></tr></thead>
-<tbody>
+<tr><th colspan="4" align="left"><a id="виньетки"></a>Виньетки</th></tr>
 <tr><td><strong>Делирий</strong></td><td>Пять задач: гипоактивный, послеоперационный, алкогольный, антихолинергический делирий и как их отличить от психоза</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/deliriy/deliriy.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Каналопатии и кардиомиопатии</strong></td><td>Десять задач: LQTS, CPVT, Бругада, ГКМП, ARVC, дигоксин, синдром Тимоти, синдром Карвахаля</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/kanalopatii_kardiomiopatii/kanalopatii_kardiomiopatii.pdf">PDF, A4, 8 стр.</a></td></tr>
 <tr><td><strong>Нейроинтоксикации</strong></td><td>Пять задач: угарный газ, фосфорорганические соединения, метанол, тепловой удар, синдром Рамсея — Ханта</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/neyrointoksikatsii/neyrointoksikatsii.pdf">PDF, A4, 6 стр.</a></td></tr>
@@ -60,23 +43,16 @@
 <tr><td><strong>Особо опасные инфекции, выпуск 4</strong></td><td>Пять задач: грипп птиц, коронавирусы, сыпной тиф, мелиоидоз, болезнь Крейтцфельдта–Якоба</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/osobo_opasnye_infektsii_4/osobo_opasnye_infektsii_4.pdf">PDF, A4, 9 стр.</a></td></tr>
 <tr><td><strong>Преэклампсия и эклампсия</strong></td><td>Пять задач: умеренная и тяжёлая преэклампсия, послеродовый период, приступ, HELLP, отслойка плаценты</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/preeklampsiya/preeklampsiya.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Ургентная гинекология</strong></td><td>Пять задач: внематочная, перекрут яичника, апоплексия, ВЗОМТ, разрыв трубы</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/urgentnaya_ginekologiya/urgentnaya_ginekologiya.pdf">PDF, A4, 6 стр.</a></td></tr>
-</tbody>
-</table>
-
-## Тренажёры
-
-Два браузерных тренажёра. Каждый — один файл, работает без интернета и без установки: файл надо скачать (кнопка **Download raw file** на странице файла) и открыть в браузере.
-
-<table width="100%">
-<colgroup><col width="28%"><col width="44%"><col width="12%"><col width="16%"></colgroup>
-<thead><tr><th>Материал</th><th>О чём</th><th>Версия</th><th>Файл</th></tr></thead>
-<tbody>
+<tr><th colspan="4" align="left"><a id="чеклисты"></a>Чеклисты</th></tr>
+<tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
+<tr><td><strong>Осмотр ребёнка</strong></td><td>Pediatric Assessment Triangle, ABCDE, возрастные нормы, дегидратация, осмотр от головы к пяткам, безнадзорный ребёнок</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/osmotr_rebenka/osmotr_rebenka.pdf">PDF, A4, 5 стр.</a></td></tr>
+<tr><th colspan="4" align="left"><a id="тренажёры"></a>Тренажёры</th></tr>
 <tr><td><strong>КОНТУР</strong> — транспортная ИВЛ, Dräger Oxylog 3000 plus</td><td>Панель и режимы аппарата, связь уставок с механикой и газообменом, 11 задач от ЧМТ и ОРДС до НИВЛ и массивной ТЭЛА, автоматический разбор сессии</td><td>16.08.2026</td><td><a href="trenazhery/oxylog_3000_plus/kontur_trenazher.html">тренажёр</a> · <a href="trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/oxylog_3000_plus/README.md">описание</a></td></tr>
 <tr><td><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»</td><td>Сборка шприца, растворитель, режимы, расчёт скорости по времени, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии</td><td>15.08.2026</td><td><a href="trenazhery/shmel_titr/titr_trenazher.html">тренажёр</a> · <a href="trenazhery/shmel_titr/TITR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/shmel_titr/README.md">описание</a></td></tr>
 </tbody>
 </table>
 
-Оба — учебные модели, а не сертифицированные симуляторы производителей и не медицинские изделия. При расхождении с руководствами по эксплуатации и действующими алгоритмами службы приоритет у последних.
+Тренажёры — один HTML-файл каждый, без интернета и без установки: скачать (**Download raw file** на странице файла) и открыть в браузере. Оба — учебные модели, а не сертифицированные симуляторы производителей и не медицинские изделия. При расхождении с руководствами по эксплуатации и действующими алгоритмами службы приоритет у последних.
 
 ## О проекте
 
