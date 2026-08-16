@@ -266,8 +266,8 @@
 | `lisch_nodules.png` | Узелки Лиша на радужке | Источник уточняется |
 | `mccune_albright_cal.png` | Пятно при синдроме Мак-Кьюна — Олбрайта | Викисклад, общественное достояние — требуется точная ссылка на файл |
 | `pheochromocytoma_ct.png` | Феохромоцитома надпочечника, КТ | Источник уточняется |
-| `pheochromocytoma_gross.png` | Феохромоцитома, макропрепарат | Источник уточняется |
-| `mpnst.png` | Опухоль оболочки нерва шеи, КТ с контрастом | Источник уточняется |
+| `pheochromocytoma_gross.png` | Феохромоцитома, макропрепарат | Case courtesy of Andrew Ryan, [Radiopaedia.org](https://radiopaedia.org/), rID: [22683](https://radiopaedia.org/cases/22683). CC BY-NC-SA 3.0 |
+| `mpnst.png` | Опухоль оболочки нерва шеи, КТ с контрастом | Case courtesy of Mohammad Taghi Niknejad, [Radiopaedia.org](https://radiopaedia.org/), rID: [37810](https://radiopaedia.org/cases/37810). CC BY-NC-SA 3.0 |
 | `tibial_pseudarthrosis.png` | Псевдоартроз большеберцовой кости | Источник уточняется |
 | `bilateral_vestibular_schwannoma.png` | Двусторонние вестибулярные шванномы, МРТ | Источник уточняется |
 
