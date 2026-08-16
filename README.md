@@ -39,7 +39,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.2 · 16.08.2026</td><td><a href="ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
+<tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.2 · 16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
 </tbody>
 </table>
 
@@ -88,8 +88,8 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>КОНТУР</strong> — транспортная ИВЛ, Dräger Oxylog 3000 plus</td><td>Панель и режимы аппарата, связь уставок с механикой и газообменом, 11 задач от ЧМТ и ОРДС до НИВЛ и массивной ТЭЛА, автоматический разбор сессии</td><td>16.08.2026</td><td><a href="trenazhery/oxylog_3000_plus/kontur_trenazher.html">тренажёр</a> · <a href="trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/oxylog_3000_plus/README.md">описание</a></td></tr>
-<tr><td><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»</td><td>Сборка шприца, растворитель, режимы, расчёт скорости по времени, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии</td><td>15.08.2026</td><td><a href="trenazhery/shmel_titr/titr_trenazher.html">тренажёр</a> · <a href="trenazhery/shmel_titr/TITR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/shmel_titr/README.md">описание</a></td></tr>
+<tr><td><strong>КОНТУР</strong> — транспортная ИВЛ, Dräger Oxylog 3000 plus</td><td>Панель и режимы аппарата, связь уставок с механикой и газообменом, 11 задач от ЧМТ и ОРДС до НИВЛ и массивной ТЭЛА, автоматический разбор сессии</td><td>16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/trenazhery/oxylog_3000_plus/kontur_trenazher.html">скачать HTML-файл</a> · <a href="trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/oxylog_3000_plus/README.md">описание</a></td></tr>
+<tr><td><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»</td><td>Сборка шприца, растворитель, режимы, расчёт скорости по времени, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии</td><td>15.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/trenazhery/shmel_titr/titr_trenazher.html">скачать HTML-файл</a> · <a href="trenazhery/shmel_titr/TITR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/shmel_titr/README.md">описание</a></td></tr>
 </tbody>
 </table>
 
