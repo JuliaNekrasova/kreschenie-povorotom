@@ -32,12 +32,15 @@ def istochnik_materiala(papka: Path) -> Path:
 
 
 def v_html(istochnik: Path) -> str:
+    # encoding обязателен: без него на Windows чтение вывода идёт в cp1251
+    # и падает на первом же кириллическом символе, оставляя пустой PDF.
     return subprocess.run(
         ["pandoc", istochnik.name, "-t", "html5"],
         cwd=istochnik.parent,
         check=True,
         capture_output=True,
         text=True,
+        encoding="utf-8",
     ).stdout
 
 
@@ -49,9 +52,21 @@ def zagolovok_iz_md(istochnik: Path) -> str:
 
 
 def stranits(pdf: Path) -> str:
-    vyvod = subprocess.run(
-        ["pdfinfo", str(pdf)], check=True, capture_output=True, text=True
-    ).stdout
+    try:
+        vyvod = subprocess.run(
+            ["pdfinfo", str(pdf)],
+            check=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+        ).stdout
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        # poppler есть не везде; pypdf нужен только для этой строки отчёта
+        try:
+            import pypdf
+        except ImportError:
+            return "?"
+        return str(len(pypdf.PdfReader(str(pdf)).pages))
     for stroka in vyvod.split("\n"):
         if stroka.startswith("Pages:"):
             return stroka.split(":", 1)[1].strip()
@@ -81,6 +96,7 @@ def sobrat(papka: Path) -> Path:
             check=True,
             capture_output=True,
             text=True,
+            encoding="utf-8",
         )
     finally:
         vremennyy.unlink(missing_ok=True)
