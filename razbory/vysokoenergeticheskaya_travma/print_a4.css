@@ -42,6 +42,7 @@ figure img {
   border-radius: 2px;
 }
 figure.portrait img { max-width: 85%; }
+figure.kvadrat img { max-width: 62%; }
 figcaption {
   font-size: 8.4pt;
   color: #7f8c8d;
