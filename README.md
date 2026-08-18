@@ -45,6 +45,7 @@
 <tbody>
 <tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.2 · 16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Гипертрофия левого желудочка и strain</strong></td><td>Дискордантные подъёмы и депрессии ST при гипертрофии, Корнелл против Соколова у пожилых, когда за strain прячется инфаркт</td><td>1.0 · 16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/glzh_strain/glzh_strain.pdf">PDF, A4, 7 стр.</a></td></tr>
+<tr><td><strong>ЭКС: сливной комплекс и память сердца</strong></td><td>Чтение плёнки со стимулятором, захват и восприятие, слияние против псевдослияния, инверсия зубца T после стимуляции и критерии её отличия от ишемии</td><td>1.0 · 19.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/ekg/eks_slivnoy_kompleks/eks_slivnoy_kompleks.pdf">PDF, A4, 15 стр.</a></td></tr>
 </tbody>
 </table>
 
