@@ -48,7 +48,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Акушерство на линии</strong></td><td>Практическое занятие ЦПС: патология яичника, внематочная, ТЭЛА в 10 недель, преэклампсия, отслойка, тихий разрыв рубца, метод Пискачека, пособия в родах, выпадение пуповины</td><td>1.5 · 23.08.2026</td><td><a href="uchebnye/akusherstvo_na_linii/akusherstvo_na_linii.pdf">PDF, A4, 16 стр.</a></td></tr>
+<tr><td><strong>Акушерство на линии</strong></td><td>Практическое занятие ЦПС: патология яичника, внематочная, ТЭЛА в 10 недель, преэклампсия, отслойка, тихий разрыв рубца, метод Пискачека, пособия в родах, выпадение пуповины</td><td>1.6 · 23.08.2026</td><td><a href="uchebnye/akusherstvo_na_linii/akusherstvo_na_linii.pdf">PDF, A4, 19 стр.</a></td></tr>
 </tbody>
 </table>
 
