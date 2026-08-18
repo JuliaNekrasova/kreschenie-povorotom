@@ -59,7 +59,7 @@
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Трепетание и аллапинин</strong></td><td>Регулярный широкий желудочковый комплекс, антиаритмики класса IC и риск проведения 1:1</td><td>1.2 · 16.08.2026</td><td><a href="ekg/trepetanie_allapinin/trepetanie_allapinin.pdf">PDF, A4, 6 стр.</a></td></tr>
-<tr><td><strong>Гипертрофия левого желудочка и strain</strong></td><td>Дискордантные подъёмы и депрессии ST при гипертрофии, appropriate discordance при глубоком S, когда за strain прячется инфаркт</td><td>1.1 · 25.08.2026</td><td><a href="ekg/glzh_strain/glzh_strain.pdf">PDF, A4, 7 стр.</a></td></tr>
+<tr><td><strong>Гипертрофия левого желудочка и strain</strong></td><td>Дискордантные подъёмы и депрессии ST при гипертрофии, ожидаемая дискордантность при глубоком S, когда за strain прячется инфаркт</td><td>1.1 · 25.08.2026</td><td><a href="ekg/glzh_strain/glzh_strain.pdf">PDF, A4, 7 стр.</a></td></tr>
 <tr><td><strong>ЭКС: сливной комплекс и память сердца</strong></td><td>Чтение плёнки со стимулятором, захват и восприятие, слияние против псевдослияния, инверсия зубца T после стимуляции и критерии её отличия от ишемии</td><td>1.1 · 24.08.2026</td><td><a href="ekg/eks_slivnoy_kompleks/eks_slivnoy_kompleks.pdf">PDF, A4, 9 стр.</a></td></tr>
  <tr><td><strong>Удлинённый QT и АВ-блокада 2:1 у ребёнка</strong></td><td>Почему очередной зубец P не проводится: реполяризация желудочков длиннее предсердного цикла. Измерение QT на плёнке 50 мм/с, функциональная блокада 2:1, синдром Тимоти</td><td>1.0 · 22.08.2026</td><td><a href="ekg/lqts_deti_av_blok/lqts_deti_av_blok.pdf">PDF, A4, 15 стр.</a></td></tr>
 </tbody>
@@ -75,7 +75,7 @@
 <tr><td><strong>Амиодарон</strong></td><td>Класс III, работающий как все четыре, декстроза как единственный растворитель, дозы при аритмиях и в реанимации, ALPS и доказательства при остановке, предвозбуждённая ФП</td><td>1.1 · 24.08.2026</td><td><a href="farmakologiya/amiodaron/amiodaron.pdf">PDF, A4, 9 стр.</a></td></tr>
 <tr><td><strong>Урапидил</strong></td><td>Двойной механизм и отсутствие рефлекторной тахикардии, от чего зависит скорость снижения давления, отличие от нитратов и метопролола, пороги при инсульте, разведение для «Шмеля»</td><td>1.0 · 24.08.2026</td><td><a href="farmakologiya/urapidil/urapidil.pdf">PDF, A4, 9 стр.</a></td></tr>
 <tr><td><strong>Магния сульфат</strong></td><td>Гептагидрат и кальциевый антагонизм, нагрузка при преэклампсии, астма и пируэт, лестница токсичности, два разведения в шприце насоса</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/magniya_sulfat/magniya_sulfat.pdf">PDF, A4, 7 стр.</a></td></tr>
-<tr><td><strong>Кетамин</strong></td><td>Диссоциативная анестезия и два режима дозы, симпатический драйв и рост MVO₂, истощение катехоламинов, запрет индукции при ЧМТ по Алгоритмам ДЗМ</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/ketamin/ketamin.pdf">PDF, A4, 6 стр.</a></td></tr>
+<tr><td><strong>Кетамин</strong></td><td>Диссоциативная анестезия и два режима дозы, симпатический драйв и рост MVO₂, истощение катехоламинов, запрет индукции при ЧМТ по Алгоритмам ДЗМ</td><td>1.1 · 25.08.2026</td><td><a href="farmakologiya/ketamin/ketamin.pdf">PDF, A4, 6 стр.</a></td></tr>
 </tbody>
 </table>
 
