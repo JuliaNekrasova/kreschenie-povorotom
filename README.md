@@ -11,6 +11,7 @@
 <tr><td><a href="#vinyetki">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
 <tr><td><a href="#cheklisty">Чеклисты</a></td><td>Последовательность неврологического осмотра, осмотра ребенка, алгоритм чтения ЭКГ «ПРИВЕТ, ДОКТОР»</td></tr>
 <tr><td><a href="#spravochniki">Справочные материалы</a></td><td>Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
+<tr><td><a href="#farmakologiya">Фармакология укладки</a></td><td>Препараты укладки СМП: механизм, время до эффекта, дозы по показаниям, «что нельзя», расхождения с международной практикой</td></tr>
 <tr><td><a href="#trenazhery">Тренажёры</a></td><td><strong>КОНТУР</strong> — транспортная ИВЛ Oxylog 3000 plus · <strong>ТИТР</strong> — шприцевой дозатор «Шмель»</td></tr>
 </tbody>
 </table>
@@ -87,6 +88,17 @@
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Педиатрические дозы по массе</strong></td><td>Энергии разрядов, реанимационные препараты, анафилаксия, судороги, лихорадка, круп</td><td>1.2 · 16.08.2026</td><td><a href="spravochniki/pediatriya_dozy_po_vesu/pediatriya_dozy_po_vesu.pdf">PDF, A4, 5 стр.</a></td></tr>
+</tbody>
+</table>
+
+<a id="farmakologiya"></a>
+## Фармакология укладки
+
+<table width="100%">
+<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
+<tbody>
+<tr><td><strong>Преднизолон</strong></td><td>Геномный и негеномный путь и время до эффекта, сравнение с дексаметазоном и гидрокортизоном, дозы по темам, расхождения при анафилаксии и травме спинного мозга, ЧМТ как противопоказание</td><td>1.0 · 19.08.2026</td><td><a href="farmakologiya/prednizolon/prednizolon.pdf">PDF, A4, 10 стр.</a></td></tr>
+<tr><td><strong>Амиодарон</strong></td><td>Класс III, работающий как все четыре, декстроза как единственный растворитель, дозы при аритмиях и в реанимации, ALPS и честный разговор о доказательствах, предвозбуждённая ФП</td><td>1.0 · 19.08.2026</td><td><a href="farmakologiya/amiodaron/amiodaron.pdf">PDF, A4, 11 стр.</a></td></tr>
 </tbody>
 </table>
 

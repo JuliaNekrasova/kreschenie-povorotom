@@ -25,6 +25,7 @@ VINYETKI = KOREN / "vinyetki"
 EKG = KOREN / "ekg"
 CHEKLISTY = KOREN / "cheklisty"
 SPRAVOCHNIKI = KOREN / "spravochniki"
+FARMAKOLOGIYA = KOREN / "farmakologiya"
 
 
 def istochnik_materiala(papka: Path) -> Path:
@@ -105,7 +106,7 @@ def sobrat(papka: Path) -> Path:
 
 def vse_papki() -> list[Path]:
     papki = []
-    for koren in (RAZBORY, VINYETKI, EKG, CHEKLISTY, SPRAVOCHNIKI):
+    for koren in (RAZBORY, VINYETKI, EKG, CHEKLISTY, SPRAVOCHNIKI, FARMAKOLOGIYA):
         if not koren.is_dir():
             continue
         papki.extend(
