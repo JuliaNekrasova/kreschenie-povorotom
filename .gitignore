@@ -11,5 +11,12 @@ venv/
 # Промежуточные файлы сборки
 **/_sborka.html
 
+# Локальная сборка Jekyll (github-pages)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/bundle/
+
 # Черновики: всё, что лежит в drafts/, не публикуется
 drafts/
