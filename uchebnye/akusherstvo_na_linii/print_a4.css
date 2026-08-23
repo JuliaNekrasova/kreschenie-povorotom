@@ -46,6 +46,16 @@ figure.portrait img {
   width: auto;
   max-width: 72%;
 }
+figure.pair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+figure.pair img {
+  max-width: 46%;
+  max-height: 85mm;
+}
 figcaption {
   font-size: 8.4pt;
   color: #7f8c8d;

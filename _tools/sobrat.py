@@ -21,6 +21,7 @@ from pathlib import Path
 
 KOREN = Path(__file__).resolve().parent.parent
 RAZBORY = KOREN / "razbory"
+UCHEBNYE = KOREN / "uchebnye"
 VINYETKI = KOREN / "vinyetki"
 EKG = KOREN / "ekg"
 CHEKLISTY = KOREN / "cheklisty"
@@ -106,7 +107,7 @@ def sobrat(papka: Path) -> Path:
 
 def vse_papki() -> list[Path]:
     papki = []
-    for koren in (RAZBORY, VINYETKI, EKG, CHEKLISTY, SPRAVOCHNIKI, FARMAKOLOGIYA):
+    for koren in (RAZBORY, UCHEBNYE, VINYETKI, EKG, CHEKLISTY, SPRAVOCHNIKI, FARMAKOLOGIYA):
         if not koren.is_dir():
             continue
         papki.extend(
