@@ -1,0 +1,159 @@
+@import url("../kartochka_ramka.css");
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 4mm;
+  background: #1e3a5f;
+  color: #f8fafc;
+  border-radius: 3px;
+  padding: 1.8mm 3.2mm;
+}
+
+.kicker {
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  margin-bottom: 1.2mm;
+}
+
+h1 {
+  margin: 0;
+  font-size: 16.5pt;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+.group {
+  margin: 1.8mm 0 0 0;
+  font-size: 8pt;
+  color: #e2e8f0;
+}
+
+.amp {
+  min-width: 44mm;
+  background: #0f2744;
+  border: 1px solid #3b82f6;
+  border-radius: 3px;
+  padding: 2.2mm 3mm;
+  text-align: right;
+}
+
+.amp-k {
+  font-size: 6.4pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+
+.amp-v { font-size: 10pt; margin-top: 1mm; }
+.amp-c { font-size: 8.2pt; color: #bfdbfe; }
+
+h2 {
+  margin: 0 0 1.4mm 0;
+  font-size: 7.2pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1e3a5f;
+}
+
+.mech p {
+  margin: 0;
+  background: #eff6ff;
+  border-left: 3px solid #2563eb;
+  padding: 1.4mm 2.4mm;
+  border-radius: 0 3px 3px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 7.3pt;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 50%; }
+th:nth-child(2), td:nth-child(2) { width: 34%; }
+th:nth-child(3), td:nth-child(3) { width: 16%; }
+
+th {
+  background: #1e3a5f;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 1.4mm 2.4mm;
+}
+
+th:nth-child(2), th:nth-child(3),
+td:nth-child(2), td:nth-child(3) { text-align: center; }
+
+td {
+  padding: 0.55mm 2mm;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: middle;
+}
+
+tr:nth-child(even) td { background: #f8fafc; }
+
+tr.ban td {
+  background: #fef2f2;
+  color: #9f1239;
+  font-weight: 600;
+}
+
+.hint {
+  margin: 1mm 0 0 0;
+  font-size: 7.2pt;
+  color: #57534e;
+}
+
+.pump {
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+  background: #fffbeb;
+  border: 1px solid #f59e0b;
+  border-radius: 3px;
+  padding: 1.6mm 2.8mm;
+  font-size: 8pt;
+}
+
+.pump-k {
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #92400e;
+  font-weight: 700;
+}
+
+.split {
+  display: flex;
+  align-items: stretch;
+  gap: 2.6mm;
+  flex: 1 0 auto;
+}
+
+.box {
+  flex: 1;
+  border-radius: 3px;
+  padding: 1.5mm 2.2mm;
+  font-size: 6.9pt;
+}
+
+.box h2 { margin-bottom: 1.2mm; }
+.box ul { margin: 0; padding-left: 3.6mm; }
+.box li { margin: 0.7mm 0; }
+
+.stop {
+  background: #fef2f2;
+  border: 1px solid #f1a0a8;
+}
+.stop h2 { color: #9f1239; }
+
+.ix {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+}
+.ix h2 { color: #166534; }

@@ -1,0 +1,40 @@
+@page {
+  size: A5 landscape;
+  margin: 3mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+  font-size: 7.8pt;
+  line-height: 1.26;
+  color: #1c1917;
+  background: #fff;
+}
+
+/* Общая рамка серии. Внутрь кладётся .card */
+.frame {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 2.2mm;
+  border: 1.15pt solid #1e3a5f;
+  background: #fff;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3mm;
+  padding: 0;
+}
+
+.card > * { flex-shrink: 0; }
