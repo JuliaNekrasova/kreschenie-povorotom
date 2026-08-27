@@ -43,7 +43,7 @@
 <a id="uchebnye-materialy"></a>
 ## Учебные материалы
 
-Конспекты занятий и лекций. Эпизоды, если они были на занятии, стоят внутри тем, которые иллюстрировали. Вопросов для размышления и кейсовой рамки нет.
+Конспекты занятий и лекций.
 
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
