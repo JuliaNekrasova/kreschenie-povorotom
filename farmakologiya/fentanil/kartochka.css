@@ -4,11 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 4mm;
+  gap: 3.5mm;
   background: #1e3a5f;
   color: #f8fafc;
   border-radius: 3px;
-  padding: 1.8mm 3.2mm;
+  padding: 1.5mm 2.8mm;
 }
 
 .kicker {
@@ -21,7 +21,7 @@
 
 h1 {
   margin: 0;
-  font-size: 16.5pt;
+  font-size: 15.5pt;
   letter-spacing: 0.02em;
   line-height: 1;
 }
@@ -33,11 +33,11 @@ h1 {
 }
 
 .amp {
-  min-width: 44mm;
+  min-width: 42mm;
   background: #0f2744;
   border: 1px solid #3b82f6;
   border-radius: 3px;
-  padding: 2.2mm 3mm;
+  padding: 1.8mm 2.5mm;
   text-align: right;
 }
 
@@ -52,8 +52,8 @@ h1 {
 .amp-c { font-size: 8.2pt; color: #bfdbfe; }
 
 h2 {
-  margin: 0 0 1.4mm 0;
-  font-size: 7.2pt;
+  margin: 0 0 1.2mm 0;
+  font-size: 6.8pt;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #1e3a5f;
@@ -63,7 +63,7 @@ h2 {
   margin: 0;
   background: #eff6ff;
   border-left: 3px solid #2563eb;
-  padding: 1.4mm 2.4mm;
+  padding: 1.2mm 2mm;
   border-radius: 0 3px 3px 0;
 }
 
@@ -71,7 +71,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  font-size: 7.3pt;
+  font-size: 7pt;
 }
 
 th:nth-child(1), td:nth-child(1) { width: 50%; }
@@ -83,14 +83,14 @@ th {
   color: #fff;
   font-weight: 600;
   text-align: left;
-  padding: 1.4mm 2.4mm;
+  padding: 1.2mm 2mm;
 }
 
 th:nth-child(2), th:nth-child(3),
 td:nth-child(2), td:nth-child(3) { text-align: center; }
 
 td {
-  padding: 0.55mm 2mm;
+  padding: 0.45mm 1.5mm;
   border-bottom: 1px solid #e2e8f0;
   vertical-align: middle;
 }
@@ -106,12 +106,12 @@ tr:nth-child(even) td { background: #f8fafc; }
 .pump {
   display: flex;
   align-items: center;
-  gap: 3mm;
+  gap: 2.5mm;
   background: #fffbeb;
   border: 1px solid #f59e0b;
   border-radius: 3px;
-  padding: 1.6mm 2.8mm;
-  font-size: 8pt;
+  padding: 1.2mm 2.2mm;
+  font-size: 7.5pt;
 }
 
 .pump-k {
@@ -125,20 +125,20 @@ tr:nth-child(even) td { background: #f8fafc; }
 .split {
   display: flex;
   align-items: stretch;
-  gap: 2.6mm;
+  gap: 2mm;
   flex: 1 0 auto;
 }
 
 .box {
   flex: 1;
   border-radius: 3px;
-  padding: 1.5mm 2.2mm;
+  padding: 1.3mm 2mm;
   font-size: 6.9pt;
 }
 
 .box h2 { margin-bottom: 1.2mm; }
 .box ul { margin: 0; padding-left: 3.6mm; }
-.box li { margin: 0.7mm 0; }
+.box li { margin: 0.5mm 0; }
 
 .stop {
   background: #fef2f2;
