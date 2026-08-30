@@ -75,8 +75,8 @@ TAU = 0.32
 # Субстраты. Ключ модели — разная чувствительность к бета-блокаде.
 # Сердце с сохранённым резервом теряет от блокады немного; сердце, выброс
 # которого держится на максимальной симпатической стимуляции, теряет
-# несопоставимо больше — именно поэтому приказ уводит застойную
-# недостаточность на амиодарон, а не на метопролол.
+# несопоставимо больше — именно поэтому при застойной
+# недостаточности приказ предписывает амиодарон, а не метопролол.
 SUBSTRATY = {
     "sohrannyy": {"podpis": "Сохранённая сократимость", "uo_max": 88.0, "beta": 0.92},
     "snizhennyy": {"podpis": "Сниженная сократимость (ФВ ≈ 25 %)", "uo_max": 40.0, "beta": 0.70},
@@ -243,18 +243,17 @@ def risunok_vybros() -> None:
                                     color=TEMNYY, lw=1.4, zorder=5))
 
         cvet_itoga = ZELENYY if rastet else KRASNYY
-        os.text(136, verh * 0.845,
-                f"{'+' if rastet else '−'}{abs(mo110 - mo160):.1f} л/мин\n"
+        os.text(136, verh * 0.97,
+                f"{(1-s['beta'])*100:.0f} % сократимости снимает бета-блокада",
+                fontsize=7.8, color=cvet, ha="center", va="top",
+                fontweight="bold")
+        os.text(136, verh * 0.82,
+                f"{'+' if rastet else '−'}{abs(mo110 - mo160):.1f} л/мин · "
                 f"{'урежение выгодно' if rastet else 'урежение вредит'}",
-                fontsize=8.6, fontweight="bold", ha="center", va="center",
-                color=cvet_itoga, linespacing=1.5,
+                fontsize=8.2, fontweight="bold", ha="center", va="center",
+                color=cvet_itoga,
                 bbox=dict(boxstyle="round,pad=0.32", fc="white",
                           ec=cvet_itoga, lw=0.9, alpha=0.95))
-
-        os.text(132, verh * 0.93,
-                f"{(1-s['beta'])*100:.0f} % сократимости\nснимает бета-блокада",
-                fontsize=8.2, color=cvet, ha="center", va="top",
-                fontweight="bold", linespacing=1.35)
         os.set_xlabel("ЧЖС, мин⁻¹")
         os.set_xlim(50, 212)
         os.set_axisbelow(True)
