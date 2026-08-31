@@ -96,6 +96,16 @@ De Deyn et al., *Stroke* 1997. 927 пациентов, двойное слепо
 
 Положительные «тренды» — только post hoc, в подгруппе раннего лечения (менее 7 часов).
 
+<figure>
+  <img src="images/piracetam_death_1mo.jpg" alt="Forest plot: смертность на 1 месяц — пирацетам vs контроль">
+  <figcaption>Forest plot: смертность на ~1 месяц. Пирацетам vs контроль. Незначимое повышение на 31 % (OR 1,31; 95 % ДИ 0,95–1,81). 93 % данных — PASS. Источник: Cochrane CD000419, 2012.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/piracetam_death_or_dep.jpg" alt="Forest plot: смерть или зависимость на 12 недель — пирацетам vs контроль">
+  <figcaption>Forest plot: смерть или зависимость на 12 недель. Пирацетам vs контроль. Нет различий (OR 1,03; близко к единице). Источник: Cochrane CD000419, 2012.</figcaption>
+</figure>
+
 ## Регуляторный статус
 
 | Регулятор | Статус |
