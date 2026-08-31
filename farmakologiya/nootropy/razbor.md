@@ -129,21 +129,25 @@ Ziganshina et al. 7 РКИ, **1 773 участника**.
 
 Заключение: нет доказанной пользы при остром инсульте. Есть статистически значимое увеличение нефатальных серьёзных НЯ, но их природа и связь с препаратом не установлены.
 
-![Forest plot: смертность — церебролизин vs плацебо (Ziganshina et al., Cochrane 2023, CC BY)](images/death.png)
+<figure>
+  <img src="images/death.png" alt="Forest plot: смертность — церебролизин vs плацебо">
+  <figcaption>Forest plot: смертность (все причины). Церебролизин/Кортексин vs плацебо. Нет различий (RR 0,96). Источник: Ziganshina et al., Cochrane CD007026, 2023.</figcaption>
+</figure>
 
-*Рис. Forest plot: смертность (все причины). Церебролизин/Кортексин vs плацебо. Нет различий (RR 0,96). Источник: Ziganshina et al., Cochrane CD007026, 2023.*
+<figure>
+  <img src="images/non_fatal_sae.png" alt="Forest plot: нефатальные серьёзные НЯ — церебролизин vs плацебо">
+  <figcaption>Forest plot: нефатальные серьёзные НЯ. Церебролизин vs плацебо. RR 2,39 (95 % ДИ 1,10–5,23). Источник: Ziganshina et al., Cochrane CD007026, 2023.</figcaption>
+</figure>
 
-![Forest plot: нефатальные серьёзные НЯ — церебролизин vs плацебо (Ziganshina et al., Cochrane 2023, CC BY)](images/non_fatal_sae.png)
+<figure>
+  <img src="images/risk_of_bias.png" alt="Risk of bias summary">
+  <figcaption>Risk of bias summary: оценка риска предвзятости для каждого включённого исследования. Зелёный — низкий риск, жёлтый — неясный, красный — высокий. Источник: Ziganshina et al., Cochrane CD007026, 2023.</figcaption>
+</figure>
 
-*Рис. Forest plot: нефатальные серьёзные НЯ. Церебролизин vs плацебо. RR 2,39 (95 % ДИ 1,10–5,23). Источник: Ziganshina et al., Cochrane CD007026, 2023.*
-
-![Risk of bias summary (Ziganshina et al., Cochrane 2023, CC BY)](images/risk_of_bias.png)
-
-*Рис. Risk of bias summary: оценка риска предвзятости для каждого включённого исследования. Зелёный — низкий риск, жёлтый — неясный, красный — высокий. Источник: Ziganshina et al., Cochrane CD007026, 2023.*
-
-![Forest plot: общее число людей с НЯ — церебролизин vs плацебо (Ziganshina et al., Cochrane 2023, CC BY)](images/adverse.png)
-
-*Рис. Forest plot: общее число людей с любыми нежелательными явлениями. Церебролизин vs плацебо. Без различий (RR 1,03). Источник: Ziganshina et al., Cochrane CD007026, 2023.*
+<figure>
+  <img src="images/adverse.png" alt="Forest plot: общее число людей с НЯ — церебролизин vs плацебо">
+  <figcaption>Forest plot: общее число людей с любыми нежелательными явлениями. Церебролизин vs плацебо. Без различий (RR 1,03). Источник: Ziganshina et al., Cochrane CD007026, 2023.</figcaption>
+</figure>
 
 ### Церебролизин при сосудистой деменции (CD008900, обновлён 2019)
 
