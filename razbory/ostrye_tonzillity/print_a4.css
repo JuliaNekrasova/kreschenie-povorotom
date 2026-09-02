@@ -184,3 +184,26 @@ blockquote {
 }
 blockquote p { margin: 2px 0; }
 em { color: #566573; font-style: italic; }
+
+figure.photo img {
+    max-width: 100%;
+    max-height: 55vh;
+    width: auto;
+    border: 0.5pt solid #d5dbdb;
+    border-radius: 2px;
+}
+
+table.small-table {
+    font-size: 6.5pt;
+    break-inside: auto;
+}
+
+table.small-table th,
+table.small-table td {
+    padding: 2px 3px;
+    overflow-wrap: anywhere;
+}
+
+table.small-table th {
+    font-size: 6.5pt;
+}

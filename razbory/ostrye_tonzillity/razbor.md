@@ -71,6 +71,12 @@
 
 Дифференциальный диагноз: вирусный фарингит (ОРВИ). Различие — при вирусном фарингите воспаление диффузное, захватывает заднюю стенку глотки, часто сопровождается ринитом и кашлем; при катаральной ангине процесс ограничен миндалинами.
 
+
+<figure class="photo">
+<img src="images/akute_tonsillitis.jpg" alt="Катаральная ангина">
+<figcaption>Рис. Катаральная ангина: гиперемия и отёк мягкого нёба и миндалин.</figcaption>
+</figure>
+
 ## Фолликулярная ангина
 
 Воспаление распространяется на фолликулы миндалин.
@@ -85,6 +91,12 @@
 | Длительность | 5–7 дней |
 
 Нагноившиеся фолликулы не снимаются шпателем — они расположены субэпителиально.
+
+
+<figure class="photo">
+<img src="images/amigdalitis_white_spots.jpg" alt="Фолликулярная ангина">
+<figcaption>Рис. Фолликулярная ангина: точечные гнойные высыпания на поверхности миндалин.</figcaption>
+</figure>
 
 ## Лакунарная ангина
 
@@ -101,6 +113,17 @@
 
 Налёт при лакунарной ангине не распространяется за пределы миндалин, что составляет один из дифференциальных признаков в отношении дифтерии ротоглотки.
 
+
+<figure class="photo">
+<img src="images/tonsillitis_right.jpg" alt="Лакунарная ангина справа">
+<figcaption>Рис. Лакунарная ангина справа: гной в криптах миндалины.</figcaption>
+</figure>
+
+<figure class="photo">
+<img src="images/tonzillit_cdc_6375.jpg" alt="Лакунарная ангина (CDC)">
+<figcaption>Рис. Ещё один пример гнойного наложения при лакунарной ангине (CDC).</figcaption>
+</figure>
+
 ## Фибринозная (фибринозно-плёнчатая) ангина
 
 Плёнчатый налёт покрывает поверхность миндалины сплошь и может выходить за её пределы.
@@ -113,6 +136,12 @@
 | Интоксикация | выраженная |
 
 Фибринозная ангина — форма, при которой дифференциальный диагноз с дифтерией наиболее актуален. Отличия — в разделе «Дифтерия».
+
+
+<figure class="photo">
+<img src="images/tonzillit_cdc_6323.jpg" alt="Фибринозно-плёнчатая ангина">
+<figcaption>Рис. Фибринозно-плёнчатая ангина: обширное наложение на миндалинах (CDC, 1975).</figcaption>
+</figure>
 
 ## Некротическая ангина
 
@@ -127,6 +156,12 @@
 | Длительность | недели |
 
 Некротическая ангина требует исключения гематологического процесса (агранулоцитоз, острый лейкоз) и ангины Симановского — Плаута — Венсана.
+
+
+<figure class="photo">
+<img src="images/infected_tonsils.jpg" alt="Тяжёлый инфекционный тонзиллит">
+<figcaption>Рис. Тяжёлый инфекционный тонзиллит с обширным наложением и гиперемией.</figcaption>
+</figure>
 
 ## Сводная таблица: характер налёта
 
@@ -147,6 +182,12 @@
 Основной возбудитель бактериального тонзиллита — **бета-гемолитический стрептококк группы A** (Streptococcus pyogenes, БГСА). Частота БГСА-этиологии среди всех острых тонзиллитов составляет 15–30 % у взрослых и до 30–40 % у детей. Остальные случаи — преимущественно вирусные.
 
 Другие бактериальные возбудители: стрептококки групп C и G, Arcanobacterium haemolyticum (подростки; может давать скарлатиноподобную сыпь), Fusobacterium necrophorum (синдром Лемьера), Neisseria gonorrhoeae (гонококковый фарингит — анамнез).
+
+
+<figure class="photo">
+<img src="images/strep.jpg" alt="Стрептококковый тонзиллит">
+<figcaption>Рис. Стрептококковый тонзиллит: гиперемированные миндалины с жёлто-белыми налётами.</figcaption>
+</figure>
 
 ## Вирусная
 
@@ -239,6 +280,22 @@ Corynebacterium diphtheriae — грамположительная палочк�
 > **Расхождение РФ ↔ международная практика.** ВОЗ и ECDC рассматривают дифтерию как re-emerging infection для Европы: случаи регистрируются ежегодно, в том числе у непутешествовавших. Российские клинические рекомендации требуют мазка на BL (Corynebacterium) из зева и носа при любой ангине с налётами, выходящими за пределы миндалин. На практике этот мазок берётся в стационаре; догоспитальный этап отвечает за подозрение и маршрутизацию.
 
 
+
+<figure class="photo">
+<img src="images/diphtheria_membrane.jpg" alt="Дифтерийная плёнка">
+<figcaption>Рис. Дифтерийная плёнка: плотное серо-белое наложение, выходящее за пределы миндалин.</figcaption>
+</figure>
+
+<figure class="photo">
+<img src="images/diphtheria_grey_patch.jpg" alt="Дифтерийная плёнка (рисунок)">
+<figcaption>Рис. Серо-белые дифтерийные наложения на обеих миндалинах (акварель, 1890–1891).</figcaption>
+</figure>
+
+<figure class="photo">
+<img src="images/diphtheria_bull_neck.jpg" alt="Бычья шея">
+<figcaption>Рис. Токсическая дифтерия: выраженный отёк шеи («бычья шея»).</figcaption>
+</figure>
+
 # Инфекционный мононуклеоз
 
 ## Возбудитель
@@ -285,6 +342,12 @@ Corynebacterium diphtheriae — грамположительная палочк�
 Диагностическая значимость отдельных признаков (Ebell et al., *JAMA*, 2016): заднешейная лимфаденопатия — LR+ 3,1; петехии на мягком нёбе — чувствительность 27 %, специфичность 95 %; спленомегалия — LR+ 1,9–6,6 в зависимости от методики оценки. Совокупность трёх признаков у пациента подросткового или молодого возраста с лихорадкой длительностью более недели повышает вероятность мононуклеоза до уровня, при котором целесообразна лабораторная верификация.
 
 
+
+<figure class="photo">
+<img src="images/mononucleosis.jpg" alt="Инфекционный мононуклеоз">
+<figcaption>Рис. Инфекционный мононуклеоз: наложения на миндалинах и петехии на мягком нёбе.</figcaption>
+</figure>
+
 # Паратонзиллярный абсцесс
 
 ## Патогенез
@@ -318,6 +381,12 @@ Corynebacterium diphtheriae — грамположительная палочк�
 
 Осложнения при несвоевременном лечении: распространение инфекции в парафарингеальное пространство, медиастинит, эрозия сонной артерии, тромбоз внутренней яремной вены (синдром Лемьера).
 
+
+
+<figure class="photo">
+<img src="images/peritonsillyarnyy_abscess.jpg" alt="Паратонзиллярный абсцесс">
+<figcaption>Рис. Паратонзиллярный абсцесс: одностороннее смещение мягкого нёба и миндалины.</figcaption>
+</figure>
 
 # Синдром Лемьера
 
@@ -367,6 +436,12 @@ Corynebacterium diphtheriae — грамположительная палочк�
 Сочетание одностороннего поражения, глубокого язвенного дефекта и относительно удовлетворительного общего состояния разграничивает ангину Симановского — Плаута — Венсана с двумя основными альтернативами: некротической формой стрептококкового тонзиллита (двустороннее поражение, тяжёлое общее состояние, высокая лихорадка) и злокачественным новообразованием миндалины (отсутствие лихорадки, более длительный анамнез, плотные безболезненные лимфатические узлы). В случаях, не разрешаемых клинически, показано морфологическое исследование биоптата.
 
 
+
+<figure class="photo">
+<img src="images/vincent_angina.jpg" alt="Ангина Симановского — Плаута — Венсана">
+<figcaption>Рис. Ангина Симановского — Плаута — Венсана: язвенно-некротические изменения миндалины.</figcaption>
+</figure>
+
 # Гематологические маски тонзиллита
 
 Ряд гематологических заболеваний дебютирует или осложняется некротическим поражением миндалин, которое клинически напоминает тяжёлую ангину.
@@ -396,21 +471,27 @@ Corynebacterium diphtheriae — грамположительная палочк�
 
 # Дифференциальный диагноз по картине зева: сводная таблица
 
-| Картина | БГСА-ангина | Дифтерия | Мононуклеоз | ПТА | Венсан | Агранулоцитоз |
-|---|---|---|---|---|---|---|
-| **Симметрия** | двуст. | чаще двуст. | двуст. | **односторонн.** | **односторонн.** | двуст. |
-| **Налёт** | жёлто-белый | серо-белый, плотный | грязно-белый | отёк, ± налёт | грязно-серый, язва | некроз без гноя |
-| **За пределы миндалин** | нет | **да** | нет | отёк — да | нет | возможно |
-| **Кровоточивость** | нет | **да** | нет | нет | да (язва) | да (некроз) |
-| **Боль** | сильная | умеренная | умеренная | сильная, одност. | умеренная | умеренная |
-| **Тризм** | нет | нет | нет | **да** | нет | нет |
-| **Отклонение язычка** | нет | нет | нет | **да** | нет | нет |
-| **Заднешейные ЛУ** | нет | нет | **да** | нет | нет | нет |
-| **Спленомегалия** | нет | нет | **да** | нет | нет | возможна |
-| **Петехии на нёбе** | возможны | нет | **характерны** | нет | нет | возможны |
-| **Ответ на АБ** | да | медленный | **нет** | без дренирования — нет | да (метронидазол) | **нет** |
-| **Возраст** | любой | любой | подростки | любой | ослабленные | любой |
-| **Запах** | нет | сладковатый | нет | гнилостный | **гнилостный** | гнилостный |
+<table class="small-table">
+<thead>
+<tr><th>Картина</th><th>БГСА-ангина</th><th>Дифтерия</th><th>Мононуклеоз</th><th>ПТА</th><th>Венсан</th><th>Агранулоцитоз</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Симметрия</strong></td><td>двуст.</td><td>чаще двуст.</td><td>двуст.</td><td><strong>односторонн.</strong></td><td><strong>односторонн.</strong></td><td>двуст.</td></tr>
+<tr><td><strong>Налёт</strong></td><td>жёлто-белый</td><td>серо-белый, плотный</td><td>грязно-белый</td><td>отёк, ± налёт</td><td>грязно-серый, язва</td><td>некроз без гноя</td></tr>
+<tr><td><strong>За пределы миндалин</strong></td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>отёк — да</td><td>нет</td><td>возможно</td></tr>
+<tr><td><strong>Кровоточивость</strong></td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>нет</td><td>да (язва)</td><td>да (некроз)</td></tr>
+<tr><td><strong>Боль</strong></td><td>сильная</td><td>умеренная</td><td>умеренная</td><td>сильная, одност.</td><td>умеренная</td><td>умеренная</td></tr>
+<tr><td><strong>Тризм</strong></td><td>нет</td><td>нет</td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>нет</td></tr>
+<tr><td><strong>Отклонение язычка</strong></td><td>нет</td><td>нет</td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>нет</td></tr>
+<tr><td><strong>Заднешейные ЛУ</strong></td><td>нет</td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>нет</td><td>нет</td></tr>
+<tr><td><strong>Спленомегалия</strong></td><td>нет</td><td>нет</td><td><strong>да</strong></td><td>нет</td><td>нет</td><td>возможна</td></tr>
+<tr><td><strong>Петехии на нёбе</strong></td><td>возможны</td><td>нет</td><td><strong>характерны</strong></td><td>нет</td><td>нет</td><td>возможны</td></tr>
+<tr><td><strong>Ответ на АБ</strong></td><td>да</td><td>медленный</td><td><strong>нет</strong></td><td>без дренирования — нет</td><td>да (метронидазол)</td><td><strong>нет</strong></td></tr>
+<tr><td><strong>Возраст</strong></td><td>любой</td><td>любой</td><td>подростки</td><td>любой</td><td>ослабленные</td><td>любой</td></tr>
+<tr><td><strong>Запах</strong></td><td>нет</td><td>сладковатый</td><td>нет</td><td>гнилостный</td><td><strong>гнилостный</strong></td><td>гнилостный</td></tr>
+</tbody>
+</table>
+
 
 
 # Объём физикального обследования при боли в горле
@@ -430,6 +511,12 @@ Corynebacterium diphtheriae — грамположительная палочк�
 | **Анамнез** | длительность заболевания; предшествующая антибактериальная терапия и ответ на неё; вакцинальный статус; принимаемые препараты; эпидемиологические данные | дифтерия, агранулоцитоз, гонококковый фарингит |
 | **Соотношение местных изменений и лихорадки** | выраженность изменений в зеве относительно уровня температуры | несоответствие (обширные изменения при умеренной лихорадке) — дифтерия, ангина Симановского — Плаута — Венсана |
 
+
+
+<figure class="photo">
+<img src="images/tonzillit_cdc_10189.jpg" alt="Осмотр зева">
+<figcaption>Рис. Физикальное обследование: взятие мазка из зева при подозрении на стрептококковую инфекцию.</figcaption>
+</figure>
 
 # Алгоритмы ДЗМ: дифтерия и бактериальный менингит
 
@@ -463,6 +550,7 @@ Corynebacterium diphtheriae — грамположительная палочк�
 Дифференциально-диагностическое следствие: появление пятнисто-папулёзной сыпи на 5–9-й день приёма аминопенициллина у пациента с тонзиллитом, не ответившим на терапию, с большей вероятностью указывает на инфекционный мононуклеоз, чем на лекарственную гиперчувствительность.
 
 
+
 # Источники
 
 - Алгоритмы оказания скорой и неотложной медицинской помощи. Приказ ДЗМ г. Москвы № 535 от 18.05.2023 — разделы инфекционных болезней, оториноларингологии.
@@ -484,11 +572,20 @@ Corynebacterium diphtheriae — грамположительная палочк�
 
 | Файл | Что изображено | Источник и лицензия |
 |---|---|---|
+| `akute_tonsillitis.jpg` | Катаральная ангина (пример) | [File:Akute Tonsillitis.jpg](https://commons.wikimedia.org/wiki/File:Akute_Tonsillitis.jpg) — Madonnella, CC BY-SA 3.0 |
+| `amigdalitis_white_spots.jpg` | Фолликулярная ангина с белыми гнойными точками | [File:Amigdalitis ( Tonsillitis in English ) with white spots.JPG](https://commons.wikimedia.org/wiki/File:Amigdalitis_(Tonsillitis_in_English)_with_white_spots.JPG) — Clara Polo Sabat, CC BY-SA 4.0 |
+| `tonsillitis_right.jpg` | Лакунарная ангина справа | [File:TonsillitisRight.jpg](https://commons.wikimedia.org/wiki/File:TonsillitisRight.jpg) — Diamond00744, CC0 |
+| `tonzillit_cdc_6375.jpg` | Лакунарная/гнойная ангина (CDC) | [File:Tonsillitis - CDC 6375.jpg](https://commons.wikimedia.org/wiki/File:Tonsillitis_-_CDC_6375.jpg) — CDC, общественное достояние |
+| `tonzillit_cdc_6323.jpg` | Тонзиллит с фибринозным наложением (CDC) | [File:Tonsillitis - cdc 6323.jpg](https://commons.wikimedia.org/wiki/File:Tonsillitis_-_cdc_6323.jpg) — CDC, общественное достояние |
+| `infected_tonsils.jpg` | Тяжёлый инфекционный тонзиллит | [File:Infected tonsils.jpg](https://commons.wikimedia.org/wiki/File:Infected_tonsils.jpg) — Eleonoreo, CC BY-SA 3.0 |
 | `strep.jpg` | Стрептококковый тонзиллит | [File:Pos strep.JPG](https://commons.wikimedia.org/wiki/File:Pos_strep.JPG) — James Heilman, MD, CC BY-SA 3.0 |
-| — (не загружено) | Паратонзиллярный абсцесс | [File:PeritonsilarAbsess.jpg](https://commons.wikimedia.org/wiki/File:PeritonsilarAbsess.jpg) — Drvgaikwad, CC BY-SA 3.0 |
-| — (не загружено) | Дифтерийная плёнка | [File:Dirty white pseudomembrane classically seen in diphtheria](https://commons.wikimedia.org/wiki/File:Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg) — Dileepunnikri, CC BY-SA 3.0 |
-| — (не загружено) | «Бычья шея» при дифтерии | [File:Diphtheria bull neck.5325 lores.jpg](https://commons.wikimedia.org/wiki/File:Diphtheria_bull_neck.5325_lores.jpg) — CDC / PHIL 5325, общественное достояние |
-| — (не загружено) | Мононуклеоз, тонзиллит | [File:Infectious Mononucleosis.jpg](https://commons.wikimedia.org/wiki/File:Infectious_Mononucleosis.jpg) — Mikael Häggström, общественное достояние |
+| `diphtheria_membrane.jpg` | Дифтерийная плёнка | [File:Dirty white pseudomembrane classically seen in diphtheria 2013-07-06 11-07.jpg](https://commons.wikimedia.org/wiki/File:Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg) — Dileepunnikri, CC BY-SA 3.0 |
+| `diphtheria_grey_patch.jpg` | Дифтерийная плёнка (акварель) | [File:Tonsils, each with a grey patch of diphtheric 'membrane' Wellcome L0062702.jpg](https://commons.wikimedia.org/wiki/File:Tonsils,_each_with_a_grey_patch_of_diphtheric_%27membrane%27_Wellcome_L0062702.jpg) — Wellcome Collection, CC BY 4.0 |
+| `diphtheria_bull_neck.jpg` | «Бычья шея» при дифтерии | [File:Diphtheria bull neck.5325 lores.jpg](https://commons.wikimedia.org/wiki/File:Diphtheria_bull_neck.5325_lores.jpg) — CDC / PHIL 5325, общественное достояние |
+| `mononucleosis.jpg` | Мононуклеоз, тонзиллит | [File:Infectious Mononucleosis.jpg](https://commons.wikimedia.org/wiki/File:Infectious_Mononucleosis.jpg) — Mikael Häggström, общественное достояние |
+| `peritonsillyarnyy_abscess.jpg` | Паратонзиллярный абсцесс | [File:PeritonsilarAbsess.jpg](https://commons.wikimedia.org/wiki/File:PeritonsilarAbsess.jpg) — Drvgaikwad, CC BY-SA 3.0 |
+| `vincent_angina.jpg` | Ангина Симановского — Плаута — Венсана | [File:Vincent tonsillitis, mouth of sufferer. Drawing, (ca. 1920). Wellcome V0018997.jpg](https://commons.wikimedia.org/wiki/File:Vincent_tonsillitis,_mouth_of_sufferer._Drawing,_(ca._1920)._Wellcome_V0018997.jpg) — Wellcome Collection, CC BY 4.0 |
+| `tonzillit_cdc_10189.jpg` | Осмотр зева (CDC) | [File:Exam clinique - gorge - CDC 10189.jpg](https://commons.wikimedia.org/wiki/File:Exam_clinique_-_gorge_-_CDC_10189.jpg) — CDC, общественное достояние |
 
 
 # Выходные данные
