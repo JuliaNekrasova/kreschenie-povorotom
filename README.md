@@ -39,6 +39,8 @@
 <tr><td><strong>Псориаз</strong></td><td>Псориаз фон Цумбуша после отмены преднизолона, эритродермия, симптом Никольского, септический псориатический артрит</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psoriaz/psoriaz.pdf">PDF, A4, 22 стр.</a></td></tr>
 <tr><td><strong>Инородные тела дыхательных путей</strong></td><td>Кашель определяет тактику, уровень инородного тела относительно связок, мнимое благополучие после аспирации</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_dp/inorodnye_tela_dp.pdf">PDF, A4, 13 стр.</a></td></tr>
 <tr><td><strong>Острая кишечная непроходимость у взрослых</strong></td><td>Бедренная грыжа у неоперированных пациентов, инвагинация у взрослых, странгуляция, находки на УЗИ</td><td>1.0 · 16.08.2026</td><td><a href="razbory/kishechnaya_neprohodimost/kishechnaya_neprohodimost.pdf">PDF, A4, 21 стр.</a></td></tr>
+<tr><td><strong>Острые тонзиллиты</strong></td><td>Ангина, мононуклеоз, дифтерия, перитонзиллярный абсцесс, дифференциальная диагностика по типу налёта и регионарным лимфоузлам</td><td>1.0 · 02.09.2026</td><td><a href="razbory/ostrye_tonzillity/ostrye_tonzillity.pdf">PDF, A4, 19 стр.</a></td></tr>
+<tr><td><strong>Доброкачественное пароксизмальное позиционное головокружение</strong></td><td>Позиционное головокружение, проба Дикса — Холлпайка, маневры Эпли и barbecue-roll, дифференциальная диагностика с ортостатической гипотензией</td><td>1.0 · 02.09.2026</td><td><a href="razbory/dppg/dppg.pdf">PDF, A4, 21 стр.</a></td></tr>
 </tbody>
 </table>
 
@@ -80,6 +82,7 @@
 <tr><td><strong>Налоксон</strong></td><td>Конкурентный антагонист μ-рецепторов, цель — дыхание, а не пробуждение, ренаркотизация, ригидность грудной клетки, порядок «вентиляция → антидот»</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/nalokson/nalokson.pdf">PDF, A4, 5 стр.</a> · <a href="farmakologiya/nalokson/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
 <tr><td><strong>Кетамин</strong></td><td>Диссоциативная анестезия и два режима дозы, симпатический драйв и рост MVO₂, истощение катехоламинов, запрет индукции при ЧМТ по Алгоритмам ДЗМ</td><td>1.1 · 25.08.2026</td><td><a href="farmakologiya/ketamin/ketamin.pdf">PDF, A4, 6 стр.</a> · <a href="farmakologiya/ketamin/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
 <tr><td><strong>Фентанил</strong></td><td>Единица в микрограммах, липофильность и перераспределение, wooden chest — миорелаксант не налоксон, дозы по приказу № 535</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/fentanil/fentanil.pdf">PDF, A4, 5 стр.</a> · <a href="farmakologiya/fentanil/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
+<tr><td><strong>Нифедипин</strong></td><td>Дигидропиридиновый блокатор кальциевых каналов, токолиз и артериальная гипертензия в беременности, механизм, профиль безопасности, путь введения</td><td>1.1 · 02.09.2026</td><td><a href="farmakologiya/nifedipin/nifedipin.pdf">PDF, A4, 15 стр.</a></td></tr>
 </tbody>
 </table>
 
