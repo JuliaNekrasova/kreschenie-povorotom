@@ -123,7 +123,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>ГБ: стадия и коды МКБ</strong></td><td>Стадия против степени АД, коды I / II / III стадии, поражение органов и ассоциированные клинические состояния по КР 2024</td><td>1.0 · 05.09.2026</td><td><a href="spravochniki/gb_stadii_mkb/gb_stadii_mkb.pdf">PDF, A4 гориз., 1 стр.</a></td></tr>
+<tr><td><strong>ГБ: стадия и коды МКБ</strong></td><td>Степени по уровню АД, коды I / II / III стадии, поражение органов-мишеней и ассоциированные клинические состояния по КР 2024</td><td>1.0 · 05.09.2026</td><td><a href="spravochniki/gb_stadii_mkb/gb_stadii_mkb.pdf">PDF, A4 гориз., 1 стр.</a></td></tr>
 <tr><td><strong>Педиатрические дозы по массе</strong></td><td>Энергии разрядов, реанимационные препараты, анафилаксия, судороги, лихорадка, круп</td><td>1.2 · 16.08.2026</td><td><a href="spravochniki/pediatriya_dozy_po_vesu/pediatriya_dozy_po_vesu.pdf">PDF, A4, 5 стр.</a></td></tr>
 </tbody>
 </table>
