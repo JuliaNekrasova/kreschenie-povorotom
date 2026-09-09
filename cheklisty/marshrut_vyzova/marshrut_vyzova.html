@@ -1753,11 +1753,14 @@ const SLR_ISHOD = [
     ['biol', 'Биологическая смерть констатирована']
 ];
 
+let slrPoslSborka = '';
+
 function slrProtokol() {
     const box = document.getElementById('slr-protokol');
     if (!box) return;
     if (!SLR.start) {
-        box.innerHTML = '<p class="slr-pusto">Отметьте клиническую смерть — протокол начнёт заполняться.</p>';
+        const pusto = '<p class="slr-pusto">Отметьте клиническую смерть — протокол начнёт заполняться.</p>';
+        if (slrPoslSborka !== pusto) { box.innerHTML = pusto; slrPoslSborka = pusto; }
         return;
     }
     const now = Date.now();
@@ -1833,7 +1836,18 @@ function slrProtokol() {
 
     chasti.push('<div class="slr-zag">Времена по порядку</div>');
     chasti.push(zhurnal());
-    box.innerHTML = chasti.join('');
+
+    /* Протокол перерисовывается каждые полсекунды. Пересобирать разметку без нужды
+       нельзя: innerHTML уничтожает обёртки сеток и горизонтальная прокрутка
+       возвращается к первой минуте — докрутить до 30-й было невозможно. */
+    const svezhiy = chasti.join('');
+    if (slrPoslSborka === svezhiy) return;
+    const sdvigi = Array.from(box.querySelectorAll('.slr-setka-obertka')).map(o => o.scrollLeft);
+    box.innerHTML = svezhiy;
+    slrPoslSborka = svezhiy;
+    box.querySelectorAll('.slr-setka-obertka').forEach((o, i) => {
+        if (sdvigi[i]) o.scrollLeft = sdvigi[i];
+    });
 
     function ryad(imya, znach) {
         return '<tr><td>' + imya + '</td><td class="z">' + znach + '</td></tr>';
