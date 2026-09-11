@@ -12,7 +12,7 @@
 <tr><td><a href="#cheklisty">Чеклисты</a></td><td>Интерактивный чеклист «Маршрут вызова» для телефона, последовательность неврологического осмотра, осмотра ребенка, осмотра горла, алгоритм чтения ЭКГ «ПРИВЕТ, ДОКТОР»</td></tr>
 <tr><td><a href="#uchebnye-materialy">Учебные и справочные материалы</a></td><td>Конспекты занятий и лекций: определения, механизмы, объём помощи на линии. Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
 <tr><td><a href="#vinyetki">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
-<tr><td><a href="#oborudovanie">Оборудование и оснащение</a></td><td>Тренажёры аппаратуры: <strong>КОНТУР</strong> — транспортная ИВЛ Oxylog 3000 plus, <strong>ТИТР</strong> — шприцевой дозатор «Шмель». Модели для 3D-печати, доработки и приспособления для работы на линии</td></tr>
+<tr><td><a href="#oborudovanie">Оборудование и оснащение</a></td><td>Тренажёры аппаратуры: <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html"><strong>КОНТУР</strong></a> — транспортная ИВЛ Oxylog 3000 plus, <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html"><strong>ТИТР</strong></a> — шприцевой дозатор «Шмель». Модели для 3D-печати, доработки и приспособления для работы на линии</td></tr>
 <tr><td><a href="#chtenie">Журнальный клуб</a></td><td>Профессиональная литература по разделам медицины (отечественная и зарубежная), книги о профессии, видео и открытые образовательные ресурсы, разборы статей и подкастов</td></tr>
 </tbody>
 </table>
@@ -106,6 +106,7 @@
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Интерактивный чеклист «Маршрут вызова»</strong></td><td>Шаги вызова от кнопки «Выезд» до закрытия карты, с таймерами норматива и справочными карточками по каждому шагу. Содержит автоматически формирующийся протокол СЛР (метроном 120/мин, таймеры адреналина и разрядов, хронометраж на 35 минут), материалы актуальных приказов и распоряжений по станции. Постоянно пополняется</td><td>1.5 · 10.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/cheklisty/marshrut_vyzova/marshrut_vyzova.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/cheklisty/marshrut_vyzova/marshrut_vyzova.html">скачать HTML-файл</a></td></tr>
+<tr><td><strong>Боль в грудной клетке</strong></td><td>Ступени догоспитальной диагностики: объём первых минут до расспроса, характеристика боли с отношениями правдоподобия, анамнез, физикальное обследование, ЭКГ и дополнительные отведения, оценка имеющихся документов, дифференциальный ряд из тринадцати состояний, частоты признаков при расслоении аорты, тромбоэмболии, тампонаде и пневмотораксе, шкалы Wells и Женевская, ситуации с повышенной вероятностью ошибки, маршрутизация</td><td>1.0 · 11.09.2026</td><td><a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">PDF, A4, 19 стр.</a></td></tr>
 <tr><td><strong>Осмотр горла</strong></td><td>Угроза дыхательным путям, анамнез, параметры описания наложений, лимфатические узлы, боль в шее, шкала Centor / McIsaac, дифференциальный диагноз по картине зева, признаки для эвакуации</td><td>1.0 · 03.09.2026</td><td><a href="cheklisty/osmotr_gorla/osmotr_gorla.pdf">PDF, A4, 7 стр.</a></td></tr>
 <tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Осмотр ребёнка</strong></td><td>Pediatric Assessment Triangle, ABCDE, возрастные нормы, дегидратация, осмотр от головы к пяткам, безнадзорный ребёнок</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/osmotr_rebenka/osmotr_rebenka.pdf">PDF, A4, 5 стр.</a></td></tr>
@@ -154,6 +155,19 @@
 ### Тренажёры
 
 Два браузерных тренажёра. Каждый — один файл, работает без интернета и без установки: файл надо скачать (кнопка **Download raw file** на странице файла) и открыть в браузере.
+
+<table width="100%">
+<tbody>
+<tr>
+<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html"><img src="assets/trenazher_kontur.png" width="100%" alt="Экран тренажёра КОНТУР: панель Dräger Oxylog 3000 plus, кривые давления, потока и капнограммы, условие сценария и тревога по давлению"></a></td>
+<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html"><img src="assets/trenazher_titr.png" width="100%" alt="Экран тренажёра ТИТР: панель дозатора ДШП 5-20 «Шмель», клиническая задача, ампулы укладки и подготовка шприца"></a></td>
+</tr>
+<tr>
+<td align="center"><strong>КОНТУР</strong> — транспортная ИВЛ Dräger Oxylog 3000 plus<br><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">открыть онлайн</a></td>
+<td align="center"><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»<br><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">открыть онлайн</a></td>
+</tr>
+</tbody>
+</table>
 
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
