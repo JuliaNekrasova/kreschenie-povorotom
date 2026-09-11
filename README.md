@@ -169,7 +169,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Скоба для фонендоскопа</strong></td><td>Держатель фонендоскопа под 3D-печать: корпус и три лапки на осях, штифты DIN 2 × 30 и 3 × 40, габариты деталей, примечания по доработке отверстий и сборке. Модели STL и исходники SolidWorks</td><td>1.0 · 11.09.2026</td><td><a href="oborudovanie/skoba_fonendoskopa/README.md">описание</a> · <a href="oborudovanie/skoba_fonendoskopa/skoba_fonendoskopa.zip">архив, 1,05 МБ</a></td></tr>
+<tr><td><strong>Скоба для фонендоскопа</strong><br><a href="oborudovanie/skoba_fonendoskopa/README.md"><img src="oborudovanie/skoba_fonendoskopa/images/skoba_korpus.png" width="260" alt="Корпус скобы для фонендоскопа, общий вид"></a></td><td>Держатель фонендоскопа под 3D-печать, подходит к любой модели: корпус и три подвижные лапки на осях, штифты DIN 2 × 30 и 3 × 40, габариты деталей, примечания по доработке отверстий и сборке. Модели STL и исходники SolidWorks.<br>Автор модели — ведущий инженер АО «ИТТ» Геннадий Хохлов</td><td>1.0 · 11.09.2026</td><td><a href="oborudovanie/skoba_fonendoskopa/README.md">описание</a> · <a href="oborudovanie/skoba_fonendoskopa/skoba_fonendoskopa.zip">архив, 1,05 МБ</a></td></tr>
 </tbody>
 </table>
 
