@@ -2,28 +2,50 @@
 
 ### Клинические разборы реальных случаев из практики скорой медицинской помощи, учебные материалы, интерактивные тренажеры, чеклисты, справочные материалы, тесты, задачи
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html"><strong>Клинические разборы</strong></a> · 18 материалов<br>Разборы реальных вызовов: презентация случая, вопросы для размышления, теория, анализ случая и его исход</td>
-<td width="50%" valign="top"><a href="#ekg-cases"><strong>ЭКГ кейсы</strong></a> · 5 материалов<br>Разборы реальных плёнок с вызовов</td>
-</tr>
-<tr>
-<td valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html"><strong>Фармакология укладки</strong></a> · 9 материалов<br>Механизм, время до эффекта, дозы по показаниям, типичные ошибки введения, карточки формата A5 для кармана</td>
-<td valign="top"><a href="#cheklisty"><strong>Чеклисты</strong></a> · 5 материалов<br>Интерактивный чеклист «Маршрут вызова» для телефона, боль в грудной клетке, неврологический осмотр, осмотр ребёнка, осмотр горла, чтение ЭКГ</td>
-</tr>
-<tr>
-<td valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/vinyetki.html"><strong>Виньетки</strong></a> · 10 выпусков<br>Клинические задачи с вопросами, ответами и выводами по каждой</td>
-<td valign="top"><a href="#uchebnye-materialy"><strong>Учебные и справочные материалы</strong></a> · 3 материала<br>Конспекты занятий и лекций, таблицы для вызова: дозы по массе, энергии, разведения</td>
-</tr>
-<tr>
-<td valign="top"><a href="#oborudovanie"><strong>Оборудование и оснащение</strong></a> · 3 материала<br>Тренажёры аппаратуры: <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">КОНТУР</a> — транспортная ИВЛ Oxylog 3000 plus, <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">ТИТР</a> — шприцевой дозатор «Шмель». Модели для 3D-печати и приспособления для работы на линии</td>
-<td valign="top"><a href="#chtenie"><strong>Журнальный клуб</strong></a> · 4 материала<br>Профессиональная литература по разделам медицины, книги о профессии, видео и открытые ресурсы, разборы статей и подкастов</td>
-</tr>
-</tbody>
-</table>
+<div class="razdely">
+<div class="razdel">
+<h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html">Клинические разборы</a></h3>
+<span class="kolvo">18 материалов</span>
+<p>Реальные вызовы: случай, вопросы до разбора, теория, исход</p>
+</div>
+<div class="razdel">
+<h3><a href="#ekg-cases">ЭКГ кейсы</a></h3>
+<span class="kolvo">5 материалов</span>
+<p>Плёнки с вызовов с полным разбором</p>
+</div>
+<div class="razdel">
+<h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html">Фармакология укладки</a></h3>
+<span class="kolvo">9 материалов</span>
+<p>Механизм, время до эффекта, дозы, ошибки введения. Карточки формата A5 в карман</p>
+</div>
+<div class="razdel">
+<h3><a href="#cheklisty">Чеклисты</a></h3>
+<span class="kolvo">5 материалов</span>
+<p>Последовательность осмотра и маршрутизация. «Маршрут вызова» — интерактивный, для телефона</p>
+</div>
+<div class="razdel">
+<h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/vinyetki.html">Виньетки</a></h3>
+<span class="kolvo">10 выпусков</span>
+<p>Клинические задачи с вопросами, ответами и выводами по каждой</p>
+</div>
+<div class="razdel">
+<h3><a href="#uchebnye-materialy">Учебные и справочные материалы</a></h3>
+<span class="kolvo">3 материала</span>
+<p>Конспекты занятий и лекций, таблицы доз по массе, энергий и разведений</p>
+</div>
+<div class="razdel">
+<h3><a href="#oborudovanie">Оборудование и оснащение</a></h3>
+<span class="kolvo">3 материала</span>
+<p>Тренажёры аппаратуры КОНТУР и ТИТР, модели для 3D-печати и приспособления для работы на линии</p>
+</div>
+<div class="razdel">
+<h3><a href="#chtenie">Журнальный клуб</a></h3>
+<span class="kolvo">4 материала</span>
+<p>Литература по разделам медицины, книги о профессии, разборы статей и подкастов</p>
+</div>
+</div>
 
-[О проекте](#o-proekte) · [Кто пишет](#kto-pishet) · [Оговорка](#ogovorka) · [Если нашли ошибку](#oshibka) · [Лицензии](#licenzii)
+<p class="sluzhebnye"><a href="#o-proekte">О проекте</a> · <a href="#kto-pishet">Кто пишет</a> · <a href="#ogovorka">Оговорка</a> · <a href="#oshibka">Если нашли ошибку</a> · <a href="#licenzii">Лицензии</a></p>
 
 <a id="razbory"></a>
 ## Клинические разборы
@@ -73,7 +95,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Интерактивный чеклист «Маршрут вызова»</strong></td><td>Шаги вызова от кнопки «Выезд» до закрытия карты, с таймерами норматива и справочными карточками по каждому шагу. Содержит автоматически формирующийся протокол СЛР (метроном 120/мин, таймеры адреналина и разрядов, хронометраж на 35 минут), материалы актуальных приказов и распоряжений по станции. Постоянно пополняется</td><td>1.5 · 10.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/cheklisty/marshrut_vyzova/marshrut_vyzova.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/cheklisty/marshrut_vyzova/marshrut_vyzova.html">скачать HTML-файл</a></td></tr>
+<tr><td><strong>Интерактивный чеклист «Маршрут вызова»</strong></td><td>Шаги вызова от кнопки «Выезд» до закрытия карты, с таймерами норматива и справочными карточками по каждому шагу. Содержит автоматически формирующийся протокол СЛР (метроном 120/мин, таймеры адреналина и разрядов, хронометраж на 35 минут), материалы актуальных приказов и распоряжений по станции. Постоянно пополняется</td><td>1.5 · 10.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/cheklisty/marshrut_vyzova/marshrut_vyzova.html">открыть онлайн</a> · <a href="cheklisty/marshrut_vyzova/marshrut_vyzova.html" download="marshrut_vyzova.html">скачать файл</a></td></tr>
 <tr><td><strong>Боль в грудной клетке</strong></td><td>Ступени догоспитальной диагностики: объём первых минут до расспроса, характеристика боли с отношениями правдоподобия, анамнез, физикальное обследование, ЭКГ и дополнительные отведения, оценка имеющихся документов, дифференциальный ряд из тринадцати состояний, частоты признаков при расслоении аорты, тромбоэмболии, тампонаде и пневмотораксе, шкалы Wells и Женевская, ситуации с повышенной вероятностью ошибки, маршрутизация</td><td>1.0 · 11.09.2026</td><td><a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">PDF, A4, 19 стр.</a></td></tr>
 <tr><td><strong>Осмотр горла</strong></td><td>Угроза дыхательным путям, анамнез, параметры описания наложений, лимфатические узлы, боль в шее, шкала Centor / McIsaac, дифференциальный диагноз по картине зева, признаки для эвакуации</td><td>1.0 · 03.09.2026</td><td><a href="cheklisty/osmotr_gorla/osmotr_gorla.pdf">PDF, A4, 7 стр.</a></td></tr>
 <tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
@@ -117,26 +139,18 @@
 
 ### Тренажёры
 
-Два браузерных тренажёра. Каждый — один файл, работает без интернета и без установки: файл надо скачать (кнопка **Download raw file** на странице файла) и открыть в браузере.
+Два браузерных тренажёра. Каждый — один файл, который работает без интернета и без установки: снимок экрана открывает тренажёр онлайн, ссылка «скачать файл» сохраняет его на устройство.
 
-<table width="100%">
+<table width="100%" class="trenazhery">
 <tbody>
 <tr>
-<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html"><img src="assets/trenazher_kontur.png" width="100%" alt="Экран тренажёра КОНТУР: панель Dräger Oxylog 3000 plus, кривые давления, потока и капнограммы, условие сценария и тревога по давлению"></a></td>
-<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html"><img src="assets/trenazher_titr.png" width="100%" alt="Экран тренажёра ТИТР: панель дозатора ДШП 5-20 «Шмель», клиническая задача, ампулы укладки и подготовка шприца"></a></td>
+<td width="46%"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html"><img src="assets/trenazher_kontur.png" width="100%" alt="Экран тренажёра КОНТУР: панель Dräger Oxylog 3000 plus, кривые давления, потока и капнограммы, условие сценария и тревога по давлению"></a></td>
+<td><span class="nazvanie"><strong>КОНТУР</strong> — транспортная ИВЛ, Dräger Oxylog 3000 plus</span><br>Версия 16.08.2026<p>Панель и режимы аппарата, связь уставок с механикой дыхания и газообменом, 11 задач от черепно-мозговой травмы и острого респираторного дистресс-синдрома до неинвазивной вентиляции и массивной тромбоэмболии, тревоги аппарата и автоматический разбор сессии.</p><span class="ssylki"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">открыть онлайн</a> · <a href="trenazhery/oxylog_3000_plus/kontur_trenazher.html" download="kontur_trenazher.html">скачать файл, 826 КБ</a> · <a href="trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a></span></td>
 </tr>
 <tr>
-<td align="center"><strong>КОНТУР</strong> — транспортная ИВЛ Dräger Oxylog 3000 plus<br><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">открыть онлайн</a></td>
-<td align="center"><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»<br><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">открыть онлайн</a></td>
+<td width="46%"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html"><img src="assets/trenazher_titr.png" width="100%" alt="Экран тренажёра ТИТР: панель дозатора ДШП 5-20 «Шмель», клиническая задача, ампулы укладки и подготовка шприца"></a></td>
+<td><span class="nazvanie"><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»</span><br>Версия 15.08.2026<p>Сборка шприца и выбор растворителя, режимы дозатора, расчёт скорости по времени введения, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии.</p><span class="ssylki"><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">открыть онлайн</a> · <a href="trenazhery/shmel_titr/titr_trenazher.html" download="titr_trenazher.html">скачать файл, 625 КБ</a> · <a href="trenazhery/shmel_titr/TITR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/shmel_titr/SHMEL_metodichka_A5.pdf">методичка, PDF, A5, 34 стр.</a></span></td>
 </tr>
-</tbody>
-</table>
-
-<table width="100%">
-<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
-<tbody>
-<tr><td><strong>КОНТУР</strong> — транспортная ИВЛ, Dräger Oxylog 3000 plus</td><td>Панель и режимы аппарата, связь уставок с механикой и газообменом, 11 задач от ЧМТ и ОРДС до НИВЛ и массивной ТЭЛА, автоматический разбор сессии</td><td>16.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/trenazhery/oxylog_3000_plus/kontur_trenazher.html">скачать HTML-файл</a> · <a href="trenazhery/oxylog_3000_plus/KONTUR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a></td></tr>
-<tr><td><strong>ТИТР</strong> — шприцевой дозатор ДШП 5-20 «Шмель»</td><td>Сборка шприца, растворитель, режимы, расчёт скорости по времени, по мг/ч и по мкг/кг·мин, 10 задач по схемам Распоряжения 31-р, тревога окклюзии</td><td>15.08.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">открыть онлайн</a> · <a href="https://raw.githubusercontent.com/JuliaNekrasova/kreschenie-povorotom/main/trenazhery/shmel_titr/titr_trenazher.html">скачать HTML-файл</a> · <a href="trenazhery/shmel_titr/TITR_kratkiy_guide.pdf">гайд, PDF, 6 стр.</a> · <a href="trenazhery/shmel_titr/SHMEL_metodichka_A5.pdf">методичка, PDF, A5, 34 стр.</a></td></tr>
 </tbody>
 </table>
 

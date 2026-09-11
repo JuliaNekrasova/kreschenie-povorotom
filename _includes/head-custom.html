@@ -1,0 +1,51 @@
+<style>
+/* Плитки разделов на главной странице */
+.razdely {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0 20px;
+}
+.razdel {
+  border: 1px solid #d1d9e0;
+  border-left: 4px solid #0969da;
+  border-radius: 8px;
+  padding: 14px 18px 16px;
+  background: #f6f8fa;
+}
+.razdel h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.razdel h3 a { text-decoration: none; }
+.razdel .kolvo {
+  display: block;
+  margin-top: 3px;
+  font-size: 12px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: #59636e;
+}
+.razdel p {
+  margin: 9px 0 0;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #32383f;
+}
+.sluzhebnye {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #59636e;
+}
+@media (max-width: 760px) {
+  .razdely { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Таблица тренажёров: снимок экрана слева, описание и ссылки справа */
+table.trenazhery td { vertical-align: top; }
+table.trenazhery .nazvanie { font-size: 16px; }
+table.trenazhery .ssylki { display: block; margin-top: 10px; }
+</style>
