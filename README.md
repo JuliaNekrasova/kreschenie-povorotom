@@ -45,7 +45,7 @@
 </div>
 </div>
 
-<p class="sluzhebnye"><a href="#o-proekte">О проекте</a> · <a href="#kto-pishet">Кто пишет</a> · <a href="#ogovorka">Оговорка</a> · <a href="#oshibka">Если нашли ошибку</a> · <a href="#licenzii">Лицензии</a></p>
+<p class="sluzhebnye"><a href="#o-proekte">О проекте</a><span class="razdelitel"> · </span><a href="#kto-pishet">Кто пишет</a><span class="razdelitel"> · </span><a href="#ogovorka">Оговорка</a><span class="razdelitel"> · </span><a href="#oshibka">Если нашли ошибку</a><span class="razdelitel"> · </span><a href="#licenzii">Лицензии</a></p>
 
 <a id="razbory"></a>
 ## Клинические разборы
