@@ -3,19 +3,27 @@
 ### Клинические разборы реальных случаев из практики скорой медицинской помощи, учебные материалы, интерактивные тренажеры, чеклисты, справочные материалы, тесты, задачи
 
 <table width="100%">
-<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Содержание</th><th width="72%"><img src="assets/spacer.png" width="720" height="1" alt="">Что внутри</th></tr></thead>
 <tbody>
-<tr><td><a href="#o-proekte">О проекте</a></td><td>Зачем все это написано и как организованы материалы</td></tr>
-<tr><td><a href="#razbory">Клинические разборы</a></td><td>Разборы реальных вызовов: презентация кейса → предварительные вопросы для размышления → теория по разбираемому вопросу → анализ кейса, его исход, результат</td></tr>
-<tr><td><a href="#ekg-cases">ЭКГ кейсы</a></td><td>Разборы реальных плёнок с вызовов</td></tr>
-<tr><td><a href="#farmakologiya">Фармакология укладки (и не только!)</a></td><td>Препараты укладки СМП: механизм, время до эффекта, дозы по показаниям, типичные ошибки введения, расхождения с международной практикой</td></tr>
-<tr><td><a href="#cheklisty">Чеклисты</a></td><td>Интерактивный чеклист «Маршрут вызова» для телефона, последовательность неврологического осмотра, осмотра ребенка, осмотра горла, алгоритм чтения ЭКГ «ПРИВЕТ, ДОКТОР»</td></tr>
-<tr><td><a href="#uchebnye-materialy">Учебные и справочные материалы</a></td><td>Конспекты занятий и лекций: определения, механизмы, объём помощи на линии. Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
-<tr><td><a href="#vinyetki">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
-<tr><td><a href="#oborudovanie">Оборудование и оснащение</a></td><td>Тренажёры аппаратуры: <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html"><strong>КОНТУР</strong></a> — транспортная ИВЛ Oxylog 3000 plus, <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html"><strong>ТИТР</strong></a> — шприцевой дозатор «Шмель». Модели для 3D-печати, доработки и приспособления для работы на линии</td></tr>
-<tr><td><a href="#chtenie">Журнальный клуб</a></td><td>Профессиональная литература по разделам медицины (отечественная и зарубежная), книги о профессии, видео и открытые образовательные ресурсы, разборы статей и подкастов</td></tr>
+<tr>
+<td width="50%" valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html"><strong>Клинические разборы</strong></a> · 18 материалов<br>Разборы реальных вызовов: презентация случая, вопросы для размышления, теория, анализ случая и его исход</td>
+<td width="50%" valign="top"><a href="#ekg-cases"><strong>ЭКГ кейсы</strong></a> · 5 материалов<br>Разборы реальных плёнок с вызовов</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html"><strong>Фармакология укладки</strong></a> · 9 материалов<br>Механизм, время до эффекта, дозы по показаниям, типичные ошибки введения, карточки формата A5 для кармана</td>
+<td valign="top"><a href="#cheklisty"><strong>Чеклисты</strong></a> · 5 материалов<br>Интерактивный чеклист «Маршрут вызова» для телефона, боль в грудной клетке, неврологический осмотр, осмотр ребёнка, осмотр горла, чтение ЭКГ</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/vinyetki.html"><strong>Виньетки</strong></a> · 10 выпусков<br>Клинические задачи с вопросами, ответами и выводами по каждой</td>
+<td valign="top"><a href="#uchebnye-materialy"><strong>Учебные и справочные материалы</strong></a> · 3 материала<br>Конспекты занятий и лекций, таблицы для вызова: дозы по массе, энергии, разведения</td>
+</tr>
+<tr>
+<td valign="top"><a href="#oborudovanie"><strong>Оборудование и оснащение</strong></a> · 3 материала<br>Тренажёры аппаратуры: <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/oxylog_3000_plus/kontur_trenazher.html">КОНТУР</a> — транспортная ИВЛ Oxylog 3000 plus, <a href="https://julianekrasova.github.io/kreschenie-povorotom/trenazhery/shmel_titr/titr_trenazher.html">ТИТР</a> — шприцевой дозатор «Шмель». Модели для 3D-печати и приспособления для работы на линии</td>
+<td valign="top"><a href="#chtenie"><strong>Журнальный клуб</strong></a> · 4 материала<br>Профессиональная литература по разделам медицины, книги о профессии, видео и открытые ресурсы, разборы статей и подкастов</td>
+</tr>
 </tbody>
 </table>
+
+[О проекте](#o-proekte) · [Кто пишет](#kto-pishet) · [Оговорка](#ogovorka) · [Если нашли ошибку](#oshibka) · [Лицензии](#licenzii)
 
 <a id="o-proekte"></a>
 ## О проекте
@@ -49,23 +57,10 @@
 <tr><td><strong>Доброкачественное пароксизмальное позиционное головокружение</strong></td><td>Каналолитиаз заднего и горизонтального каналов, проба Дикса — Холлпайка и roll-тест, маневры Эпли, Семона и barbecue roll, границы применимости HINTS; чем обоснованы магния сульфат, метоклопрамид и атропин из Алгоритмов и чем их заменяют международные рекомендации. Случай молодого мужчины с сомнительным нистагмом и кратковременным эффектом маневра</td><td>1.1 · 08.09.2026</td><td><a href="razbory/dppg/dppg.pdf">PDF, A4, 25 стр.</a></td></tr>
 <tr><td><strong>Острые тонзиллиты</strong></td><td>Фолликулярная, лакунарная, фибринозная, некротическая ангины, дифтерия, ангина Симановского — Плаута — Венсана, инфекционный мононуклеоз, тонзиллолиты, синдром Лемьера; клинический случай с лихорадкой 9 дней и односторонней болью в шее</td><td>1.0 · 03.09.2026</td><td><a href="razbory/ostrye_tonzillity/ostrye_tonzillity.pdf">PDF, A4, 39 стр.</a></td></tr>
 <tr><td><strong>Тахисистолия при фибрилляции предсердий</strong></td><td>Диастола, которой нет: почему при частоте 160 падает давление, механизм Франка — Старлинга, дефицит пульса, метопролол против разряда и слово «гипотония», у которого в приказе нет числа</td><td>1.0 · 29.08.2026</td><td><a href="razbory/fp_tahisistoliya_gipotoniya/fp_tahisistoliya_gipotoniya.pdf">PDF, A4, 14 стр.</a></td></tr>
-<tr><td><strong>Сыпь у беременных</strong></td><td>Дифференциальная диагностика зудящих дерматозов беременности: PUPPP, пемфигоид беременных, холестаз, псориаз, инфекционные сыпи</td><td>1.1 · 29.08.2026</td><td><a href="razbory/sypy_beremennykh/sypy_beremennykh.pdf">PDF, A4, 12 стр.</a></td></tr>
-<tr><td><strong>Высокоэнергетическая травма</strong></td><td>Механизм как диагностический инструмент, осмотр по ITLS, переломы позвоночника и таза, лёгкая ЧМТ при ШКГ 15, классы кровопотери, damage control</td><td>1.5 · 19.08.2026</td><td><a href="razbory/vysokoenergeticheskaya_travma/vysokoenergeticheskaya_travma.pdf">PDF, A4, 23 стр.</a></td></tr>
-<tr><td><strong>Боль в груди после инвазивного вмешательства на сердце</strong></td><td>Катетерная аблация, ЧКВ, имплантация устройств: осложнения по срокам от вмешательства, объём осмотра, доступный выездной бригаде</td><td>1.2 · 16.08.2026</td><td><a href="razbory/bol_v_grudi_posle_invazivnoy_kardiologii/bol_v_grudi_posle_invazivnoy_kardiologii.pdf">PDF, A4, 24 стр.</a></td></tr>
-<tr><td><strong>Инсульты вертебробазилярного бассейна</strong></td><td>О самых коварных инсультах, про «5 D» заднего бассейна, как отличить центральное головокружение от перефирического (HINTS), стволовые синдромы, базилярный тромбоз</td><td>2.0 · 19.08.2026</td><td><a href="razbory/insulty_vbb/insulty_vbb.pdf">PDF, A4, 14 стр.</a></td></tr>
-<tr><td><strong>Транзиторная ишемическая атака</strong></td><td>О том, как несвоевременны бывают "транзиторки", оценка риска инсульта по дням, хамелеоны ОНМК, топография по симптомам, ABCD² и его границы</td><td>1.1 · 19.08.2026</td><td><a href="razbory/tranzitornaya_ishemicheskaya_ataka/tranzitornaya_ishemicheskaya_ataka.pdf">PDF, A4, 15 стр.</a></td></tr>
-<tr><td><strong>Артериальный и венозный тромбозы</strong></td><td>Немного про любимую жалобу «болят ноги». Клинические тесты, стадии по Rutherford</td><td>1.1 · 16.08.2026</td><td><a href="razbory/trombozy/trombozy.pdf">PDF, A4, 14 стр.</a></td></tr>
-<tr><td><strong>Желудочно-кишечные кровотечения</strong></td><td>Один коварный кейс, внешние признаки ЖКК, HALT-IT и транексамовая кислота и еще раз о важности ректального исследования</td><td>1.1 · 16.08.2026</td><td><a href="razbory/zhkk/zhkk.pdf">PDF, A4, 16 стр.</a></td></tr>
-<tr><td><strong>Врастание плаценты</strong></td><td>Безболевое кровотечение при рубце и предлежании плаценты, степени PAS</td><td>1.2 · 16.08.2026</td><td><a href="razbory/vrastanie_platsenty/vrastanie_platsenty.pdf">PDF, A4, 10 стр.</a></td></tr>
-<tr><td><strong>Инородные тела пищеварительного тракта</strong></td><td>Категории проглоченных предметов по опасности и срочности вмешательства, дисковые батарейи и магниты, что видно и чего не видно на рентгенограмме</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_zhkt/inorodnye_tela_zhkt.pdf">PDF, A4, 15 стр.</a></td></tr>
-<tr><td><strong>Нейрофиброматоз</strong></td><td>Три разных заболевания под одним старым названием, критерии НФ1 и его синдромы-двойники, опасные осложнения: феохромоцитома, разрыв сосуда, MPNST, компрессия спинного мозга</td><td>1.0 · 16.08.2026</td><td><a href="razbory/neyrofibromatoz/neyrofibromatoz.pdf">PDF, A4, 18 стр.</a></td></tr>
-<tr><td><strong>Детские экзантемы</strong></td><td>Сыпь и лихорадка: диаскопия, локализация, особенности появления и распространения сыпей</td><td>1.0 · 16.08.2026</td><td><a href="razbory/detskie_ekzantemy/detskie_ekzantemy.pdf">PDF, A4, 31 стр.</a></td></tr>
-<tr><td><strong>Отравления психотропными средствами</strong></td><td>Токсидромы и ЭКГ, α₁-блокада, три гипертермических синдрома, что и когда не стоит вводить</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psihotropnye/psihotropnye.pdf">PDF, A4, 20 стр.</a></td></tr>
-<tr><td><strong>Псориаз</strong></td><td>Псориаз фон Цумбуша после отмены преднизолона, эритродермия, симптом Никольского, септический псориатический артрит</td><td>1.0 · 16.08.2026</td><td><a href="razbory/psoriaz/psoriaz.pdf">PDF, A4, 22 стр.</a></td></tr>
-<tr><td><strong>Инородные тела дыхательных путей</strong></td><td>Кашель определяет тактику, уровень инородного тела относительно связок, мнимое благополучие после аспирации</td><td>1.0 · 16.08.2026</td><td><a href="razbory/inorodnye_tela_dp/inorodnye_tela_dp.pdf">PDF, A4, 13 стр.</a></td></tr>
-<tr><td><strong>Острая кишечная непроходимость у взрослых</strong></td><td>Бедренная грыжа у неоперированных пациентов, инвагинация у взрослых, странгуляция, находки на УЗИ</td><td>1.0 · 16.08.2026</td><td><a href="razbory/kishechnaya_neprohodimost/kishechnaya_neprohodimost.pdf">PDF, A4, 21 стр.</a></td></tr>
 </tbody>
 </table>
+
+Последние материалы раздела. Полный список — 18 материалов — на странице [«Клинические разборы»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html).
 
 <a id="ekg-cases"></a>
 ## ЭКГ кейсы
@@ -90,14 +85,10 @@
 <tr><td><strong>Нифедипин</strong></td><td>Дигидропиридиновый блокатор кальциевых каналов, токолиз и артериальная гипертензия при беременности, механизм, профиль безопасности, путь введения</td><td>1.1 · 02.09.2026</td><td><a href="farmakologiya/nifedipin/nifedipin.pdf">PDF, A4, 15 стр.</a> · <a href="farmakologiya/nifedipin/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
 <tr><td><strong>Ноотропы и нейропротекция</strong></td><td>Глицин, пирацетам, церебролизин, мексидол, семакс, цитофлавин, фенибут с точки зрения Кокрейн, FDA, AHA, отечественных исследований</td><td>1.0 · 31.08.2026</td><td><a href="farmakologiya/nootropy/nootropy.pdf">PDF, A4, 22 стр.</a></td></tr>
 <tr><td><strong>Преднизолон</strong></td><td>Геномный и негеномный путь и время до эффекта, сравнение с дексаметазоном и гидрокортизоном, дозы по темам, расхождения при анафилаксии и травме спинного мозга, ЧМТ как противопоказание</td><td>1.1 · 24.08.2026</td><td><a href="farmakologiya/prednizolon/prednizolon.pdf">PDF, A4, 10 стр.</a> · <a href="farmakologiya/prednizolon/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Амиодарон</strong></td><td>Класс III, работающий как все четыре, декстроза как единственный растворитель, дозы при аритмиях и в реанимации, ALPS и доказательства при остановке, предвозбуждённая ФП</td><td>1.1 · 24.08.2026</td><td><a href="farmakologiya/amiodaron/amiodaron.pdf">PDF, A4, 9 стр.</a> · <a href="farmakologiya/amiodaron/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Урапидил</strong></td><td>Двойной механизм и отсутствие рефлекторной тахикардии, от чего зависит скорость снижения давления, отличие от нитратов и метопролола, пороги при инсульте, разведение для «Шмеля»</td><td>1.0 · 24.08.2026</td><td><a href="farmakologiya/urapidil/urapidil.pdf">PDF, A4, 9 стр.</a> · <a href="farmakologiya/urapidil/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Магния сульфат</strong></td><td>Гептагидрат и кальциевый антагонизм, нагрузка при преэклампсии, астма и пируэт, лестница токсичности, два разведения в шприце насоса</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/magniya_sulfat/magniya_sulfat.pdf">PDF, A4, 7 стр.</a> · <a href="farmakologiya/magniya_sulfat/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Налоксон</strong></td><td>Конкурентный антагонист μ-рецепторов, цель — дыхание, а не пробуждение, ренаркотизация, ригидность грудной клетки, порядок «вентиляция → антидот»</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/nalokson/nalokson.pdf">PDF, A4, 5 стр.</a> · <a href="farmakologiya/nalokson/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Кетамин</strong></td><td>Диссоциативная анестезия и два режима дозы, симпатический драйв и рост MVO₂, истощение катехоламинов, запрет индукции при ЧМТ по Алгоритмам ДЗМ</td><td>1.1 · 25.08.2026</td><td><a href="farmakologiya/ketamin/ketamin.pdf">PDF, A4, 6 стр.</a> · <a href="farmakologiya/ketamin/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
-<tr><td><strong>Фентанил</strong></td><td>Единица в микрограммах, липофильность и перераспределение, wooden chest — миорелаксант не налоксон, дозы по приказу № 535</td><td>1.0 · 25.08.2026</td><td><a href="farmakologiya/fentanil/fentanil.pdf">PDF, A4, 5 стр.</a> · <a href="farmakologiya/fentanil/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
 </tbody>
 </table>
+
+Последние материалы раздела. Полный список — 9 материалов — на странице [«Фармакология укладки»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html).
 
 <a id="cheklisty"></a>
 ## Чеклисты
@@ -136,15 +127,10 @@
 <tr><td><strong>Делирий</strong></td><td>Пять задач: гипоактивный, послеоперационный, алкогольный, антихолинергический делирий и как их отличить от психоза</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/deliriy/deliriy.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Каналопатии и кардиомиопатии</strong></td><td>Десять задач: LQTS, CPVT, Бругада, ГКМП, ARVC, дигоксин, синдром Тимоти, синдром Карвахаля</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/kanalopatii_kardiomiopatii/kanalopatii_kardiomiopatii.pdf">PDF, A4, 8 стр.</a></td></tr>
 <tr><td><strong>Нейроинтоксикации</strong></td><td>Пять задач: угарный газ, фосфорорганические соединения, метанол, тепловой удар, синдром Рамсея — Ханта</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/neyrointoksikatsii/neyrointoksikatsii.pdf">PDF, A4, 6 стр.</a></td></tr>
-<tr><td><strong>Дыхательные пути у детей</strong></td><td>Пять задач: круп, астма, эпиглоттит, пневмония, инородное тело дыхательных путей</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/dyhatelnye_deti/dyhatelnye_deti.pdf">PDF, A4, 5 стр.</a></td></tr>
-<tr><td><strong>Особо опасные инфекции, выпуск 1</strong></td><td>Пять задач: чума, холера, малярия, менингококкемия, крымская геморрагическая лихорадка</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/osobo_opasnye_infektsii/osobo_opasnye_infektsii.pdf">PDF, A4, 9 стр.</a></td></tr>
-<tr><td><strong>Особо опасные инфекции, выпуск 2</strong></td><td>Пять задач: натуральная оспа, Марбург и Эбола, сибирская язва, денге, жёлтая лихорадка</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/osobo_opasnye_infektsii_2/osobo_opasnye_infektsii_2.pdf">PDF, A4, 9 стр.</a></td></tr>
-<tr><td><strong>Особо опасные инфекции, выпуск 3</strong></td><td>Пять задач: Ласса, лихорадка Западного Нила, Рифт-Валли, полиомиелит, бруцеллёз</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/osobo_opasnye_infektsii_3/osobo_opasnye_infektsii_3.pdf">PDF, A4, 9 стр.</a></td></tr>
-<tr><td><strong>Особо опасные инфекции, выпуск 4</strong></td><td>Пять задач: грипп птиц, коронавирусы, сыпной тиф, мелиоидоз, болезнь Крейтцфельдта–Якоба</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/osobo_opasnye_infektsii_4/osobo_opasnye_infektsii_4.pdf">PDF, A4, 9 стр.</a></td></tr>
-<tr><td><strong>Преэклампсия и эклампсия</strong></td><td>Пять задач: умеренная и тяжёлая преэклампсия, послеродовый период, приступ, HELLP, отслойка плаценты</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/preeklampsiya/preeklampsiya.pdf">PDF, A4, 6 стр.</a></td></tr>
-<tr><td><strong>Ургентная гинекология</strong></td><td>Пять задач: внематочная, перекрут яичника, апоплексия, ВЗОМТ, разрыв трубы</td><td>1.0 · 16.08.2026</td><td><a href="vinyetki/urgentnaya_ginekologiya/urgentnaya_ginekologiya.pdf">PDF, A4, 6 стр.</a></td></tr>
 </tbody>
 </table>
+
+Последние материалы раздела. Полный список — 10 материалов — на странице [«Виньетки»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/vinyetki.html).
 
 <a id="oborudovanie"></a>
 <a id="trenazhery"></a>
@@ -204,18 +190,22 @@
 </tbody>
 </table>
 
+<a id="kto-pishet"></a>
 ## Кто пишет
 
 Юлия Некрасова, фельдшер выездной бригады скорой медицинской помощи (Москва). Проект личный и не связан с работодателем, не выражает его позицию и не является ведомственным документом.
 
+<a id="ogovorka"></a>
 ## Оговорка
 
 Представленные материалы чисто учебные. Они не заменяют действующие протоколы, клинические рекомендации и распоряжения службы и не могут быть единственным основанием для клинического решения. Дозы, показания и маршрутизацию проверяйте по первоисточникам, действующим на момент чтения. Подробнее — в [DISCLAIMER.md](DISCLAIMER.md).
 
+<a id="oshibka"></a>
 ## Если нашли ошибку
 
 Ошибка в дозе, сроке или механизме — не мелочь. Если такое Вам встретилось, откройте [Issue](../../issues/new/choose) по шаблону «Ошибка в материале». Исправление выходит новой версией, изменение попадает в [CHANGELOG.md](CHANGELOG.md), а прежняя версия остаётся в истории проекта.
 
+<a id="licenzii"></a>
 ## Лицензии
 
 - Тексты, схемы, PDF — [CC BY-NC-SA 4.0](LICENSE). Печатать и раздавать коллегам можно свободно, продавать нельзя, при переработке лицензия сохраняется.
