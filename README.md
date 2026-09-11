@@ -7,12 +7,11 @@
 <tbody>
 <tr><td><a href="#o-proekte">О проекте</a></td><td>Зачем все это написано и как организованы материалы</td></tr>
 <tr><td><a href="#razbory">Клинические разборы</a></td><td>Разборы реальных вызовов: презентация кейса → предварительные вопросы для размышления → теория по разбираемому вопросу → анализ кейса, его исход, результат</td></tr>
-<tr><td><a href="#uchebnye-materialy">Учебные материалы</a></td><td>Конспекты занятий и лекций: определения, механизмы, объём помощи на линии </td></tr>
+<tr><td><a href="#uchebnye-materialy">Учебные и справочные материалы</a></td><td>Конспекты занятий и лекций: определения, механизмы, объём помощи на линии. Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
 <tr><td><a href="#ekg-cases">ЭКГ кейсы</a></td><td>Разборы реальных плёнок с вызовов</td></tr>
 <tr><td><a href="#farmakologiya">Фармакология укладки (и не только!)</a></td><td>Препараты укладки СМП: механизм, время до эффекта, дозы по показаниям, типичные ошибки введения, расхождения с международной практикой</td></tr>
 <tr><td><a href="#vinyetki">Виньетки</a></td><td>Клинические задачи с вопросами по каждой, правильными ответами и основными выводами</td></tr>
 <tr><td><a href="#cheklisty">Чеклисты</a></td><td>Интерактивный чеклист «Маршрут вызова» для телефона, последовательность неврологического осмотра, осмотра ребенка, осмотра горла, алгоритм чтения ЭКГ «ПРИВЕТ, ДОКТОР»</td></tr>
-<tr><td><a href="#spravochniki">Справочные материалы</a></td><td>Таблицы для вызова: дозы по массе, энергии, разведения</td></tr>
 <tr><td><a href="#trenazhery">Тренажёры</a></td><td><strong>КОНТУР</strong> — транспортная ИВЛ Oxylog 3000 plus · <strong>ТИТР</strong> — шприцевой дозатор «Шмель»</td></tr>
 <tr><td><a href="#chtenie">Что читать и смотреть</a></td><td>Профессиональная литература по разделам медицины (отечественная и зарубежная), книги о профессии, видео и открытые образовательные ресурсы</td></tr>
 <tr><td><a href="#oborudovanie">Оборудование и оснащение</a></td><td>Модели для 3D-печати, доработки и приспособления для работы на линии</td></tr>
@@ -47,12 +46,15 @@
 </table>
 
 <a id="uchebnye-materialy"></a>
-## Учебные материалы
+<a id="spravochniki"></a>
+## Учебные и справочные материалы
 
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Акушерство на линии</strong></td><td>Практическое занятие ЦПС: патология яичника, внематочная, ТЭЛА в 10 недель, преэклампсия, отслойка, тихий разрыв рубца, метод Пискачека, пособия в родах, выпадение пуповины</td><td>1.7 · 24.08.2026</td><td><a href="uchebnye/akusherstvo_na_linii/akusherstvo_na_linii.pdf">PDF, A4, 15 стр.</a></td></tr>
+<tr><td><strong>ГБ: стадия и коды МКБ</strong></td><td>Степени по уровню АД, коды I / II / III стадии, поражение органов-мишеней и ассоциированные клинические состояния по КР 2024</td><td>1.0 · 05.09.2026</td><td><a href="spravochniki/gb_stadii_mkb/gb_stadii_mkb.pdf">PDF, A4 гориз., 1 стр.</a></td></tr>
+<tr><td><strong>Педиатрические дозы по массе</strong></td><td>Энергии разрядов, реанимационные препараты, анафилаксия, судороги, лихорадка, круп</td><td>1.2 · 16.08.2026</td><td><a href="spravochniki/pediatriya_dozy_po_vesu/pediatriya_dozy_po_vesu.pdf">PDF, A4, 5 стр.</a></td></tr>
 </tbody>
 </table>
 
@@ -118,17 +120,6 @@
 <tr><td><strong>Неврологический осмотр</strong></td><td>Время начала, глюкоза, сознание, речь, черепные нервы, MRC, координация, LAMS и маршрутизация, терапия по алгоритму</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/nevrologicheskiy_osmotr/nevrologicheskiy_osmotr.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Осмотр ребёнка</strong></td><td>Pediatric Assessment Triangle, ABCDE, возрастные нормы, дегидратация, осмотр от головы к пяткам, безнадзорный ребёнок</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/osmotr_rebenka/osmotr_rebenka.pdf">PDF, A4, 5 стр.</a></td></tr>
 <tr><td><strong>Алгоритм чтения ЭКГ "ПРИВЕТ, ДОКТОР"</strong></td><td>Систематическое чтение ЭКГ: ритм, интервалы, вольтаж, ось, ST–T, дополнительные отведения, резюме</td><td>1.0 · 16.08.2026</td><td><a href="cheklisty/privet_doktor/privet_doktor.pdf">PDF, A4, 6 стр.</a></td></tr>
-</tbody>
-</table>
-
-<a id="spravochniki"></a>
-## Справочные материалы
-
-<table width="100%">
-<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
-<tbody>
-<tr><td><strong>ГБ: стадия и коды МКБ</strong></td><td>Степени по уровню АД, коды I / II / III стадии, поражение органов-мишеней и ассоциированные клинические состояния по КР 2024</td><td>1.0 · 05.09.2026</td><td><a href="spravochniki/gb_stadii_mkb/gb_stadii_mkb.pdf">PDF, A4 гориз., 1 стр.</a></td></tr>
-<tr><td><strong>Педиатрические дозы по массе</strong></td><td>Энергии разрядов, реанимационные препараты, анафилаксия, судороги, лихорадка, круп</td><td>1.2 · 16.08.2026</td><td><a href="spravochniki/pediatriya_dozy_po_vesu/pediatriya_dozy_po_vesu.pdf">PDF, A4, 5 стр.</a></td></tr>
 </tbody>
 </table>
 
