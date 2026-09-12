@@ -1,3 +1,5 @@
+@import url("../_cheklist.css");
+
 @page {
   size: A4;
   margin: 16mm 17mm 16mm 17mm;
@@ -8,7 +10,7 @@
     color: #95a5a6;
   }
   @bottom-right {
-    content: "Осмотр горла · чеклист";
+    content: "Осмотр горла · чек-лист";
     font-family: "DejaVu Sans", "Noto Sans", sans-serif;
     font-size: 7pt;
     color: #bdc3c7;
@@ -160,3 +162,6 @@ table.small-table td {
 table.small-table th {
     font-size: 6.5pt;
 }
+
+/* Рабочая страница: оформление в ../_cheklist.css. */
+.cheklist td:first-child { width: 19%; font-weight: bold; color: #1c2833; }

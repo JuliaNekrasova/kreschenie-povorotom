@@ -1,3 +1,5 @@
+@import url("../_cheklist.css");
+
 @page {
   size: A4;
   margin: 16mm 17mm 16mm 17mm;
@@ -8,7 +10,7 @@
     color: #95a5a6;
   }
   @bottom-right {
-    content: "Боль в грудной клетке · чеклист";
+    content: "Боль в грудной клетке · чек-лист";
     font-family: "DejaVu Sans", "Noto Sans", sans-serif;
     font-size: 7pt;
     color: #bdc3c7;
@@ -141,7 +143,7 @@ td {
 td:first-child { text-align: left; }
 tr:nth-child(even) td { background: #f5f7f8; }
 
-/* Ячейки таблиц этого чеклиста содержат связный текст, а не короткие значения:
+/* Ячейки таблиц этого чек-листа содержат связный текст, а не короткие значения:
    выравнивание по левому краю и по верху, перенос по строкам. Атрибут width,
    который pandoc проставляет каждой колонке, отменяется — иначе WeasyPrint
    делит страницу на равные доли независимо от объёма текста в колонке. */
@@ -171,6 +173,10 @@ ul, ol { margin: 4px 0 7px 0; padding-left: 19px; }
 li { padding: 1.5px 0; }
 
 em { color: #566573; font-style: italic; }
+
+/* Рабочая страница: оформление в ../_cheklist.css.
+   Здесь только ширина первой колонки таблицы маршрутизации. */
+.cheklist td:first-child { width: 27%; }
 
 .primechanie {
   margin: 6px 0 9px 0;

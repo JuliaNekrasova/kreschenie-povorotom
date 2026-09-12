@@ -1,0 +1,98 @@
+/* Единое оформление рабочей страницы для раздела «Чек-листы и алгоритмы».
+   Подключается первой строкой print_a4.css каждого материала:
+
+       @import url("../_cheklist.css");
+
+   Правила @import обязаны стоять до остальных правил, поэтому строка идёт
+   раньше блока @page.
+
+   Рабочая страница — сжатая операционная выжимка: то, чем пользуются на
+   вызове. Отделена рамкой и занимает отдельный лист; всё остальное в
+   материале служит обоснованием. Шрифт мельче основного намеренно —
+   задача блока поместиться на одну страницу.
+
+   Разметка в razbor.md:
+
+       ::: {.cheklist}
+       ## Заголовок шага
+       текст
+       ::: {.opasnye}
+       **Где теряют чаще всего.** …
+       :::
+       :::
+
+   Ширина первой колонки таблиц внутри блока зависит от материала и
+   задаётся в его собственном print_a4.css правилом
+   `.cheklist td:first-child { width: … }`. */
+
+.cheklist {
+  break-after: page;
+  border: 1.5pt solid #2c3e50;
+  border-radius: 4px;
+  background: #fcfdfd;
+  padding: 0 10px 7px 10px;
+  margin: 0;
+  font-size: 8.1pt;
+  line-height: 1.26;
+}
+.cheklist::before {
+  content: "Рабочая страница · для печати и работы на вызове";
+  display: block;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 7.8pt;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding: 3.5px 10px;
+  margin: 0 -10px 7px -10px;
+  border-radius: 3px 3px 0 0;
+}
+
+/* Заголовки внутри блока лишаются тяжёлого оформления основного текста:
+   тёмная плашка h2 на сжатой странице съедает место и дробит её. */
+.cheklist h2 {
+  font-size: 8.7pt;
+  background: none;
+  color: #1c2833;
+  border-bottom: 1px solid #aeb6bb;
+  border-radius: 0;
+  padding: 0 0 1.5px 0;
+  margin: 5px 0 2px 0;
+  letter-spacing: 0;
+}
+.cheklist h2:first-of-type { margin-top: 2px; }
+.cheklist h3 {
+  font-size: 8.3pt;
+  border-left: none;
+  padding-left: 0;
+  margin: 4px 0 1px 0;
+  color: #21618c;
+}
+.cheklist p { margin: 1.5px 0; }
+.cheklist ul, .cheklist ol { margin: 2px 0 4px 0; padding-left: 16px; }
+.cheklist li { padding: 0.6px 0; }
+/* Атрибут width, который pandoc проставляет каждой колонке, отменяется:
+   иначе WeasyPrint делит ширину на равные доли независимо от объёма текста,
+   колонка с описанием сжимается, таблица вырастает выше страницы и при
+   break-inside: avoid выбрасывается из вёрстки целиком. */
+.cheklist col { width: auto !important; }
+.cheklist table {
+  font-size: 7.9pt;
+  margin: 2px 0 3px 0;
+  table-layout: auto;
+  break-inside: auto;
+}
+.cheklist tbody tr { break-inside: avoid; }
+.cheklist th { font-size: 7.7pt; padding: 2px 5px; text-align: left; }
+.cheklist td { padding: 2px 5px; text-align: left; vertical-align: top; }
+
+/* Ситуации с повышенной вероятностью ошибки: единственный акцент внутри
+   блока, поэтому он один и красный. */
+.cheklist .opasnye {
+  margin-top: 4px;
+  padding: 3.5px 8px;
+  background: #fdf2f0;
+  border-left: 2.5px solid #a93226;
+}
+.cheklist .opasnye p { margin: 0; }
