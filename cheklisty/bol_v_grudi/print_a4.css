@@ -171,3 +171,14 @@ ul, ol { margin: 4px 0 7px 0; padding-left: 19px; }
 li { padding: 1.5px 0; }
 
 em { color: #566573; font-style: italic; }
+
+.primechanie {
+  margin: 6px 0 9px 0;
+  padding: 5px 9px 6px 10px;
+  border-left: 2.5px solid #5499c7;
+  background: #f4f7f9;
+  font-size: 8.4pt;
+  line-height: 1.4;
+  color: #2c3e50;
+}
+.primechanie p { margin: 0; }

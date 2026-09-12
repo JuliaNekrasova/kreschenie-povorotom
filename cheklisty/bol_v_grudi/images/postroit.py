@@ -71,18 +71,18 @@ def strelka(ax, xy_ot, xy_do, tsvet=SERYY, tolshchina=1.1):
 # Схема 1. Ступени осмотра при боли в грудной клетке
 # --------------------------------------------------------------------------
 def shema_stupeni(imya="stupeni.png"):
-    fig, ax = plt.subplots(figsize=(SHIRINA, 7.4))
+    fig, ax = plt.subplots(figsize=(SHIRINA, 7.55))
     ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
+    ax.set_ylim(-0.01, 1.03)
     ax.axis("off")
 
-    ramka(ax, 0.135, 0.955, 0.73, 0.045,
+    ramka(ax, 0.135, 0.948, 0.73, 0.052,
           "Жалоба на боль или дискомфорт в грудной клетке",
           fon="#dfe6ea", kant="#8fa3ab", razmer=9.6, zhirnyy=True)
 
     # Шина параллельных действий
     ax.plot([0.108, 0.892], [0.928, 0.928], color=SERYY, linewidth=1.0, zorder=1)
-    ax.plot([0.5, 0.5], [0.955, 0.928], color=SERYY, linewidth=1.0, zorder=1)
+    ax.plot([0.5, 0.5], [0.948, 0.928], color=SERYY, linewidth=1.0, zorder=1)
     ax.text(0.5, 0.928, "  выполняется одновременно, до подробного расспроса  ",
             ha="center", va="center", fontsize=8.2, color=SERYY, style="italic",
             zorder=4, bbox=dict(facecolor="white", edgecolor="none", pad=1.5))
