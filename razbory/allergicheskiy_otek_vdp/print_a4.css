@@ -209,3 +209,6 @@ td:first-child { font-weight: bold; color: #1c2833; }
   break-inside: avoid;
 }
 .opasno p { margin: 3px 0; }
+
+/* Подпись к иллюстрации — связный абзац: по центру такой текст читается хуже. */
+figcaption { text-align: left; }
