@@ -9,7 +9,20 @@ python3 _tools/sobrat.py <имя_папки>      # собирает PDF из ra
 
 Скрипт ищет папку в `razbory/`, `farmakologiya/`, `uchebnye/`. Рядом с `razbor.md` должен лежать `print_a4.css` (копируется из соседнего материала, меняется только строка `@bottom-right` с названием).
 
-Иллюстрации — в подпапке `images/`, схемы генерируются скриптом `images/postroit.py` (matplotlib, `Agg`, палитра и шрифт DejaVu Sans — см. любой существующий `postroit.py`). Wikimedia Commons отдаёт 403 на автоматическое скачивание: файлы оттуда загружаются вручную через браузер, в материале указываются в таблице «Источники иллюстраций».
+Иллюстрации — в подпапке `images/`, схемы генерируются скриптом `images/postroit.py` (matplotlib, `Agg`, палитра и шрифт DejaVu Sans — см. любой существующий `postroit.py`). В материале указываются в таблице «Источники иллюстраций».
+
+Wikimedia Commons отдаёт 403 на прямые ссылки вида `upload.wikimedia.org/...`, но скачивание работает через `Special:FilePath` с обычным заголовком браузера:
+
+```bash
+curl -sL -A 'Mozilla/5.0' -o images/файл.jpg \
+  "http://commons.wikimedia.org/wiki/Special:FilePath/Имя_Файла.jpg"
+```
+
+Лицензию и автора надо смотреть на странице файла `commons.wikimedia.org/wiki/File:Имя_Файла.jpg`. С фотографий полезно снимать EXIF: в снимках с телефонов бывают GPS-координаты съёмки. Пересохранение без метаданных — через PIL, `Image.new` + `putdata` (ImageMagick в системе нет).
+
+## Правка приложения «Маршрут вызова»
+
+`cheklisty/marshrut_vyzova/marshrut_vyzova.html` — автономное приложение почти на 8 МБ без исходника. Содержимое карточек лежит внутри в JSON-литерале `const KARTOCHKI = {...}`. Править надо не строковым поиском по файлу, а разбором литерала: круговой разбор `json.JSONDecoder().raw_decode` → правка поля `html` → `json.dumps(obj, ensure_ascii=False)` совпадает с исходником побайтово, поэтому диф остаётся минимальным, а экранирование не ломается.
 
 ## Структура razbor.md
 
