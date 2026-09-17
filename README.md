@@ -2,10 +2,14 @@
 
 ### Клинические разборы реальных случаев из практики скорой медицинской помощи, учебные материалы, интерактивные тренажеры, чек-листы и алгоритмы, справочные материалы, тесты, задачи
 
+<!-- Строка «Новое»: только новые материалы, не обновления версий.
+     Журнальный клуб закреплён последней записью — не вытеснять при
+     добавлении новых материалов, снять по отдельной просьбе. -->
 <p class="novoe"><span class="metka">Новое:</span>
 <a href="razbory/allergicheskiy_otek_vdp/allergicheskiy_otek_vdp.pdf">Аллергический отёк верхних дыхательных путей</a> — клинический разбор <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — учебный материал и тест <span class="data">17.09.2026</span><span class="razdelitel">·</span>
-<a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> — чек-лист <span class="data">11.09.2026</span></p>
+<a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> — чек-лист <span class="data">11.09.2026</span><span class="razdelitel">·</span>
+<a href="chtenie/klub_01_ostanovka_serdtsa/klub_01_ostanovka_serdtsa.pdf">Остановка сердца: что изменилось после рекомендаций 2025 года</a> — журнальный клуб, выпуск 1 <span class="data">11.09.2026</span></p>
 
 <div class="razdely">
 <div class="razdel">
