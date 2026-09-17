@@ -3,9 +3,9 @@
 ### Клинические разборы реальных случаев из практики скорой медицинской помощи, учебные материалы, интерактивные тренажеры, чек-листы и алгоритмы, справочные материалы, тесты, задачи
 
 <p class="novoe"><span class="metka">Новое:</span>
-<a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — материал и тест на 20 вопросов <span class="data">17.09.2026</span><span class="razdelitel">·</span>
-<a href="#cheklisty">Чек-листы и алгоритмы</a> — сжатая рабочая страница в каждом материале раздела <span class="data">12.09.2026</span><span class="razdelitel">·</span>
-<a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> 1.2 — исправлено описание иррадиации <span class="data">12.09.2026</span></p>
+<a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — учебный материал и тест <span class="data">17.09.2026</span><span class="razdelitel">·</span>
+<a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> — чек-лист <span class="data">11.09.2026</span><span class="razdelitel">·</span>
+<a href="chtenie/klub_01_ostanovka_serdtsa/klub_01_ostanovka_serdtsa.pdf">Остановка сердца: что изменилось после рекомендаций 2025 года</a> — журнальный клуб <span class="data">11.09.2026</span></p>
 
 <div class="razdely">
 <div class="razdel">
