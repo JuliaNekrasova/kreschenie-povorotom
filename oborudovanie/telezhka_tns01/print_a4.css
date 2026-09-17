@@ -212,3 +212,24 @@ td:first-child { font-weight: bold; color: #1c2833; }
 
 /* Подпись к иллюстрации — связный абзац: по центру такой текст читается хуже. */
 figcaption { text-align: left; }
+
+/* Рамка для завершающего замечания: в отличие от .vrezka обведена по всему
+   периметру, чтобы читалась как отдельная врезка, а не как продолжение текста. */
+.ramka {
+  margin: 12px 0 12px 0;
+  padding: 9px 13px 10px 13px;
+  border: 1.6pt solid #1c2833;
+  border-radius: 3px;
+  background: #fbfcfd;
+  font-size: 10pt;
+  line-height: 1.45;
+  text-align: center;
+  break-inside: avoid;
+}
+.ramka p { margin: 0; }
+
+/* Завершающая иллюстрация: уменьшена, чтобы встать на страницу вместе с рамкой
+   и не оставлять пустоты в конце предыдущей. */
+figure.mem { margin: 10px 0 4px 0; }
+figure.mem img { max-width: 56%; }
+figure.mem figcaption { text-align: center; font-style: italic; }
