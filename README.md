@@ -6,6 +6,7 @@
      Журнальный клуб закреплён последней записью — не вытеснять при
      добавлении новых материалов, снять по отдельной просьбе. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="oborudovanie/telezhka_tns01/telezhka_tns01.pdf">Тележка-каталка ТНС-01ММ</a> — инструкция и разбор отказа <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="razbory/allergicheskiy_otek_vdp/allergicheskiy_otek_vdp.pdf">Аллергический отёк верхних дыхательных путей</a> — клинический разбор <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — учебный материал и тест <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> — чек-лист <span class="data">11.09.2026</span><span class="razdelitel">·</span>
@@ -44,8 +45,8 @@
 </div>
 <div class="razdel">
 <h3><a href="#oborudovanie">Оборудование и оснащение</a></h3>
-<span class="kolvo">3 материала</span>
-<p>Тренажёры аппаратуры КОНТУР и ТИТР, модели для 3D-печати и приспособления для работы на линии</p>
+<span class="kolvo">4 материала</span>
+<p>Тренажёры аппаратуры КОНТУР и ТИТР, средства перемещения пациента, модели для 3D-печати и приспособления для работы на линии</p>
 </div>
 <div class="razdel">
 <h3><a href="#chtenie">Журнальный клуб</a></h3>
@@ -172,6 +173,15 @@
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
 <tr><td><strong>Скоба для фонендоскопа</strong><br><a href="oborudovanie/skoba_fonendoskopa/README.md"><img src="oborudovanie/skoba_fonendoskopa/images/skoba_korpus.png" width="260" alt="Корпус скобы для фонендоскопа, общий вид"></a></td><td>Держатель фонендоскопа под 3D-печать, подходит к любой модели: корпус и три подвижные лапки на осях, штифты DIN 2 × 30 и 3 × 40, габариты деталей, примечания по доработке отверстий и сборке. Модели STL и исходники SolidWorks.<br>Автор модели — ведущий инженер АО «ИТТ» Геннадий Хохлов</td><td>1.0 · 11.09.2026</td><td><a href="oborudovanie/skoba_fonendoskopa/README.md">описание</a> · <a href="oborudovanie/skoba_fonendoskopa/skoba_fonendoskopa.zip">архив, 1,05 МБ</a></td></tr>
+</tbody>
+</table>
+
+### Средства перемещения пациента
+
+<table width="100%">
+<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="14%">Версия</th><th width="14%">Файл</th></tr></thead>
+<tbody>
+<tr><td><strong>Тележка-каталка ТНС-01ММ</strong></td><td>Автоматическая расфиксация шасси: как устроены переднее и заднее фиксирующие устройства, почему заднее шасси расфиксируется сложившимся передним, а не приёмным устройством, и при каких условиях автоматика не срабатывает. Правила изготовителя и информационное письмо Росздравнадзора, требование зазора 50 мм и разложенного переднего шасси до установки на грунт. Разбор случая складывания шасси под пациентом: ремни безопасности, пропущенные через оба шасси, заблокировали кинематику. Чертежи из патента изготовителя</td><td>1.0 · 17.09.2026</td><td><a href="oborudovanie/telezhka_tns01/telezhka_tns01.pdf">PDF, A4, 8 стр.</a></td></tr>
 </tbody>
 </table>
 
