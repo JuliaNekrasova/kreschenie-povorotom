@@ -2,6 +2,11 @@
 
 ### Клинические разборы реальных случаев из практики скорой медицинской помощи, учебные материалы, интерактивные тренажеры, чек-листы и алгоритмы, справочные материалы, тесты, задачи
 
+<p class="novoe"><span class="metka">Новое:</span>
+<a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — материал и тест на 20 вопросов <span class="data">17.09.2026</span><span class="razdelitel">·</span>
+<a href="#cheklisty">Чек-листы и алгоритмы</a> — сжатая рабочая страница в каждом материале раздела <span class="data">12.09.2026</span><span class="razdelitel">·</span>
+<a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">Боль в грудной клетке</a> 1.2 — исправлено описание иррадиации <span class="data">12.09.2026</span></p>
+
 <div class="razdely">
 <div class="razdel">
 <h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html">Клинические разборы</a></h3>
