@@ -132,8 +132,7 @@
 </div>
 
 <figure class="mem">
-  <img src="images/fiksirovannyy_kot.jpeg" alt="Кот, целиком обмотанный бинтом, на деревянной решётке">
-  <figcaption>Хорошо зафиксированный пациент в транспортировке не нуждается.</figcaption>
+  <img src="images/fiksirovannyy_kot.jpeg" alt="Кот, целиком обмотанный бинтом: «Хорошо зафиксированный пациент в анестезии не нуждается»">
 </figure>
 
 # Источники
