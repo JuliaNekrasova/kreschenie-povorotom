@@ -6,6 +6,7 @@
      Журнальный клуб закреплён последней записью — не вытеснять при
      добавлении новых материалов, снять по отдельной просьбе. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">Дыхательная недостаточность</a> — лекция 1 курса «Предел прочности» <span class="data">21.09.2026</span><span class="razdelitel">·</span>
 <a href="oborudovanie/telezhka_tns01/telezhka_tns01.pdf">Тележка-каталка ТНС-01ММ</a> — инструкция и разбор отказа <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="razbory/allergicheskiy_otek_vdp/allergicheskiy_otek_vdp.pdf">Аллергический отёк верхних дыхательных путей</a> — клинический разбор <span class="data">17.09.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/malyariya/malyariya.pdf">Малярия</a> — учебный материал и тест <span class="data">17.09.2026</span><span class="razdelitel">·</span>
@@ -40,8 +41,8 @@
 </div>
 <div class="razdel">
 <h3><a href="#uchebnye-materialy">Учебные и справочные материалы</a></h3>
-<span class="kolvo">4 материала</span>
-<p>Конспекты занятий и лекций, тесты, таблицы доз по массе, энергий и разведений</p>
+<span class="kolvo">5 материалов</span>
+<p>Конспекты занятий и лекций, курс «Предел прочности», тесты, таблицы доз по массе, энергий и разведений</p>
 </div>
 <div class="razdel">
 <h3><a href="#oborudovanie">Оборудование и оснащение</a></h3>
@@ -121,6 +122,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
+<tr><td><strong>Предел прочности, лекция 1: дыхательная недостаточность</strong></td><td>Первая лекция курса о критических состояниях, упорядоченного по механизмам отказа, а не по нозологиям. Дыхание как две независимые машины — насос и газообменник — и почему кислород восполняет отказ второй, но не первой; пять механизмов гипоксемии и ось V/Q, на концах которой стоят шунт и альвеолярное мёртвое пространство; кривая диссоциации в числах, четыре ситуации недостоверности пульсоксиметра; осмотр как показатель, не зависящий от приборов, с таблицей границ — у кого ожидаемого признака не будет; возрастные нормы частоты дыхания и функциональная остаточная ёмкость как запас времени; капнография, где форма кривой читается раньше числа; доставка кислорода как произведение выброса на содержание; пороги, алгоритм и восемь противопоказаний к неинвазивной вентиляции по Алгоритмам ДЗМ.<br>К лекции — 14 вопросов по ходу текста и 14 задач с раскрывающимися разборами. Один файл, работает без сети, с телефона</td><td>1.0 · 21.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">открыть онлайн</a> · <a href="uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html" download="predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">скачать, 866 КБ</a></td></tr>
 <tr><td><strong>Малярия</strong></td><td>Жизненный цикл плазмодия как основа клиники: спорогония в комаре, тканевая шизогония и почему лихорадки не бывает раньше седьмого дня, гипнозоиты и рецидивы через год, откуда берётся приступ и почему «трёхдневная» малярия — это каждые 48 часов. Пять видов, четыре клинические формы, осложнения тропической малярии, толстая капля против тонкого мазка, лечение по стадиям паразита, вакцины. Как малярию открывали: Лаверан, Росс, Грасси у де Крюи, хинная кора, артемизинин и рецепт IV века. Серповидноклеточная анемия, дефицит Г-6-ФДГ и антигены Даффи как след малярии в геноме.<br>К материалу — тест на 20 вопросов с разбором каждого ответа, итогом в процентах и разбивкой по разделам; два вопроса с иллюстрациями, варианты перемешиваются. Работает без сети, с телефона</td><td>1.0 · 17.09.2026</td><td><a href="uchebnye/malyariya/malyariya.pdf">PDF, A4, 18 стр.</a><br>тест: <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/malyariya/malyariya_test.html">открыть онлайн</a> · <a href="uchebnye/malyariya/malyariya_test.html" download="malyariya_test.html">скачать, 798 КБ</a></td></tr>
 <tr><td><strong>Акушерство на линии</strong></td><td>Практическое занятие ЦПС: патология яичника, внематочная, ТЭЛА в 10 недель, преэклампсия, отслойка, тихий разрыв рубца, метод Пискачека, пособия в родах, выпадение пуповины</td><td>1.7 · 24.08.2026</td><td><a href="uchebnye/akusherstvo_na_linii/akusherstvo_na_linii.pdf">PDF, A4, 15 стр.</a></td></tr>
 <tr><td><strong>ГБ: стадия и коды МКБ</strong></td><td>Степени по уровню АД, коды I / II / III стадии, поражение органов-мишеней и ассоциированные клинические состояния по КР 2024</td><td>1.0 · 05.09.2026</td><td><a href="spravochniki/gb_stadii_mkb/gb_stadii_mkb.pdf">PDF, A4 гориз., 1 стр.</a></td></tr>
