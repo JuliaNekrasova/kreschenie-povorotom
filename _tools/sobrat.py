@@ -138,8 +138,34 @@ def vybor(argumenty: list[str]) -> list[Path]:
     return otobrano
 
 
+def proverka_stilya(papka: Path) -> None:
+    """Прогоняет проверку регистра и выводит находки.
+
+    Сборка не блокируется: решение о каждой находке принимает автор.
+    Но материал не публикуется, пока находки не разобраны, — см. AGENTS.md.
+    """
+    skript = KOREN / "_tools" / "proverit_stil.py"
+    if not skript.exists():
+        return
+    itog = subprocess.run(
+        [sys.executable, str(skript), papka.name],
+        capture_output=True, text=True, encoding="utf-8",
+    )
+    if itog.returncode == 1:
+        print("--- проверка регистра: есть находки ---")
+        print(itog.stdout.strip())
+        print("--- конец проверки регистра ---")
+
+
 def main() -> None:
+    # без этого вывод находок проверки регистра падает на Windows: консоль в cp1251
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except AttributeError:
+        pass
+
     for papka in vybor(sys.argv[1:]):
+        proverka_stilya(papka)
         pdf = sobrat(papka)
         print(f"{pdf.relative_to(KOREN)} — {stranits(pdf)} стр.")
 
