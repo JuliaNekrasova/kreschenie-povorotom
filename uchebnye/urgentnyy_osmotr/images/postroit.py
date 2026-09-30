@@ -144,7 +144,7 @@ def shema_4g4t(imya="obratimye_prichiny.png"):
         (0.751, "E и анамнез", FON_OR, "#d8b283",
          ["Гипотермия:", "термометрия,", "волна Осборна на ЭКГ", "",
           "Гипо- и гиперкалиемия:", "анамнез, ЭКГ,", "экспресс-исследование", "",
-          "Источник кровопотери:", "живот, спина,", "ректальное исследование"]),
+          "Источник кровопотери:", "живот, спина,", "ректальное", "исследование"]),
     ]
     w = 0.239
     for x, nazvanie, fon, kant, punkty in stolbcy:
@@ -154,9 +154,10 @@ def shema_4g4t(imya="obratimye_prichiny.png"):
         ramka(ax, x, 0.145, w, 0.680, tekst, fon="white", kant=kant, razmer=7.6, sleva=True)
         strelka(ax, (x + w / 2, 0.843), (x + w / 2, 0.828), tsvet=kant, tolshchina=0.8)
 
-    ramka(ax, 0.010, 0.020, 0.980, 0.105,
-          "Поиск ведётся по ходу осмотра, до развития остановки кровообращения: "
-          "к моменту, когда причина становится\nпричиной смерти, время на её устранение уже утрачено",
+    ramka(ax, 0.010, 0.010, 0.980, 0.125,
+          "Поиск ведётся по ходу осмотра, до развития остановки кровообращения:\n"
+          "к моменту, когда причина становится причиной смерти,\n"
+          "время на её устранение уже утрачено",
           fon=FON, kant="#aab7bd", razmer=8.2)
 
     fig.savefig(imya)
@@ -173,7 +174,7 @@ def shema_vdp(imya="vetvlenie_vdp.png"):
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    ramka(ax, 0.230, 0.900, 0.540, 0.075,
+    ramka(ax, 0.170, 0.900, 0.660, 0.075,
           "Сознание снижено или отсутствует:\nоценка проходимости и оценка дыхания одновременно",
           fon="#dfe6ea", kant="#8fa3ab", razmer=8.8, zhirnyy=True)
 
@@ -193,11 +194,11 @@ def shema_vdp(imya="vetvlenie_vdp.png"):
     ]
     w = 0.240
     for x, nazvanie, fon, kant, tsvet, mehanizm, deystvie in vetvi:
-        strelka(ax, (0.5, 0.898), (x + w / 2, 0.838), tsvet=kant, tolshchina=0.9)
-        ramka(ax, x, 0.760, w, 0.075, nazvanie, fon=fon, kant=kant,
+        strelka(ax, (0.5, 0.898), (x + w / 2, 0.847), tsvet=kant, tolshchina=0.9)
+        ramka(ax, x, 0.748, w, 0.097, nazvanie, fon=fon, kant=kant,
               razmer=9.4, zhirnyy=True, tsvet=tsvet)
-        ramka(ax, x, 0.575, w, 0.165, mehanizm, fon="white", kant=kant, razmer=7.6)
-        strelka(ax, (x + w / 2, 0.573), (x + w / 2, 0.552), tsvet=kant, tolshchina=0.9)
+        ramka(ax, x, 0.568, w, 0.165, mehanizm, fon="white", kant=kant, razmer=7.6)
+        strelka(ax, (x + w / 2, 0.566), (x + w / 2, 0.553), tsvet=kant, tolshchina=0.9)
         ramka(ax, x, 0.400, w, 0.150, deystvie, fon=fon, kant=kant, razmer=7.7)
         if nazvanie != "Проходимы":
             strelka(ax, (x + w / 2, 0.398), (x + w / 2, 0.358), tsvet=kant, tolshchina=0.9)

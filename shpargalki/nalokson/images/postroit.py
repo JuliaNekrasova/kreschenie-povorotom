@@ -141,33 +141,33 @@ def shema_gipoksiya(imya="protivopokazanie_gipoksiya.png"):
             ha="center", va="center", fontsize=9.6, fontweight="bold",
             color=TEMNYY)
 
-    ramka(ax, 0.020, 0.660, 0.290, 0.170,
-          "Угнетение дыхания опиоидами\nсо сформировавшейся гипоксией",
-          fon=FON_KR, kant="#c8a09b", razmer=8.4, tsvet=KRASNYY, zhirnyy=True)
-    ramka(ax, 0.365, 0.660, 0.270, 0.170,
+    ramka(ax, 0.020, 0.655, 0.290, 0.180,
+          "Угнетение дыхания\nопиоидами\nсо сформировавшейся\nгипоксией",
+          fon=FON_KR, kant="#c8a09b", razmer=8.0, tsvet=KRASNYY, zhirnyy=True)
+    ramka(ax, 0.365, 0.655, 0.270, 0.180,
           "Введение налоксона:\nрезкое восстановление\nсознания",
-          fon=FON, kant="#aab7bd", razmer=8.4)
-    ramka(ax, 0.690, 0.660, 0.290, 0.170,
+          fon=FON, kant="#aab7bd", razmer=8.0)
+    ramka(ax, 0.660, 0.655, 0.320, 0.180,
           "Резкий рост потребности ЦНС\nв кислороде и энергетических\nсубстратах",
-          fon=FON_OR, kant="#d8b283", razmer=8.4, tsvet=ORANZH)
+          fon=FON_OR, kant="#d8b283", razmer=8.0, tsvet=ORANZH)
     strelka(ax, (0.310, 0.745), (0.365, 0.745))
-    strelka(ax, (0.635, 0.745), (0.690, 0.745))
+    strelka(ax, (0.635, 0.745), (0.660, 0.745))
 
-    strelka(ax, (0.835, 0.655), (0.835, 0.545), tolshchina=1.0)
-    ramka(ax, 0.690, 0.355, 0.290, 0.185,
+    strelka(ax, (0.820, 0.650), (0.820, 0.520), tolshchina=1.0)
+    ramka(ax, 0.505, 0.320, 0.475, 0.195,
           "Декомпенсация энергетического\nобмена: отёк-набухание\nголовного мозга, отёк лёгких,\nрост вероятности летального исхода",
           fon=FON_KR, kant="#c8a09b", razmer=8.2, tsvet=KRASNYY, zhirnyy=True)
 
-    ramka(ax, 0.020, 0.355, 0.465, 0.145,
+    ramka(ax, 0.020, 0.320, 0.465, 0.195,
           "Порядок действий по письму:\n"
           "сначала проходимость дыхательных путей,\n"
           "оксигенация и вентиляция; мониторинг\n"
           "сатурации, ЧСС, ЧДД и АД обязателен",
           fon=FON_ZEL, kant="#a3c9a8", razmer=8.2, tsvet=ZELENYY)
 
-    ax.plot([0.165, 0.165], [0.658, 0.505], color=SERYY, linewidth=0.9,
+    ax.plot([0.165, 0.165], [0.653, 0.517], color=SERYY, linewidth=0.9,
             linestyle=(0, (3, 2)), zorder=1)
-    ax.text(0.175, 0.575, "альтернативный путь", ha="left", va="center",
+    ax.text(0.175, 0.580, "альтернативный путь", ha="left", va="center",
             fontsize=7.6, color=SERYY, style="italic")
 
     ramka(ax, 0.020, 0.020, 0.960, 0.290,
