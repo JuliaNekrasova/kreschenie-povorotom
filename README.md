@@ -6,13 +6,14 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="#shpargalki">Инфекции — серия из десяти справочных материалов по письмам Станции</a> — боррелиоз, холера, некротизирующие инфекции, жёлтая лихорадка, оспа обезьян, энтеровирусы, Марбург, коклюш, чума, «белая» лихорадка <span class="data">30.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/nalokson/nalokson.pdf">Налоксон</a> — информационное письмо в изложении для чайников <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="razbory/fantomnaya_bol_posle_mvt/fantomnaya_bol_posle_mvt.pdf">Фантомная боль после минно-взрывной травмы</a> — клинический разбор <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="cheklisty/urgentnyy_osmotr_roli/urgentnyy_osmotr_roli.pdf">Ургентный осмотр: лидер и адъютор</a> — чек-лист <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/urgentnyy_osmotr/urgentnyy_osmotr.pdf">Протокол ургентного осмотра</a> — учебный материал <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/vrvp/vrvp.pdf">Кровотечение из варикозно расширенных вен пищевода</a> — информационное письмо в изложении для чайников <span class="data">24.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/sd_u_detey/sd_u_detey.pdf">Сахарный диабет у детей</a> — информационное письмо в изложении для чайников <span class="data">24.09.2026</span><span class="razdelitel">·</span>
-<a href="razbory/emd_razryv_korna_aorty/emd_razryv_korna_aorty.pdf">40 секунд между кризом и остановкой</a> — клинический разбор <span class="data">24.09.2026</span></p>
+</p>
 
 <div class="razdely">
 <div class="razdel">
@@ -32,7 +33,7 @@
 </div>
 <div class="razdel">
 <h3><a href="#shpargalki">Приказы и информационные письма в изложении для чайников</a></h3>
-<span class="kolvo">3 материала</span>
+<span class="kolvo">13 материалов</span>
 <p>Действующие приказы и информационные письма Станции, переложенные в таблицы и схемы: что предписано, кому и в каком объёме</p>
 </div>
 <div class="razdel">
@@ -118,6 +119,16 @@
 <tr><td><strong>Кровотечение из варикозно расширенных вен пищевода</strong></td><td>Письмо № 1-14/2380: портальная гипертензия и порог 12 мм рт. ст., шоковый индекс, объём помощи с терлипрессином 1,0 мг, расхождения с Baveno VII и AASLD</td><td>1.0 · 24.09.2026</td><td><a href="shpargalki/vrvp/vrvp.pdf">PDF, A4, 11 стр.</a></td></tr>
 <tr><td><strong>Сахарный диабет у детей</strong></td><td>Письмо № 1-14/4455: шесть признаков обязательной глюкометрии, дебют диабета и его маски, стадии кетоацидоза, детские дозы по приказу № 535</td><td>1.1 · 24.09.2026</td><td><a href="shpargalki/sd_u_detey/sd_u_detey.pdf">PDF, A4, 6 стр.</a></td></tr>
 <tr><td><strong>Налоксон</strong></td><td>Письмо № 1-14/185: налоксон показан только при лёгкой степени без гипоксии; при средней и тяжёлой — противопоказан, первична вентиляция. Дозы, ренаркотизация, расхождения с AHA и ВОЗ</td><td>1.0 · 27.09.2026</td><td><a href="shpargalki/nalokson/nalokson.pdf">PDF, A4, 9 стр.</a></td></tr>
+<tr><td><strong>Иксодовый клещевой боррелиоз</strong></td><td>Письмо № 1-14/1539: мигрирующая эритема и лихорадочная форма без сыпи, симптоматическая помощь, эвакуация только при серозном менингите</td><td>1.0 · 29.09.2026</td><td><a href="shpargalki/borrelioz/borrelioz.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Холера</strong></td><td>Письма № 1-14/771, 600 и 2454: «рисовый отвар» и дегидратация без лихорадки, эпиданамнез за 5 суток, режим приказа № 2710</td><td>1.0 · 29.09.2026</td><td><a href="shpargalki/holera/holera.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Некротизирующие инфекции кожи и мягких тканей</strong></td><td>Письмо № 1-14/1774: боль, несоразмерная видимым изменениям, гипестезия, прокальцитонин и обязательная эвакуация в гнойную хирургию</td><td>1.0 · 29.09.2026</td><td><a href="shpargalki/nekrot_fasciit/nekrot_fasciit.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Жёлтая лихорадка</strong></td><td>Письмо № 1-14/820: эндемичные страны Африки и Америки, двухфазное течение и «амарильная маска», эпиданамнез и приказ № 2710</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/zheltaya_lihoradka/zheltaya_lihoradka.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Оспа обезьян</strong></td><td>Письмо № 1-14/2680: клады I и IIb, заразность за 3 дня до симптомов, сыпь на ладонях и ступнях, приказ № 2710</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/ospa_obezyan/ospa_obezyan.pdf">PDF, A4, 3 стр.</a></td></tr>
+<tr><td><strong>Энтеровирусные инфекции</strong></td><td>Письмо № 1-14/2821: герпангина, эпидемическая миалгия, серозный менингит, экзантема; формы для домашнего лечения и показания к эвакуации</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/enterovirusy/enterovirusy.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Геморрагические лихорадки</strong></td><td>Письма № 1-14/594 и № 1-14/3158: лихорадка Марбург, суточная динамика геморрагического синдрома, транзитные маршруты, приказ № 2710</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/gemorragicheskie_lihoradki/gemorragicheskie_lihoradki.pdf">PDF, A4, 4 стр.</a></td></tr>
+<tr><td><strong>Коклюш</strong></td><td>Письмо № 1-14/3859: спастический кашель с репризами, эквиваленты приступов у детей раннего возраста, жизнеугрожающие осложнения</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/koklyush/koklyush.pdf">PDF, A4, 3 стр.</a></td></tr>
+<tr><td><strong>Чума</strong></td><td>Письмо № 1-14/667: природные очаги в России (Тыва, Алтай, КЧР, КБР), статистика 2013–2022 гг., эпидемиологическая настороженность</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/chuma/chuma.pdf">PDF, A4, 3 стр.</a></td></tr>
+<tr><td><strong>«Белая» лихорадка у детей</strong></td><td>Письмо № 1-14/1702: вазоспазм при лихорадке (холодные стопы и ладони, мраморность), литическая смесь по возрасту, обязательный консилиум со старшим врачом</td><td>1.0 · 30.09.2026</td><td><a href="shpargalki/belaya_lihoradka/belaya_lihoradka.pdf">PDF, A4, 3 стр.</a></td></tr>
 </tbody>
 </table>
 
@@ -127,7 +138,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Интерактивный чек-лист «Маршрут вызова»</strong></td><td>Шаги вызова от «Выезда» до закрытия карты: таймеры норматива, справочные карточки, протокол СЛР с метрономом и таймерами адреналина. Постоянно пополняется</td><td>2.0 · 29.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/cheklisty/marshrut_vyzova/marshrut_vyzova.html">открыть онлайн</a> · <a href="cheklisty/marshrut_vyzova/marshrut_vyzova.html" download="marshrut_vyzova.html">скачать файл</a></td></tr>
+<tr><td><strong>Интерактивный чек-лист «Маршрут вызова»</strong></td><td>Шаги вызова от «Выезда» до закрытия карты: таймеры норматива, справочные карточки, протокол СЛР с метрономом и таймерами адреналина. Постоянно пополняется</td><td>2.1 · 30.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/cheklisty/marshrut_vyzova/marshrut_vyzova.html">открыть онлайн</a> · <a href="cheklisty/marshrut_vyzova/marshrut_vyzova.html" download="marshrut_vyzova.html">скачать файл</a></td></tr>
 <tr><td><strong>Ургентный осмотр: лидер и адъютор</strong></td><td>Распределение работы лидера и адъютора при осмотре пациента в критическом состоянии: подготовка в дороге, AVPU, ABCDE с ветвлениями по находкам</td><td>1.0 · 27.09.2026</td><td><a href="cheklisty/urgentnyy_osmotr_roli/urgentnyy_osmotr_roli.pdf">PDF, A4, 7 стр.</a></td></tr>
 <tr><td><strong>Боль в грудной клетке</strong></td><td>Ступени диагностики боли в груди: характеристика с отношениями правдоподобия, ЭКГ, дифференциальный ряд, шкалы Wells и Женевская, маршрутизация. Рабочая страница для печати</td><td>1.2 · 12.09.2026</td><td><a href="cheklisty/bol_v_grudi/bol_v_grudi.pdf">PDF, A4, 20 стр.</a></td></tr>
 <tr><td><strong>Осмотр горла</strong></td><td>Угроза дыхательным путям, анамнез, описание наложений, шкала Centor/McIsaac, показания к эвакуации. Рабочая страница для печати</td><td>1.1 · 12.09.2026</td><td><a href="cheklisty/osmotr_gorla/osmotr_gorla.pdf">PDF, A4, 8 стр.</a></td></tr>
