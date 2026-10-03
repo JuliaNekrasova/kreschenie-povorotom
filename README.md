@@ -189,7 +189,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Comen V1</strong></td><td>Транспортный турбинный аппарат ИВЛ: панель и порты, кислородное питание, клапан выдоха и конфигурации контура, проверка перед работой, режимы с кривыми, уставки и тревоги, конфигурация аппаратов станции. Сводный порядок от сборки до контроля вентиляции</td><td>1.4 · 03.10.2026</td><td><a href="oborudovanie/comen_v1/comen_v1.pdf">PDF, A4, 42 стр.</a><br><a href="https://comen.askmg.ru/upload/iblock/4dd/9j6850jcomyo6l740feqm0v0axx5tzs3.pdf">руководство изготовителя</a></td></tr>
+<tr><td><strong>Comen V1</strong></td><td>Транспортный турбинный аппарат ИВЛ серии V: панель и порты, кислородное питание, контур, проверка перед работой, семнадцать режимов с кривыми, включая V-A/C и CPRV, уставки, тревоги, специальные функции, правила эксплуатации на станции</td><td>2.0 · 03.10.2026</td><td><a href="oborudovanie/comen_v1/comen_v1.pdf">PDF, A4, 46 стр.</a><br><a href="https://cordismed.ru/image/pdf/comen-v1-manual-rus_compressed.pdf">руководство изготовителя</a></td></tr>
 </tbody>
 </table>
 
