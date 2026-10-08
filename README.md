@@ -7,18 +7,18 @@
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
 <a href="farmakologiya/propafenon/propafenon.pdf">Пропафенон</a> — фармакология укладки <span class="data">08.10.2026</span><span class="razdelitel">·</span>
+<a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">Открытая плевральная полость</a> — клинический разбор <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 <a href="#shpargalki">Инфекции — серия из десяти справочных материалов по письмам Станции</a> — боррелиоз, холера, некротизирующие инфекции, жёлтая лихорадка, оспа обезьян, энтеровирусы, Марбург, коклюш, чума, «белая» лихорадка <span class="data">30.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/nalokson/nalokson.pdf">Налоксон</a> — информационное письмо в изложении для чайников <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="razbory/fantomnaya_bol_posle_mvt/fantomnaya_bol_posle_mvt.pdf">Фантомная боль после минно-взрывной травмы</a> — клинический разбор <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="cheklisty/urgentnyy_osmotr_roli/urgentnyy_osmotr_roli.pdf">Ургентный осмотр: лидер и адъютор</a> — чек-лист <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/urgentnyy_osmotr/urgentnyy_osmotr.pdf">Протокол ургентного осмотра</a> — учебный материал <span class="data">27.09.2026</span><span class="razdelitel">·</span>
-<a href="shpargalki/vrvp/vrvp.pdf">Кровотечение из варикозно расширенных вен пищевода</a> — информационное письмо в изложении для чайников <span class="data">24.09.2026</span><span class="razdelitel">·</span>
 </p>
 
 <div class="razdely">
 <div class="razdel">
 <h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html">Клинические разборы</a></h3>
-<span class="kolvo">21 материал</span>
+<span class="kolvo">22 материала</span>
 <p>Реальные вызовы: случай, вопросы до разбора, теория, исход</p>
 </div>
 <div class="razdel">
@@ -71,13 +71,13 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
+<tr><td><strong>Открытая плевральная полость</strong></td><td>Вызов из поликлиники к мужчине 41 года с дефектом грудной стенки над хронической эмпиемой: физиология открытой полости, бронхоплевральный свищ, выбор повязки и раздела приказа № 535</td><td>1.0 · 08.10.2026</td><td><a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">PDF, A4, 17 стр.</a></td></tr>
 <tr><td><strong>Фантомная боль после минно-взрывной травмы</strong></td><td>Вызов к пациенту с ампутацией голени после минно-взрывной травмы: фантомная боль, остеомиелит культи, три невромы, ожидание реампутации. Доказательная фармакология и её пределы, альтернативы, показания к эвакуации</td><td>1.4 · 03.10.2026</td><td><a href="razbory/fantomnaya_bol_posle_mvt/fantomnaya_bol_posle_mvt.pdf">PDF, A4, 14 стр.</a></td></tr>
 <tr><td><strong>40 секунд между кризом и остановкой</strong></td><td>Вызов на гипертензию у пациентки с аневризмой корня аорты: безболевое расслоение, прорыв в перикард, тампонада, электромеханическая диссоциация. Тактика по приказу № 535</td><td>3.2 · 27.09.2026</td><td><a href="razbory/emd_razryv_korna_aorty/emd_razryv_korna_aorty.pdf">PDF, A4, 21 стр.</a></td></tr>
-<tr><td><strong>Аллергический отёк верхних дыхательных путей</strong></td><td>Анафилаксия без шока: угроза дыхательная, а не сосудистая. Арифметика доз эпинефрина, доказательность глюкокортикоидов и хлоропирамина, брадикининовый отёк на ингибиторах АПФ</td><td>1.0 · 17.09.2026</td><td><a href="razbory/allergicheskiy_otek_vdp/allergicheskiy_otek_vdp.pdf">PDF, A4, 18 стр.</a></td></tr>
 </tbody>
 </table>
 
-Последние материалы раздела. Полный список — 21 материал — на странице [«Клинические разборы»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html).
+Последние материалы раздела. Полный список — 22 материала — на странице [«Клинические разборы»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html).
 
 <a id="ekg-cases"></a>
 ## ЭКГ кейсы
