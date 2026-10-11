@@ -40,10 +40,24 @@ def ramka(ax, x, y, w, h, tekst, fon=FON, kant="#aab7bd", razmer=8.6,
     ax.add_patch(FancyBboxPatch(
         (x, y), w, h, boxstyle="round,pad=0.006,rounding_size=0.012",
         linewidth=0.9, edgecolor=kant, facecolor=fon, zorder=2))
-    ax.text(x + w / 2, y + h / 2, tekst, ha="center", va="center",
-            fontsize=razmer, color=tsvet,
-            fontweight="bold" if zhirnyy else "normal",
-            zorder=3, linespacing=1.45)
+    t = ax.text(x + w / 2, y + h / 2, tekst, ha="center", va="center",
+                fontsize=razmer, color=tsvet,
+                fontweight="bold" if zhirnyy else "normal",
+                zorder=3, linespacing=1.45)
+    vpisat(ax, t, w, h)
+
+
+def vpisat(ax, t, w, h, zapas_w=0.92, zapas_h=0.88, minimum=6.0):
+    """Уменьшает кегль, пока текст не помещается в рамку w × h (доли осей)."""
+    fig = ax.figure
+    r = fig.canvas.get_renderer()
+    (x0, y0), (x1, y1) = ax.transData.transform([(0, 0), (w, h)])
+    shir, vys = (x1 - x0) * zapas_w, (y1 - y0) * zapas_h
+    while t.get_fontsize() > minimum:
+        e = t.get_window_extent(r)
+        if e.width <= shir and e.height <= vys:
+            break
+        t.set_fontsize(t.get_fontsize() - 0.2)
 
 
 def strelka(ax, xy_ot, xy_do, tsvet=SERYY, tolshchina=1.1):
@@ -53,7 +67,7 @@ def strelka(ax, xy_ot, xy_do, tsvet=SERYY, tolshchina=1.1):
 
 
 def shema(imya="podozrenie_na_holeru.png"):
-    fig, ax = plt.subplots(figsize=(8.3, 4.6))
+    fig, ax = plt.subplots(figsize=(8.3, 5.4))
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.axis("off")

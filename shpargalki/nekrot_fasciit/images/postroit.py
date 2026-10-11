@@ -40,10 +40,24 @@ def ramka(ax, x, y, w, h, tekst, fon=FON, kant="#aab7bd", razmer=8.6,
     ax.add_patch(FancyBboxPatch(
         (x, y), w, h, boxstyle="round,pad=0.006,rounding_size=0.012",
         linewidth=0.9, edgecolor=kant, facecolor=fon, zorder=2))
-    ax.text(x + w / 2, y + h / 2, tekst, ha="center", va="center",
-            fontsize=razmer, color=tsvet,
-            fontweight="bold" if zhirnyy else "normal",
-            zorder=3, linespacing=1.45)
+    t = ax.text(x + w / 2, y + h / 2, tekst, ha="center", va="center",
+                fontsize=razmer, color=tsvet,
+                fontweight="bold" if zhirnyy else "normal",
+                zorder=3, linespacing=1.45)
+    vpisat(ax, t, w, h)
+
+
+def vpisat(ax, t, w, h, zapas_w=0.92, zapas_h=0.88, minimum=6.0):
+    """Уменьшает кегль, пока текст не помещается в рамку w × h (доли осей)."""
+    fig = ax.figure
+    r = fig.canvas.get_renderer()
+    (x0, y0), (x1, y1) = ax.transData.transform([(0, 0), (w, h)])
+    shir, vys = (x1 - x0) * zapas_w, (y1 - y0) * zapas_h
+    while t.get_fontsize() > minimum:
+        e = t.get_window_extent(r)
+        if e.width <= shir and e.height <= vys:
+            break
+        t.set_fontsize(t.get_fontsize() - 0.2)
 
 
 def strelka(ax, xy_ot, xy_do, tsvet=SERYY, tolshchina=1.1):
@@ -53,7 +67,7 @@ def strelka(ax, xy_ot, xy_do, tsvet=SERYY, tolshchina=1.1):
 
 
 def shema(imya="podozrenie_na_fasciit.png"):
-    fig, ax = plt.subplots(figsize=(8.3, 4.8))
+    fig, ax = plt.subplots(figsize=(8.3, 5.8))
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.axis("off")
@@ -65,23 +79,24 @@ def shema(imya="podozrenie_na_fasciit.png"):
 
     # три колонки признаков
     ramka(ax, 0.020, 0.680, 0.300, 0.200,
-          "Ранние характерные\n\nболь и болезненность\nбез изменений кожи;\n"
+          "Ранние характерные:\nболь и болезненность\nбез изменений кожи;\n"
           "потеря чувствительности\nв зоне боли",
           fon=FON_OR, kant="#d8b283", razmer=8.0, tsvet="#ca6f1e",
           zhirnyy=True)
     ramka(ax, 0.350, 0.680, 0.300, 0.200,
-          "Местные\n\nэритема без чётких\nграниц; отёк за её\n"
+          "Местные:\nэритема без чётких\nграниц; отёк за её\n"
           "пределами; мацерация,\nбуллы",
           fon=FON, kant="#aab7bd", razmer=8.0)
     ramka(ax, 0.680, 0.680, 0.300, 0.200,
-          "Системные\n\nтахикардия, гипотония;\nтахипноэ с десатурацией;\n"
+          "Системные:\nтахикардия, гипотония;\nтахипноэ с десатурацией;\n"
           "лихорадка; заторможенность\nили возбуждение",
           fon=FON, kant="#aab7bd", razmer=8.0)
 
-    ax.text(0.5, 0.645, "+ фактор риска: СД, иммунодефицит, цирроз, "
-            "инъекции наркотиков, алкоголизм, стероиды, травма, возраст > 50",
-            ha="center", va="center", fontsize=7.8, color=SERYY,
-            style="italic")
+    t = ax.text(0.5, 0.640, "+ фактор риска: сахарный диабет, иммунодефицит, цирроз печени,\n"
+                "инъекционное употребление наркотиков, алкоголизм, приём стероидов, травма, возраст > 50 лет",
+                ha="center", va="center", fontsize=7.8, color=SERYY,
+                style="italic", linespacing=1.35)
+    vpisat(ax, t, 0.96, 0.07)
 
     strelka(ax, (0.500, 0.610), (0.500, 0.545), tolshchina=1.0)
     ramka(ax, 0.020, 0.430, 0.960, 0.110,
@@ -99,7 +114,7 @@ def shema(imya="podozrenie_na_fasciit.png"):
 
     ramka(ax, 0.020, 0.030, 0.470, 0.180,
           "По пути:\n"
-          "• t > 38 °C — метамизола натрий;\n"
+          "• t > 38 °C — метамизол натрия;\n"
           "• интоксикация — инфузия комбинированных\n"
           "  солевых растворов",
           fon=FON_ZEL, kant="#a3c9a8", razmer=8.2, tsvet=ZELENYY)
