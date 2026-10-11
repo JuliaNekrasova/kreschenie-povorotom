@@ -6,13 +6,13 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="manipulyacii/venoznyy_dostup/venoznyy_dostup.pdf">Периферический венозный доступ</a> — манипуляции <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/soli_son_bradikardiya/soli_son_bradikardiya.pdf">Соли, сон и брадикардия</a> — клинический разбор <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="farmakologiya/propafenon/propafenon.pdf">Пропафенон</a> — фармакология укладки <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">Открытая плевральная полость</a> — клинический разбор <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 <a href="#shpargalki">Инфекции — серия из десяти справочных материалов по письмам Станции</a> — боррелиоз, холера, некротизирующие инфекции, жёлтая лихорадка, оспа обезьян, энтеровирусы, Марбург, коклюш, чума, «белая» лихорадка <span class="data">30.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/nalokson/nalokson.pdf">Налоксон</a> — информационное письмо в изложении для чайников <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 <a href="razbory/fantomnaya_bol_posle_mvt/fantomnaya_bol_posle_mvt.pdf">Фантомная боль после минно-взрывной травмы</a> — клинический разбор <span class="data">27.09.2026</span><span class="razdelitel">·</span>
-<a href="cheklisty/urgentnyy_osmotr_roli/urgentnyy_osmotr_roli.pdf">Ургентный осмотр: лидер и адъютор</a> — чек-лист <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 </p>
 
 <div class="razdely">
@@ -50,6 +50,11 @@
 <h3><a href="#uchebnye-materialy">Учебные и справочные материалы</a></h3>
 <span class="kolvo">6 материалов</span>
 <p>Конспекты занятий и лекций, курс «Предел прочности», тесты, таблицы доз по массе, энергий и разведений</p>
+</div>
+<div class="razdel">
+<h3><a href="#manipulyacii">Манипуляции</a></h3>
+<span class="kolvo">1 материал</span>
+<p>Техника выполнения манипуляций: анатомия, устройства, последовательность действий, механизмы неудач и осложнения</p>
 </div>
 <div class="razdel">
 <h3><a href="#oborudovanie">Оборудование и оснащение</a></h3>
@@ -178,6 +183,16 @@
 </table>
 
 Последние материалы раздела. Полный список — 10 материалов — на странице [«Виньетки»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/vinyetki.html).
+
+<a id="manipulyacii"></a>
+## Манипуляции
+
+<table width="100%">
+<thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
+<tbody>
+<tr><td><strong>Периферический венозный доступ</strong></td><td>Анатомия поверхностных вен, катетер и игла-бабочка, этапы введения и хват, механизмы неудач, подготовка вены и ограничение числа попыток при трудном доступе</td><td>1.0 · 11.10.2026</td><td><a href="manipulyacii/venoznyy_dostup/venoznyy_dostup.pdf">PDF, A4, 16 стр.</a></td></tr>
+</tbody>
+</table>
 
 <a id="oborudovanie"></a>
 <a id="trenazhery"></a>
