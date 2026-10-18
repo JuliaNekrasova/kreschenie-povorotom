@@ -6,13 +6,13 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="farmakologiya/protivovirusnye/protivovirusnye.pdf">Противовирусные препараты при гриппе, ОРВИ и COVID-19</a> — фармакология укладки <span class="data">18.10.2026</span><span class="razdelitel">·</span>
 <a href="manipulyacii/venoznyy_dostup/venoznyy_dostup.pdf">Периферический венозный доступ</a> — манипуляции <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/soli_son_bradikardiya/soli_son_bradikardiya.pdf">Соли, сон и брадикардия</a> — клинический разбор <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="farmakologiya/propafenon/propafenon.pdf">Пропафенон</a> — фармакология укладки <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">Открытая плевральная полость</a> — клинический разбор <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 <a href="#shpargalki">Инфекции — серия из десяти справочных материалов по письмам Станции</a> — боррелиоз, холера, некротизирующие инфекции, жёлтая лихорадка, оспа обезьян, энтеровирусы, Марбург, коклюш, чума, «белая» лихорадка <span class="data">30.09.2026</span><span class="razdelitel">·</span>
 <a href="shpargalki/nalokson/nalokson.pdf">Налоксон</a> — информационное письмо в изложении для чайников <span class="data">27.09.2026</span><span class="razdelitel">·</span>
-<a href="razbory/fantomnaya_bol_posle_mvt/fantomnaya_bol_posle_mvt.pdf">Фантомная боль после минно-взрывной травмы</a> — клинический разбор <span class="data">27.09.2026</span><span class="razdelitel">·</span>
 </p>
 
 <div class="razdely">
@@ -28,7 +28,7 @@
 </div>
 <div class="razdel">
 <h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html">Фармакология укладки</a></h3>
-<span class="kolvo">10 материалов</span>
+<span class="kolvo">11 материалов</span>
 <p>Механизм, время до эффекта, дозы, ошибки введения. Карточки формата A5 в карман</p>
 </div>
 <div class="razdel">
@@ -109,10 +109,11 @@
 <tr><td><strong>Ноотропы и нейропротекция</strong></td><td>Глицин, пирацетам, церебролизин, мексидол, семакс, цитофлавин, фенибут — что говорят Cochrane, FDA и отечественные исследования</td><td>1.0 · 31.08.2026</td><td><a href="farmakologiya/nootropy/nootropy.pdf">PDF, A4, 22 стр.</a></td></tr>
 <tr><td><strong>Преднизолон</strong></td><td>Пути действия и время до эффекта, сравнение с дексаметазоном и гидрокортизоном, дозы по темам, расхождения при анафилаксии и травме спинного мозга</td><td>1.1 · 24.08.2026</td><td><a href="farmakologiya/prednizolon/prednizolon.pdf">PDF, A4, 10 стр.</a> · <a href="farmakologiya/prednizolon/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
 <tr><td><strong>Пропафенон</strong></td><td>Класс IC со слабой β-адреноблокадой, место среди антиаритмиков, скорость восстановления ритма в сравнении с амиодароном, синдром Бругада и проведение 1:1, флебит при амиодароне</td><td>1.1 · 09.10.2026</td><td><a href="farmakologiya/propafenon/propafenon.pdf">PDF, A4, 17 стр.</a> · <a href="farmakologiya/propafenon/kartochka.pdf">карточка СМП, PDF, A5</a></td></tr>
+<tr><td><strong>Противовирусные препараты при гриппе, ОРВИ и COVID-19</strong></td><td>Осельтамивир, балоксавир, нирматрелвир/ритонавир, умифеновир, тилорон, кагоцел, ингавирин — механизмы, регистрационные исследования, рекомендации ВОЗ, Кокрейна и Минздрава России, расхождения, лекарственные взаимодействия</td><td>1.0 · 18.10.2026</td><td><a href="farmakologiya/protivovirusnye/protivovirusnye.pdf">PDF, A4, 37 стр.</a></td></tr>
 </tbody>
 </table>
 
-Последние материалы раздела. Полный список — 10 материалов — на странице [«Фармакология укладки»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html).
+Последние материалы раздела. Полный список — 11 материалов — на странице [«Фармакология укладки»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/farmakologiya.html).
 
 <a id="shpargalki"></a>
 ## Приказы и информационные письма в изложении для чайников
