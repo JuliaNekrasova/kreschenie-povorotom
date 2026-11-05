@@ -48,7 +48,7 @@
 </div>
 <div class="razdel">
 <h3><a href="#uchebnye-materialy">Учебные и справочные материалы</a></h3>
-<span class="kolvo">7 материалов</span>
+<span class="kolvo">6 материалов</span>
 <p>Конспекты занятий и лекций, курс «Предел прочности», тесты, таблицы доз по массе, энергий и разведений</p>
 </div>
 <div class="razdel">
@@ -162,13 +162,12 @@
 <a id="predel-prochnosti"></a>
 ### Курс «Предел прочности»
 
-Курс о критических состояниях, построенный по восьми механизмам отказа доставки и утилизации кислорода. Каждая лекция представляет собой один автономный HTML-файл, работающий без сети: теория, вопросы по ходу изложения и клинические задачи; ответы раскрываются по нажатию кнопки.
+Курс о критических состояниях, построенный по восьми механизмам отказа доставки и утилизации кислорода. Каждая лекция представляет собой один автономный HTML-файл, работающий без сети. Вопросы к разделу предшествуют его изложению и служат претестом; ответы на них раскрываются по нажатию кнопки в конце раздела. Лекция завершается клиническими задачами с ответами. Лекция 1 «Дыхательная недостаточность» находится в переработке.
 
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Лекция 1: дыхательная недостаточность</strong></td><td>Дыхание как насос и газообменник, ось V/Q, пределы пульсоксиметрии, капнография, НИВЛ по Алгоритмам ДЗМ. Вопросы и 14 задач с ответами внутри файла</td><td>1.0 · 21.09.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">открыть онлайн</a> · <a href="uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html" download="predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">скачать, 878 КБ</a></td></tr>
-<tr><td><strong>Лекция 2: острый коронарный синдром</strong></td><td>Окклюзия коронарной артерии как предмет диагностики, эквиваленты ИМпST (задний инфаркт, синдром Велленса, паттерн де Винтера, сверхострые зубцы T, критерии Сгарбоссы и Смита), инфаркт правого желудочка, кардиогенный шок, тактика по приказу № 535 и расхождения с ESC 2023. 24 вопроса и 10 задач с ответами внутри файла</td><td>1.0 · 05.11.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">открыть онлайн</a> · <a href="uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html" download="predel_prochnosti_02_oks.html">скачать, 2,1 МБ</a></td></tr>
+<tr><td><strong>Лекция 2: острый коронарный синдром</strong></td><td>Окклюзия коронарной артерии как предмет диагностики, эквиваленты ИМпST (задний инфаркт, синдром Велленса, паттерн де Винтера, сверхострые зубцы T, критерии Сгарбоссы и Смита), инфаркт правого желудочка, кардиогенный шок, тактика по приказу № 535 и расхождения с ESC 2023. 24 вопроса и 10 задач с ответами внутри файла</td><td>1.1 · 05.11.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">открыть онлайн</a> · <a href="uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html" download="predel_prochnosti_02_oks.html">скачать, 2,1 МБ</a></td></tr>
 </tbody>
 </table>
 
