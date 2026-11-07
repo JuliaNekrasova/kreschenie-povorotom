@@ -6,13 +6,13 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
-<a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_01_dyhatelnaya_nedostatochnost/predel_prochnosti_01_dyhatelnaya_nedostatochnost.html">Предел прочности, лекция 1: основы дыхательной недостаточности, версия 2.0</a> — учебные материалы <span class="data">07.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost.html">Предел прочности, лекция 3: острая сердечная недостаточность и отёк лёгких</a> — учебные материалы <span class="data">07.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">Предел прочности, лекция 2: острый коронарный синдром</a> — учебные материалы <span class="data">05.11.2026</span><span class="razdelitel">·</span>
 <a href="farmakologiya/protivovirusnye/protivovirusnye.pdf">Противовирусные препараты при гриппе, ОРВИ и COVID-19</a> — фармакология укладки <span class="data">18.10.2026</span><span class="razdelitel">·</span>
 <a href="manipulyacii/venoznyy_dostup/venoznyy_dostup.pdf">Периферический венозный доступ</a> — манипуляции <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/soli_son_bradikardiya/soli_son_bradikardiya.pdf">Соли, сон и брадикардия</a> — клинический разбор <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="farmakologiya/propafenon/propafenon.pdf">Пропафенон</a> — фармакология укладки <span class="data">08.10.2026</span><span class="razdelitel">·</span>
+<a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">Открытая плевральная полость</a> — клинический разбор <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 </p>
 
 <div class="razdely">
@@ -48,7 +48,7 @@
 </div>
 <div class="razdel">
 <h3><a href="#uchebnye-materialy">Учебные и справочные материалы</a></h3>
-<span class="kolvo">7 материалов</span>
+<span class="kolvo">8 материалов</span>
 <p>Конспекты занятий и лекций, курс «Предел прочности», тесты, таблицы доз по массе, энергий и разведений</p>
 </div>
 <div class="razdel">
