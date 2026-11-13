@@ -49,6 +49,123 @@ a{color:var(--key-strong)}
 .module-ident>span{color:var(--dim);font-size:10px;font-weight:750;letter-spacing:.09em;text-transform:uppercase}
 .module-ident>strong{padding-left:12px;border-left:1px solid var(--line);font-size:13px;font-weight:700}
 @media(max-width:760px){.module-ident{display:none}}
+.pk-start{
+  margin-left:auto;padding:8px 14px;border:1px solid rgba(26,158,150,.5);border-radius:10px;
+  background:var(--key-soft);color:var(--key-strong);font-size:13px;font-weight:750;
+}
+.pk-start:hover{background:rgba(26,158,150,.26)}
+@media(max-width:760px){.pk-start{display:none}}
+
+/* ---------- режим показа ---------- */
+body.pk-open{overflow:hidden}
+.pk{position:fixed;inset:0;z-index:1000;display:none;background:#14191e;overflow:hidden}
+.pk.on{display:block}
+.pk-stage{
+  position:absolute;left:0;top:0;width:1600px;height:900px;transform-origin:0 0;
+  background:#fbfbf9;color:#15202a;overflow:hidden;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+.pk-crumb{
+  position:absolute;left:72px;right:72px;top:30px;padding-bottom:10px;
+  border-bottom:3px solid #1a9e96;color:#4f6270;font-size:21px;font-weight:700;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.pk-body{position:absolute;left:72px;right:72px;top:96px;bottom:58px;overflow:hidden;font-size:30px;line-height:1.36}
+.pk-foot{
+  position:absolute;left:72px;right:72px;bottom:16px;display:flex;justify-content:space-between;
+  color:#8e9ba4;font-size:16px;
+}
+.pk-body>*:first-child{margin-top:0}
+.pk-body p{margin:0 0 .55em}
+.pk-body ul,.pk-body ol{margin:0 0 .55em;padding-left:1.2em}
+.pk-body li{margin-bottom:.25em}
+.pk-body li::marker{color:#1a9e96}
+.pk-body strong{color:#000}
+.pk-body code{font-size:.85em;padding:0 .2em;background:#eef2f4;border-radius:4px}
+.pk-body .tablewrap{overflow:visible;margin:0}
+.pk-body table{width:100%;border-collapse:collapse;font-size:.82em;line-height:1.3}
+.pk-body th{
+  padding:.35em .5em;text-align:left;vertical-align:bottom;background:#e6f3f1;color:#0d6f69;
+  font-size:.72em;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-bottom:2px solid #1a9e96;
+}
+.pk-body td{padding:.35em .5em;vertical-align:top;border-bottom:1px solid #d6dee3}
+.pk-body tbody tr:nth-child(even){background:#f2f5f6}
+.pk-body caption{caption-side:top;text-align:left;color:#4f6270;font-size:.75em;padding-bottom:.3em}
+.pk-body .card{margin:0 0 .5em;box-shadow:none;border:2px solid #d6dee3;border-radius:14px;overflow:hidden;background:#fff}
+.pk-body .card>header{display:flex;align-items:center;gap:.6em;padding:.3em .7em;background:#f0f4f6;border-bottom:1px solid #d6dee3}
+.pk-body .card>header h3{margin:0;color:#0d6f69;font-size:.62em;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.pk-body .card .body{padding:.5em .8em .1em}
+.pk-body .vopros{border-color:#e3b54a}
+.pk-body .vopros>header{background:#fdf4dc;border-bottom-color:#efd492}
+.pk-body .vopros>header h3{color:#9a6700}
+.pk-body .otvet-pk{border-color:#86d2ab}
+.pk-body .otvet-pk>header{background:#e7f6ee;border-bottom-color:#b5e3ca}
+.pk-body .otvet-pk>header h3{color:#1c7547}
+.pk-body .tnum{padding:.1em .4em;border-radius:6px;background:#e6f3f1;color:#0d6f69;font-size:.62em;font-weight:800;text-transform:uppercase}
+.pk-body .zadacha>header .ztitle{margin:0;color:#15202a;font-size:.8em;font-weight:750;letter-spacing:0;text-transform:none}
+.pk-body .zadacha h4{margin:.4em 0 .2em;font-size:.7em;color:#4f6270;text-transform:uppercase;letter-spacing:.08em}
+.pk-q{margin:0 0 .6em;padding-left:.6em;border-left:5px solid #e3b54a;color:#46555f;font-size:.8em}
+.pk-q p{margin:0 0 .3em}
+.pk-skryto{display:none!important}
+.pk-hint{color:#9aa7b0;font-size:.6em}
+.pk-ris{display:flex;flex-direction:column;height:100%}
+.pk-ris figure{margin:0;flex:1;min-height:0;display:flex;flex-direction:column}
+.pk-ris img{display:block;width:100%;object-fit:contain;flex:1;min-height:0;border:0;background:none}
+.pk-ris figcaption,.pk-ris p{margin:.5em 0 0;color:#46555f;font-size:.6em;line-height:1.4}
+.pk-ris p>em{font-style:normal}
+.pk-titul{display:flex;flex-direction:column;justify-content:center;height:100%}
+.pk-titul .k{color:#1a9e96;font-size:24px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.pk-titul h1{margin:.3em 0 .4em;font-size:68px;line-height:1.08;letter-spacing:-.02em}
+.pk-titul .m{color:#4f6270;font-size:28px}
+.pk-razdel{display:flex;flex-direction:column;justify-content:center;height:100%}
+.pk-razdel h2{margin:0 0 .6em;color:#0d6f69;font-size:62px;line-height:1.1;letter-spacing:-.02em;border:0;padding:0}
+.pk-razdel ul{margin:0;padding-left:1.1em;color:#33434e;font-size:30px}
+.pk-razdel .pk-dop{margin:0 0 .6em;font-size:1em;color:#15202a}
+.pk-razdel .pk-dop ul{font-size:1em;color:inherit}
+.pk-razdel .pk-dop li{margin-bottom:.4em}
+.doc .tolko-pokaz{display:none}
+.pk-doska{
+  position:absolute;inset:0;display:none;background-color:#fff;
+  background-image:linear-gradient(#eef1f3 1px,transparent 1px),linear-gradient(90deg,#eef1f3 1px,transparent 1px);
+  background-size:50px 50px;
+}
+.pk.doska .pk-doska{display:block}
+.pk-cv{position:absolute;left:0;top:0;width:1600px;height:900px;touch-action:none;cursor:none}
+.pk-kursor{position:fixed;z-index:1003;display:none;pointer-events:none;background:no-repeat center/contain}
+.pk-txt{
+  position:absolute;z-index:2;margin:0;padding:2px 4px;resize:none;overflow:hidden;white-space:pre;
+  font:600 34px/1.25 Inter,"Segoe UI",Roboto,Arial,sans-serif;
+  background:rgba(255,255,255,.75);border:2px dashed #1a9e96;border-radius:6px;outline:none;
+}
+.pk-laser{
+  position:fixed;z-index:1003;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;
+  background:#ff2b2b;box-shadow:0 0 14px 6px rgba(255,43,43,.55);pointer-events:none;display:none;
+}
+.pk-bar{
+  position:fixed;z-index:1002;left:50%;bottom:10px;transform:translateX(-50%);
+  display:flex;align-items:center;gap:3px;padding:5px 7px;border-radius:12px;
+  background:rgba(18,24,30,.9);box-shadow:0 8px 26px rgba(0,0,0,.35);
+  opacity:.2;transition:opacity .2s;font-size:14px;color:#e8eef1;
+}
+.pk-bar:hover{opacity:1}
+.pk-bar button{min-width:34px;height:34px;padding:0 8px;border-radius:8px;color:#e8eef1}
+.pk-bar button:hover{background:rgba(255,255,255,.1)}
+.pk-bar button.on{background:#1a9e96}
+.pk-bar .sw{display:inline-block;width:16px;height:16px;border-radius:50%;vertical-align:middle;border:2px solid rgba(255,255,255,.7)}
+.pk-bar .sep{width:1px;height:22px;margin:0 4px;background:rgba(255,255,255,.18)}
+.pk-bar .cnt{min-width:74px;text-align:center;color:#aab6be;font-variant-numeric:tabular-nums}
+.pk-panel{
+  position:fixed;z-index:1004;left:50%;top:50%;transform:translate(-50%,-50%);display:none;
+  width:min(720px,92vw);max-height:84vh;overflow:auto;padding:18px 20px;border-radius:14px;
+  background:#10161c;border:1px solid #26333d;color:#edf2f4;box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+.pk-panel.on{display:block}
+.pk-panel h3{margin:0 0 10px;color:#3ecfc4;font-size:12px;letter-spacing:.13em;text-transform:uppercase}
+.pk-panel button{display:block;width:100%;padding:8px 10px;border-radius:8px;text-align:left;font-size:15px}
+.pk-panel button:hover{background:rgba(26,158,150,.18)}
+.pk-panel table{width:100%;border-collapse:collapse;font-size:14px}
+.pk-panel td{padding:5px 8px;border-bottom:1px solid #1b242c;vertical-align:top}
+.pk-panel td:first-child{white-space:nowrap;color:#3ecfc4;font-weight:700}
 
 .hero{
   margin:0 0 22px;padding:26px 0 20px;
@@ -212,6 +329,7 @@ footer p{margin:0 0 6px}
     <span>Тема</span><strong>1</strong>
     <span>Механизмы отказа</span><strong>1 и 2</strong>
   </div>
+  <button class="pk-start" id="pkStart" type="button" title="Режим показа на экране (клавиша P)">Показ</button>
 </header>
 
 <section class="hero">
@@ -259,6 +377,17 @@ footer p{margin:0 0 6px}
 дыхательный центр, нервы и дыхательные мышцы) и нарушению
 альвеолярно-капиллярного переноса (механизм отказа 2). Схема восьми
 механизмов отказа приведена в разделе «О курсе» в начале файла.</p>
+<div class="pokaz v-zagolovok tolko-pokaz">
+<ul>
+<li><strong>Механизм отказа 1 — вентиляция альвеол:</strong> кислород не
+поступает в альвеолы. Звенья: состав вдыхаемого газа, верхние и нижние
+дыхательные пути, дыхательный центр, нервно-мышечный аппарат, грудная
+стенка.</li>
+<li><strong>Механизм отказа 2 — альвеолярно-капиллярный
+перенос:</strong> кислород не переходит в кровь. Звенья: заполнение и
+коллапс альвеол, отношение V/Q, мембрана.</li>
+</ul>
+</div>
 <p>Содержание организовано вокруг трёх вопросов, на которые у постели
 больного отвечает осмотр, а не прибор: на каком уровне нарушение,
 реагирует ли насыщение на кислород и состоятелен ли вентиляционный
@@ -293,16 +422,20 @@ footer p{margin:0 0 6px}
 насыщении указывает на внелёгочную причину: ацидоз, анемию, шок,
 отравление. Ответ получают аускультацией и осмотром в первые тридцать
 секунд.</p>
-<p><strong>Вопрос 2. Реакция насыщения на ингаляцию кислорода.</strong>
-Отчётливое повышение SpO₂ соответствует нарушению
-вентиляционно-перфузионных отношений при сохранённой вентиляции участков
-лёгкого. Отсутствие реакции свидетельствует либо о шунте — заполненных
-или коллабированных альвеолах, — либо о внелёгочной причине: отравлении
-монооксидом углерода, метгемоглобинемии, анемии, шоке. Ответ на второй
-вопрос истолковывается только после ответа на первый: при механическом
-препятствии на уровне голосовых складок отсутствие реакции означает
-препятствие, а не шунт, и тактика противоположна. Условия пробы изложены
-в разделе 3.</p>
+<p><strong>Вопрос 2. Реакция на кислород.</strong> Отчётливое повышение
+SpO₂ означает, что кислород достигает альвеол и переходит в кровь:
+альвеолы вентилируются, хотя и недостаточно, и увеличение потока
+кислорода компенсирует недостаток. Отсутствие реакции свидетельствует
+либо о том, что часть альвеол заполнена жидкостью или спалась и
+протекающая мимо них кровь не получает кислорода при любом потоке, либо
+о внелёгочной причине: отравлении монооксидом углерода,
+метгемоглобинемии, анемии, шоке. В первом случае помогает не поток, а
+положительное давление в дыхательных путях, которое расправляет
+альвеолы. Ответ на второй вопрос истолковывается только после ответа на
+первый: при механическом препятствии на уровне голосовых складок
+отсутствие реакции означает препятствие, а не поражение альвеол, и
+тактика противоположна. Физиологическое обоснование и условия пробы
+изложены в разделе 3.</p>
 <p><strong>Вопрос 3. Состоятельность вентиляционного аппарата.</strong>
 Оцениваются речь, участие вспомогательных мышц, парадоксальное дыхание,
 уровень сознания и направление изменения частоты дыхания. При
@@ -312,22 +445,36 @@ footer p{margin:0 0 6px}
 третий вопрос определяет и прогностический вес находок: признаки
 вентиляционной недостаточности тяжелее признаков оксигенационной при
 одинаковом насыщении.</p>
+<div class="pokaz v-zagolovok tolko-pokaz">
+<p>Три вопроса задаются в фиксированной последовательности: каждый
+следующий истолковывается только с учётом ответа на предыдущий.</p>
+<ol type="1">
+<li><strong>Уровень поражения:</strong> выше голосовых складок, нижние
+дыхательные пути, альвеолы или вне лёгких.</li>
+<li><strong>Реакция на кислород:</strong> есть прирост SpO₂ или
+нет.</li>
+<li><strong>Состоятельность вентиляционного аппарата:</strong>
+справляется ли он с работой дыхания.</li>
+</ol>
+</div>
 <section class="card vopros"><header><h3>Вопрос 1</h3></header><div class="body">
 <p>Пациент с SpO₂ 88 % на воздухе говорит развёрнутыми фразами; на маске
-с резервуаром 15 л/мин насыщение за три минуты повысилось до 96 %. Какие
-ответы на три вопроса каркаса получены, какого ответа недостаёт и какой
-запас времени следует из полученных?</p>
+с резервуаром 15 л/мин насыщение за три минуты повысилось до 96 %. На
+какие из трёх вопросов каркаса уже получены ответы, на какой ответа пока
+нет и какой запас времени следует из полученных ответов?</p>
 </div></section>
 <section class="card vopros"><header><h3>Вопрос 2</h3></header><div class="body">
-<p>По какой причине второй вопрос — о реакции насыщения на ингаляцию
-кислорода — не может быть решён до ответа на первый?</p>
+<p>Пробу с кислородом можно выполнить в любой момент осмотра. Почему её
+результат нельзя истолковать, пока не получен ответ на первый вопрос —
+об уровне поражения, и к какому ошибочному выводу приводит отсутствие
+прироста SpO₂, если уровень поражения не установлен?</p>
 </div></section>
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 21%" />
+<col style="width: 21%" />
+<col style="width: 51%" />
+<col style="width: 6%" />
 </colgroup>
 <thead>
 <tr>
@@ -341,15 +488,19 @@ footer p{margin:0 0 6px}
 <tr>
 <td>Уровень поражения</td>
 <td>Аускультация вдоха и выдоха, осмотр, обстоятельства вызова</td>
-<td>Восстановление проходимости, бронхолитик или давление в контуре;
-поиск внелёгочной причины</td>
+<td>Верхние дыхательные пути — восстановление проходимости; нижние —
+бронхолитик; альвеолы — положительное давление в дыхательных путях
+(CPAP, НИВЛ); вне лёгких — поиск причины</td>
 <td>2, 5</td>
 </tr>
 <tr>
 <td>Реакция на кислород</td>
 <td>Маска с резервуаром 12–15 л/мин, оценка через 2–3 минуты</td>
-<td>Поток при нарушении V/Q; давление (CPAP, ПДКВ) при шунте;
-CO-оксиметрия и поиск причины при нормальном насыщении</td>
+<td>Прирост SpO₂ есть — продолжение ингаляции кислорода; прироста нет —
+решение по уровню поражения: при поражении альвеол положительное
+давление в дыхательных путях (CPAP, НИВЛ), при препятствии —
+восстановление проходимости; насыщение нормальное при выраженной одышке
+— CO-оксиметрия, поиск внелёгочной причины</td>
 <td>3, 4</td>
 </tr>
 <tr>
@@ -372,22 +523,24 @@ CO-оксиметрия и поиск причины при нормальном
 <hr />
 <details class="card otvet"><summary>Показать ответ на вопрос 1</summary><header><h3>Ответ на вопрос 1</h3></header><div class="body">
 <p>Получены ответы на второй и третий вопросы: реакция на кислород
-отчётливая, что соответствует низкому, но не нулевому V/Q при
-сохранённой вентиляции участков; вентиляционный аппарат состоятелен,
-поскольку речь развёрнутая. Недостаёт ответа на первый вопрос — об
-уровне поражения, который требует аускультации вдоха и выдоха и учёта
-обстоятельств вызова. Запас времени измеряется десятками минут и часами:
-объём помощи — поток кислорода, поиск причины (бронхообструкция,
-тромбоэмболия) и контроль направления изменения частоты дыхания и речи,
-а не ожидание порогов стр. 25.</p>
+отчётливая, следовательно, кислород достигает альвеол, а альвеолы не
+заполнены и не спавшиеся (физиологическое обоснование — в разделе 3);
+вентиляционный аппарат состоятелен, поскольку речь развёрнутая.
+Недостаёт ответа на первый вопрос — об уровне поражения, который требует
+аускультации вдоха и выдоха и учёта обстоятельств вызова. Запас времени
+измеряется десятками минут и часами: объём помощи — поток кислорода,
+поиск причины (бронхообструкция, тромбоэмболия) и контроль направления
+изменения частоты дыхания и речи, а не ожидание порогов стр. 25.</p>
 </div></details>
 <details class="card otvet"><summary>Показать ответ на вопрос 2</summary><header><h3>Ответ на вопрос 2</h3></header><div class="body">
-<p>Отсутствие ответа на кислород истолковывается по-разному в
-зависимости от уровня препятствия. При препятствии на уровне голосовых
-складок и выше и при инородном теле дыхательных путей отсутствие ответа
-означает механическое препятствие, устраняемое удалением препятствия или
-обеспечением проходимости, а не шунт, при котором применяется давление в
-контуре. Без ответа на первый вопрос одна и та же реакция допускает
+<p>Сама проба от уровня поражения не зависит; от него зависит
+истолкование её результата. Отсутствие ответа на кислород
+истолковывается по-разному в зависимости от уровня препятствия. При
+препятствии на уровне голосовых складок и выше и при инородном теле
+дыхательных путей отсутствие ответа означает механическое препятствие,
+устраняемое удалением препятствия или обеспечением проходимости, а не
+шунт, при котором применяется положительное давление в дыхательных путях
+(CPAP, НИВЛ). Без ответа на первый вопрос одна и та же реакция допускает
 противоположные тактические решения.</p>
 </div></details>
 <h2 id="вентиляционная-и-газообменная-функции-лёгких">2. Вентиляционная
@@ -2064,8 +2217,8 @@ CPAP</h3>
 <tbody>
 <tr>
 <td>Пневмоторакс</td>
-<td>Положительное давление в контуре способно превратить закрытый
-пневмоторакс в напряжённый</td>
+<td>Положительное давление в дыхательных путях способно превратить
+закрытый пневмоторакс в напряжённый</td>
 </tr>
 <tr>
 <td>Инородное тело дыхательных путей</td>
@@ -2223,8 +2376,9 @@ SpO₂, но не увеличивает объём вдоха, и PaCO₂ пр�
 <td>Реакция на кислород</td>
 <td>Прирост минимален или отсутствует</td>
 <td>Шунт: заполненные или коллабированные альвеолы</td>
-<td>Давление в контуре: НИВЛ или CPAP с ПДКВ 5–10 см вод. ст.; при SpO₂
-≤ 80 % — интубация, ИВЛ 6–8 мл/кг идеальной массы тела</td>
+<td>Положительное давление в дыхательных путях: НИВЛ или CPAP с ПДКВ
+5–10 см вод. ст.; при SpO₂ ≤ 80 % — интубация, ИВЛ 6–8 мл/кг идеальной
+массы тела</td>
 <td>25</td>
 </tr>
 <tr>
@@ -2878,8 +3032,8 @@ V/Q-несоответствие без аускультативных изме�
 ТЭЛА означает массивную ТЭЛА с перегрузкой правых отделов и переводит
 пациента в иную категорию тяжести, а не сводится к снижению АД.
 Во-вторых, САД ниже 90 мм рт. ст. одновременно исключает НИВЛ:
-положительное давление в контуре уменьшает венозный возврат, что
-неблагоприятно при перегрузке правого желудочка.</p>
+положительное давление в дыхательных путях уменьшает венозный возврат,
+что неблагоприятно при перегрузке правого желудочка.</p>
 </div></details>
 <section class="card zadacha"><header><span class="tnum">Задача 7</span><h3 class="ztitle">Кардиогенный отёк лёгких на фоне артериальной гипертензии</h3></header><div class="body">
 <p>Мужчина 82 лет. Ночью проснулся от нехватки воздуха. Сидит, ноги
@@ -3467,8 +3621,9 @@ J80) раздела 1 «Анестезиология и реаниматолог
 <td>4</td>
 <td>НИВЛ при одностороннем ослаблении дыхания и подкожной эмфиземе</td>
 <td>Недопустимо</td>
-<td>Картина пневмоторакса — противопоказание, стр. 25; давление в
-контуре способно сделать пневмоторакс напряжённым</td>
+<td>Картина пневмоторакса — противопоказание, стр. 25; положительное
+давление в дыхательных путях способно сделать пневмоторакс
+напряжённым</td>
 <td>Кислород, решение о декомпрессии при напряжённом пневмотораксе,
 безотлагательная эвакуация</td>
 </tr>
@@ -3900,7 +4055,7 @@ id="toc-источники-иллюстраций">Источники иллюс
 </div>
 
 <footer class="wrap">
-  <p>Предел прочности · тема 1 · версия 2.2 от 13.11.2026</p>
+  <p>Предел прочности · тема 1 · версия 2.3 от 13.11.2026</p>
   <p>Тексты — CC BY-NC-SA 4.0. Рисунки сохраняют лицензии своих источников, перечень — в конце файла.</p>
 </footer>
 
@@ -3926,6 +4081,510 @@ id="toc-источники-иллюстраций">Источники иллюс
   }
   mark();
   window.addEventListener('scroll',mark,{passive:true});
+})();
+</script>
+<script>
+/* Режим показа. Слайды собираются из страницы: раздел (h2), рисунок с подписью,
+   таблица (длинная делится на части), вопрос, ответ (раскрывается вторым нажатием),
+   задача, блок ::: pokaz. Сплошной текст в показ не попадает. */
+(function(){
+  var doc=document.getElementById('doc');
+  if(!doc)return;
+  var W=1600,H=900,MAX_STROK=7,MIN_KEGL=22,NAHLEST=60;
+
+  function txt(el){return (el.textContent||'').replace(/\s+/g,' ').trim()}
+  function el(tag,cls,html){var e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e}
+  function klon(n){
+    var c=n.cloneNode(true);
+    if(c.removeAttribute)c.removeAttribute('id');
+    [].forEach.call(c.querySelectorAll('[id]'),function(x){x.removeAttribute('id')});
+    return c;
+  }
+  function tolkoEm(p){return p&&p.tagName==='P'&&p.children.length===1&&p.firstElementChild.tagName==='EM'&&txt(p)===txt(p.firstElementChild)}
+  function tolkoImg(p){return p.tagName==='P'&&p.children.length===1&&p.firstElementChild.tagName==='IMG'&&!txt(p)}
+
+  function razbitTablicu(wrap){
+    var t=wrap.querySelector('table'),rows=t&&t.tBodies[0]?[].slice.call(t.tBodies[0].rows):[];
+    if(rows.length<=MAX_STROK)return [wrap];
+    var chastey=Math.ceil(rows.length/(MAX_STROK-1)),po=Math.ceil(rows.length/chastey),out=[];
+    for(var c=0;c<chastey;c++){
+      var w=klon(wrap),tb=w.querySelector('tbody'),r=[].slice.call(tb.rows);
+      r.forEach(function(row,j){if(j<c*po||j>=(c+1)*po)tb.removeChild(row)});
+      out.push(w);
+    }
+    return out;
+  }
+
+  /* ---------- сборка слайдов ---------- */
+  var kurs=txt(document.querySelector('.app-header .eyebrow')||doc);
+  var ident=[].map.call(document.querySelectorAll('.module-ident strong'),txt);
+  var nazvanie=txt(document.querySelector('.hero h2')||doc);
+  var slides=[{vid:'titul'}];
+  var shema=document.querySelector('.ramka img.shema');
+  if(shema)slides.push({vid:'ris',nodes:[shema],crumb:'Восемь механизмов отказа'});
+
+  var kids=[].slice.call(doc.children),h2='',h3='',razdel=null,voprosy={},zadacha='';
+  for(var i=0;i<kids.length;i++){
+    var e=kids[i],tag=e.tagName,cl=e.classList;
+    if(tag==='H2'){
+      h2=txt(e);h3='';
+      if(/^Источники/.test(h2))break;
+      razdel={vid:'razdel',title:h2,podrazdely:[],src:e};
+      slides.push(razdel);continue;
+    }
+    if(tag==='H3'){h3=txt(e);if(razdel)razdel.podrazdely.push(h3);continue}
+    var crumb=h2+(h3?' · '+h3:'');
+    if(tag==='FIGURE'||tolkoImg(e)){
+      var nodes=[e];
+      if(tolkoEm(kids[i+1])){nodes.push(kids[i+1]);i++}
+      slides.push({vid:'ris',nodes:nodes,crumb:crumb,src:e});continue;
+    }
+    if(cl.contains('tablewrap')){
+      var pred=kids[i-1],podpis=pred&&pred.tagName==='P'&&/^(Таблица|Табл\.)\s*\d/.test(txt(pred))?pred:null;
+      var chasti=razbitTablicu(e);
+      chasti.forEach(function(t,j){
+        slides.push({vid:'el',nodes:podpis?[podpis,t]:[t],src:e,
+          crumb:crumb+(chasti.length>1?' ('+(j+1)+' из '+chasti.length+')':'')});
+      });
+      continue;
+    }
+    if(cl.contains('vopros')){
+      var n=txt(e.querySelector('header')).replace(/\D/g,'');
+      voprosy[n]=e;
+      slides.push({vid:'el',nodes:[e],crumb:crumb,src:e});continue;
+    }
+    if(cl.contains('zadacha')){
+      zadacha=txt(e.querySelector('.tnum')||e);
+      slides.push({vid:'el',nodes:[e],crumb:'Задачи',src:e});continue;
+    }
+    if(cl.contains('otvet')){
+      var zag=txt(e.querySelector('header')),k=(zag.match(/вопрос\s+(\d+)/)||[])[1];
+      slides.push({vid:'otvet',node:e,vopros:k?voprosy[k]:null,src:e,shagov:1,
+        title:k?zag:'Ответ · '+zadacha,crumb:k?crumb:'Задачи'});
+      continue;
+    }
+    if(cl.contains('pokaz')){
+      if(cl.contains('v-zagolovok')&&razdel)razdel.dop=e;
+      else slides.push({vid:'el',nodes:[e],crumb:crumb,src:e});
+      continue;
+    }
+  }
+
+  /* ---------- разметка показа ---------- */
+  var pk=el('div','pk');
+  var stage=el('div','pk-stage');
+  var crumbEl=el('div','pk-crumb'),body=el('div','pk-body'),foot=el('div','pk-foot');
+  var doskaEl=el('div','pk-doska'),cv=el('canvas','pk-cv'),ctx=cv.getContext('2d');
+  stage.appendChild(crumbEl);stage.appendChild(body);stage.appendChild(foot);
+  stage.appendChild(doskaEl);stage.appendChild(cv);pk.appendChild(stage);
+  var laserEl=el('div','pk-laser');pk.appendChild(laserEl);
+
+  var CVETA=[['#e5262b','Красный (1)'],['#1f6fe0','Синий (2)'],['#169b5a','Зелёный (3)'],['#111','Чёрный (4)']];
+  var bar=el('div','pk-bar');
+  function knopka(html,title,fn){var b=el('button',null,html);b.type='button';b.title=title;
+    b.addEventListener('click',function(ev){ev.stopPropagation();fn();});bar.appendChild(b);return b}
+  function razd(){bar.appendChild(el('span','sep'))}
+  knopka('&#8592;','Назад (←)',function(){nazad()});
+  var cnt=el('span','cnt');bar.appendChild(cnt);
+  knopka('&#8594;','Вперёд (→, пробел)',function(){vpered()});
+  razd();
+  function vybratCvet(j){vybrat(instrument==='tekst'?'tekst':'pero',j)}
+  var kCvet=CVETA.map(function(c,j){return knopka('<span class="sw" style="background:'+c[0]+'"></span>',c[1],function(){vybratCvet(j)})});
+  var kTekst=knopka('Текст','Текст с клавиатуры (T)',function(){vybrat('tekst')});
+  var kMarker=knopka('<span class="sw" style="background:#ffd400"></span>','Маркер (M)',function(){vybrat('marker')});
+  var kLastik=knopka('Ластик','Ластик (E)',function(){vybrat('lastik')});
+  var kLaser=knopka('Указка','Указка (L)',function(){vybrat('laser')});
+  razd();
+  knopka('&#8630;','Отменить штрих (Z)',function(){otmenit()});
+  knopka('Стереть','Стереть всё на слайде (C)',function(){steret()});
+  var kDoska=knopka('Доска','Чистая доска поверх слайда (B)',function(){doska()});
+  razd();
+  knopka('Разделы','Переход к разделу (G)',function(){panel(spisok)});
+  knopka('?','Клавиши (H)',function(){panel(pomosh)});
+  knopka('&#9974;','Во весь экран (F)',function(){polnyy()});
+  knopka('&#10005;','Выйти (Esc)',function(){vyyti()});
+  pk.appendChild(bar);
+
+  var spisok=el('div','pk-panel');
+  spisok.appendChild(el('h3',null,'Разделы'));
+  slides.forEach(function(s,j){
+    if(s.vid!=='razdel')return;
+    var b=el('button',null,'');b.type='button';b.textContent=s.title;
+    b.addEventListener('click',function(){panel(null);idti(j,0)});
+    spisok.appendChild(b);
+  });
+  var pomosh=el('div','pk-panel',
+    '<h3>Клавиши</h3><table>'+
+    '<tr><td>→ пробел PgDn</td><td>вперёд; на слайде ответа сначала открывается ответ</td></tr>'+
+    '<tr><td>← PgUp</td><td>назад</td></tr>'+
+    '<tr><td>Home / End</td><td>первый / последний слайд</td></tr>'+
+    '<tr><td>1 2 3 4</td><td>перо: красное, синее, зелёное, чёрное</td></tr>'+
+    '<tr><td>T</td><td>текст: щелчок по слайду — поле ввода; Enter — новая строка; Esc или щелчок мимо — готово; щелчок по надписи — правка</td></tr>'+
+    '<tr><td>M</td><td>маркер</td></tr><tr><td>E</td><td>ластик (стирает штрих целиком)</td></tr>'+
+    '<tr><td>L</td><td>указка</td></tr><tr><td>Z</td><td>отменить последний штрих</td></tr>'+
+    '<tr><td>C</td><td>стереть всё на слайде</td></tr>'+
+    '<tr><td>B</td><td>чистая доска поверх слайда; у каждого слайда своя</td></tr>'+
+    '<tr><td>G</td><td>список разделов</td></tr><tr><td>F</td><td>во весь экран</td></tr>'+
+    '<tr><td>Esc</td><td>выйти из показа</td></tr></table>'+
+    '<p style="color:#91a0aa;font-size:13px;margin:12px 0 0">Рисунки хранятся, пока открыт файл; при перезагрузке страницы стираются. Пульт-презентер работает через PgUp / PgDn.</p>');
+  pk.appendChild(spisok);pk.appendChild(pomosh);
+  document.body.appendChild(pk);
+
+  function panel(p){
+    [spisok,pomosh].forEach(function(x){x.classList.toggle('on',x===p&&!x.classList.contains('on'))});
+  }
+  function panelOtkryta(){return spisok.classList.contains('on')||pomosh.classList.contains('on')}
+
+  /* ---------- отрисовка слайда ---------- */
+  var tek=0,shag=0,str=0,naDoske=false;
+
+  function stranic(){
+    var lishnee=body.scrollHeight-body.clientHeight;
+    return lishnee>1?1+Math.ceil(lishnee/(body.clientHeight-NAHLEST)):1;
+  }
+  function listat(){
+    zakonchit();
+    body.scrollTop=str*(body.clientHeight-NAHLEST);
+    var n=stranic();
+    foot.lastChild.textContent=(tek+1)+' / '+slides.length+(n>1?' · страница '+(str+1)+' из '+n+(str+1<n?' ▼':''):'');
+    risovat();
+  }
+
+  function podognat(){
+    for(var f=32;f>=MIN_KEGL;f--){
+      body.style.fontSize=f+'px';
+      if(body.scrollHeight<=body.clientHeight+1&&body.scrollWidth<=body.clientWidth+1)return;
+    }
+  }
+
+  function pokazat(){
+    zakonchit();
+    var s=slides[tek];
+    body.innerHTML='';body.style.fontSize='';
+    crumbEl.textContent=s.crumb||'';
+    crumbEl.style.display=s.crumb?'':'none';
+    foot.innerHTML='<span>'+kurs+' · тема '+(ident[0]||'')+'</span><span>'+(tek+1)+' / '+slides.length+'</span>';
+    cnt.textContent=(tek+1)+' / '+slides.length;
+
+    if(s.vid==='titul'){
+      body.appendChild(el('div','pk-titul',
+        '<div class="k">'+kurs+' · тема '+(ident[0]||'')+'</div><h1></h1>'+
+        '<div class="m">Механизмы отказа '+(ident[1]||'')+'</div>'));
+      body.querySelector('h1').textContent=nazvanie;
+    }else if(s.vid==='razdel'){
+      var r=el('div','pk-razdel'),h=el('h2');h.textContent=s.title;r.appendChild(h);
+      if(s.dop){var d=klon(s.dop);d.className='pk-dop';r.appendChild(d)}
+      if(s.podrazdely.length){var ul=el('ul');s.podrazdely.forEach(function(p){var li=el('li');li.textContent=p;ul.appendChild(li)});r.appendChild(ul)}
+      body.appendChild(r);
+    }else if(s.vid==='ris'){
+      var box=el('div','pk-ris');
+      s.nodes.forEach(function(n){
+        var c=klon(n);
+        if(c.tagName==='IMG'){var f=el('figure');f.appendChild(c);c=f}
+        if(c.tagName==='P'&&c.querySelector('img')){var f2=el('figure');f2.appendChild(c.querySelector('img'));c=f2}
+        box.appendChild(c);
+      });
+      if(s.nodes.length>1){var fc=box.querySelector('figcaption');if(fc)fc.remove()}
+      body.appendChild(box);
+    }else if(s.vid==='el'){
+      s.nodes.forEach(function(n){body.appendChild(klon(n))});
+    }else if(s.vid==='otvet'){
+      var card=el('section','card otvet-pk'),hd=el('header'),h3e=el('h3');
+      h3e.textContent=s.title;hd.appendChild(h3e);card.appendChild(hd);
+      var b=el('div','body');
+      if(s.vopros){var q=el('div','pk-q');q.appendChild(klon(s.vopros.querySelector('.body')));b.appendChild(q)}
+      var otv=klon(s.node.querySelector('.body'));otv.className='pk-otv';b.appendChild(otv);
+      var hint=el('p','pk-hint','→ ответ');b.appendChild(hint);
+      card.appendChild(b);body.appendChild(card);
+    }
+    body.scrollTop=0;
+    podognat();
+    var otvEl=body.querySelector('.pk-otv'),hintEl=body.querySelector('.pk-hint');
+    if(otvEl){otvEl.classList.toggle('pk-skryto',shag<1);hintEl.classList.toggle('pk-skryto',shag>=1)}
+    if(s.vid==='ris')podognatRis();
+    pk.classList.toggle('doska',naDoske);
+    kDoska.classList.toggle('on',naDoske);
+    str=Math.min(str,stranic()-1);
+    listat();
+  }
+
+  function podognatRis(){
+    var fig=body.querySelector('.pk-ris figure');
+    if(!fig)return;
+    for(var f=26;f>=18;f--){
+      body.style.fontSize=f+'px';
+      var ostatok=body.clientHeight-(body.querySelector('.pk-ris').scrollHeight-fig.offsetHeight);
+      if(ostatok>=body.clientHeight*0.6||f===18){fig.style.height=Math.max(ostatok-4,200)+'px';return}
+    }
+  }
+
+  function idti(j,s){
+    zakonchit();
+    j=Math.max(0,Math.min(slides.length-1,j));
+    if(j!==tek)naDoske=false;
+    tek=j;shag=s==null?0:s;str=0;pokazat();
+  }
+  function vpered(){
+    zakonchit();
+    var s=slides[tek];
+    if(!naDoske){
+      if(s.shagov&&shag<s.shagov){shag++;str=0;pokazat();return}
+      if(str+1<stranic()){str++;listat();return}
+    }
+    if(tek<slides.length-1)idti(tek+1,0);
+  }
+  function nazad(){
+    zakonchit();
+    if(!naDoske){
+      if(str>0){str--;listat();return}
+      if(shag>0){shag--;pokazat();return}
+    }
+    if(tek>0)idti(tek-1,slides[tek-1].shagov||0);
+  }
+
+  /* ---------- масштаб сцены ---------- */
+  var masshtab=1;
+  function razmer(){
+    var vw=window.innerWidth,vh=window.innerHeight;
+    masshtab=Math.min(vw/W,vh/H);
+    stage.style.transform='translate('+((vw-W*masshtab)/2)+'px,'+((vh-H*masshtab)/2)+'px) scale('+masshtab+')';
+    var k=masshtab*(window.devicePixelRatio||1);
+    cv.width=Math.round(W*k);cv.height=Math.round(H*k);
+    ctx.setTransform(cv.width/W,0,0,cv.height/H,0,0);
+    risovat();
+  }
+
+  /* ---------- перо, маркер, ластик, указка ---------- */
+  var risunki={},instrument='pero',cvet=0,shtrih=null;
+  function kluch(){return naDoske?'d'+tek:'s'+tek+'.'+str}
+  function shtrihi(){return risunki[kluch()]||(risunki[kluch()]=[])}
+
+  function vybrat(t,c){
+    if(t!=='tekst')zakonchit();
+    instrument=t;if(c!=null)cvet=c;
+    if(red)red.style.color=CVETA[cvet][0];
+    kCvet.forEach(function(b,j){b.classList.toggle('on',(t==='pero'||t==='tekst')&&j===cvet)});
+    kTekst.classList.toggle('on',t==='tekst');
+    pk.classList.toggle('tekst',t==='tekst');
+    kMarker.classList.toggle('on',t==='marker');
+    kLastik.classList.toggle('on',t==='lastik');
+    kLaser.classList.toggle('on',t==='laser');
+    pk.classList.toggle('laser',t==='laser');
+    kursor(t);
+    pokazatKursor();
+  }
+
+  /* Курсор рисуется страницей, а не системой: Windows прячет системный
+     указатель на время набора текста и не всегда возвращает его. */
+  var kursorEl=el('div','pk-kursor');pk.appendChild(kursorEl);
+  var mysh=null;
+  function svgKursor(telo,w,h){
+    var s='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'+telo+'</svg>';
+    kursorEl.style.backgroundImage='url("data:image/svg+xml,'+encodeURIComponent(s)+'")';
+    kursorEl.style.width=w+'px';kursorEl.style.height=h+'px';
+    kursorEl.style.marginLeft=(-w/2)+'px';kursorEl.style.marginTop=(-h/2)+'px';
+  }
+  function kursor(t){
+    if(t==='laser')return;
+    if(t==='tekst')return svgKursor('<path d="M5 3h10M10 3v26M5 29h10" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M5 3h10M10 3v26M5 29h10" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>',20,32);
+    if(t==='lastik')return svgKursor('<rect x="2" y="2" width="22" height="22" rx="4" fill="rgba(255,255,255,.6)" stroke="#000" stroke-width="2"/><rect x="4" y="4" width="18" height="18" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/>',26,26);
+    var c=t==='marker'?'#ffd400':CVETA[cvet][0],rad=t==='marker'?9:5;
+    svgKursor('<circle cx="13" cy="13" r="'+(rad+3)+'" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="13" cy="13" r="'+rad+'" fill="'+c+'"/>',26,26);
+  }
+  function pokazatKursor(){
+    var lz=instrument==='laser';
+    laserEl.style.display=mysh&&lz?'block':'none';
+    kursorEl.style.display=mysh&&!lz?'block':'none';
+    if(mysh){
+      laserEl.style.left=kursorEl.style.left=mysh[0]+'px';
+      laserEl.style.top=kursorEl.style.top=mysh[1]+'px';
+    }
+  }
+
+  /* ---------- текст с клавиатуры ---------- */
+  var KEGL_T=34,STROKA_T=Math.round(KEGL_T*1.25),SHRIFT_T='600 '+KEGL_T+'px Inter,"Segoe UI",Roboto,Arial,sans-serif';
+  var red=null,redX=0,redY=0;
+  function nadpis(s){
+    ctx.globalAlpha=1;ctx.font=SHRIFT_T;ctx.textBaseline='top';ctx.lineJoin='round';
+    ctx.lineWidth=7;ctx.strokeStyle='rgba(255,255,255,.92)';ctx.fillStyle=s.c;
+    s.stroki.forEach(function(l,j){
+      var y=s.x[1]+j*STROKA_T+(STROKA_T-KEGL_T)/2;
+      ctx.strokeText(l,s.x[0],y);ctx.fillText(l,s.x[0],y);
+    });
+  }
+  function vRamke(p,s,R){
+    return p[0]>=s.x[0]-R&&p[0]<=s.x[0]+s.w+R&&p[1]>=s.x[1]-R&&p[1]<=s.x[1]+s.h+R;
+  }
+  function podrovnyat(){
+    red.style.width='10px';red.style.height='10px';
+    red.style.width=Math.min(W-redX-8,Math.max(60,red.scrollWidth+KEGL_T))+'px';
+    red.style.height=red.scrollHeight+'px';
+  }
+  function otkrytRed(p,text,c){
+    zakonchit();
+    redX=Math.max(0,Math.min(W-80,p[0]));redY=Math.max(0,Math.min(H-STROKA_T,p[1]));
+    red=document.createElement('textarea');
+    red.className='pk-txt';red.spellcheck=false;red.value=text||'';
+    red.style.left=(redX-6)+'px';red.style.top=(redY-4)+'px';
+    red.style.color=c||CVETA[cvet][0];
+    red.addEventListener('input',podrovnyat);
+    red.addEventListener('blur',zakonchit);
+    red.addEventListener('keydown',function(ev){
+      ev.stopPropagation();
+      if(ev.key==='Escape'||(ev.key==='Enter'&&(ev.ctrlKey||ev.metaKey))){ev.preventDefault();zakonchit()}
+    });
+    stage.appendChild(red);podrovnyat();
+    setTimeout(function(){if(red){red.focus();red.setSelectionRange(red.value.length,red.value.length)}},0);
+  }
+  function zakonchit(){
+    if(!red)return;
+    var e=red,text=e.value.replace(/\s+$/,''),c=e.style.color;
+    red=null;e.remove();
+    if(text){
+      var stroki=text.split('\n');ctx.font=SHRIFT_T;
+      var w=Math.max.apply(null,stroki.map(function(l){return ctx.measureText(l).width}));
+      shtrihi().push({tip:'t',stroki:stroki,c:c,x:[redX,redY],w:w,h:stroki.length*STROKA_T,t:[]});
+    }
+    risovat();
+  }
+
+  function linia(s){
+    if(s.tip==='t'){nadpis(s);return}
+    var p=s.t;if(!p.length)return;
+    ctx.globalAlpha=s.a;ctx.strokeStyle=s.c;ctx.fillStyle=s.c;ctx.lineWidth=s.w;
+    ctx.lineCap='round';ctx.lineJoin='round';
+    if(p.length===1){ctx.beginPath();ctx.arc(p[0][0],p[0][1],s.w/2,0,7);ctx.fill();return}
+    ctx.beginPath();ctx.moveTo(p[0][0],p[0][1]);
+    for(var j=1;j<p.length-1;j++){
+      ctx.quadraticCurveTo(p[j][0],p[j][1],(p[j][0]+p[j+1][0])/2,(p[j][1]+p[j+1][1])/2);
+    }
+    ctx.lineTo(p[p.length-1][0],p[p.length-1][1]);ctx.stroke();
+  }
+  function risovat(){
+    ctx.save();ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);ctx.restore();
+    (risunki[kluch()]||[]).forEach(linia);
+    if(shtrih)linia(shtrih);
+    ctx.globalAlpha=1;
+  }
+  function tochka(ev){
+    var r=cv.getBoundingClientRect();
+    return [(ev.clientX-r.left)*W/r.width,(ev.clientY-r.top)*H/r.height];
+  }
+  function rasst(p,a,b){
+    var dx=b[0]-a[0],dy=b[1]-a[1],L=dx*dx+dy*dy;
+    var u=L?Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/L)):0;
+    return Math.hypot(p[0]-a[0]-u*dx,p[1]-a[1]-u*dy);
+  }
+  function lastik(p){
+    var arr=shtrihi(),R=22;
+    for(var j=arr.length-1;j>=0;j--){
+      if(arr[j].tip==='t'){if(vRamke(p,arr[j],R/2))arr.splice(j,1);continue}
+      var t=arr[j].t,blizko=t.length===1&&rasst(p,t[0],t[0])<R+arr[j].w/2;
+      for(var q=1;q<t.length&&!blizko;q++)blizko=rasst(p,t[q-1],t[q])<R+arr[j].w/2;
+      if(blizko)arr.splice(j,1);
+    }
+    risovat();
+  }
+  cv.addEventListener('pointerdown',function(ev){
+    if(ev.button>0)return;
+    var p=tochka(ev);
+    if(instrument==='tekst'){
+      ev.preventDefault();
+      var arr=shtrihi(),j=arr.length-1;
+      while(j>=0&&!(arr[j].tip==='t'&&vRamke(p,arr[j],4)))j--;
+      if(j>=0){var s=arr.splice(j,1)[0];risovat();otkrytRed(s.x,s.stroki.join('\n'),s.c)}
+      else otkrytRed([p[0],p[1]-STROKA_T/2]);
+      return;
+    }
+    zakonchit();
+    try{cv.setPointerCapture(ev.pointerId)}catch(e){}
+    if(instrument==='laser')return;
+    if(instrument==='lastik'){lastik(p);return}
+    shtrih=instrument==='marker'
+      ?{c:'#ffd400',w:28,a:.38,t:[p]}
+      :{c:CVETA[cvet][0],w:4.5,a:1,t:[p]};
+    risovat();
+  });
+  cv.addEventListener('pointermove',function(ev){
+    mysh=[ev.clientX,ev.clientY];pokazatKursor();
+    if(instrument==='laser')return;
+    if(!(ev.buttons&1))return;
+    if(instrument==='lastik'){lastik(tochka(ev));return}
+    if(shtrih){shtrih.t.push(tochka(ev));risovat()}
+  });
+  function konecShtriha(){
+    if(shtrih){shtrihi().push(shtrih);shtrih=null;risovat()}
+  }
+  cv.addEventListener('pointerup',konecShtriha);
+  cv.addEventListener('pointercancel',konecShtriha);
+  cv.addEventListener('pointerleave',function(){mysh=null;pokazatKursor()});
+
+  function otmenit(){shtrihi().pop();risovat()}
+  function steret(){risunki[kluch()]=[];risovat()}
+  function doska(){zakonchit();naDoske=!naDoske;pokazat()}
+
+  /* ---------- вход и выход ---------- */
+  function polnyy(){
+    if(document.fullscreenElement)document.exitFullscreen();
+    else if(document.documentElement.requestFullscreen)document.documentElement.requestFullscreen().catch(function(){});
+  }
+  function nachalnyy(){
+    var y=window.scrollY+140,j0=0;
+    slides.forEach(function(s,j){if(s.src&&s.src.getBoundingClientRect().top+window.scrollY<=y)j0=j});
+    return j0;
+  }
+  function voyti(vesEkran,nomer){
+    if(pk.classList.contains('on'))return;
+    tek=nomer!=null?Math.max(0,Math.min(slides.length-1,nomer)):nachalnyy();shag=0;naDoske=false;
+    pk.classList.add('on');document.body.classList.add('pk-open');
+    vybrat(instrument,cvet);razmer();pokazat();
+    if(vesEkran)polnyy();
+  }
+  function vyyti(){
+    if(!pk.classList.contains('on'))return;
+    zakonchit();panel(null);
+    pk.classList.remove('on');document.body.classList.remove('pk-open');
+    if(document.fullscreenElement)document.exitFullscreen();
+    var s=slides[tek];
+    if(s&&s.src)window.scrollTo(0,s.src.getBoundingClientRect().top+window.scrollY-90);
+  }
+
+  document.getElementById('pkStart').addEventListener('click',function(){voyti(true)});
+  window.addEventListener('resize',function(){if(pk.classList.contains('on')){razmer();pokazat()}});
+
+  document.addEventListener('keydown',function(ev){
+    var on=pk.classList.contains('on');
+    if(ev.target&&/INPUT|TEXTAREA|SELECT/.test(ev.target.tagName))return;
+    if(!on){
+      if(ev.code==='KeyP'&&!ev.ctrlKey&&!ev.metaKey&&!ev.altKey){ev.preventDefault();voyti(true)}
+      return;
+    }
+    if(ev.ctrlKey&&ev.code==='KeyZ'){ev.preventDefault();otmenit();return}
+    if(ev.ctrlKey||ev.metaKey||ev.altKey)return;
+    var c=ev.code,sdelano=true;
+    if(c==='Escape'){if(panelOtkryta())panel(null);else vyyti()}
+    else if(c==='ArrowRight'||c==='ArrowDown'||c==='PageDown'||c==='Space'||c==='Enter'||c==='NumpadEnter')vpered();
+    else if(c==='ArrowLeft'||c==='ArrowUp'||c==='PageUp'||c==='Backspace')nazad();
+    else if(c==='Home')idti(0,0);
+    else if(c==='End')idti(slides.length-1,0);
+    else if(c==='Digit1'||c==='Digit2'||c==='Digit3'||c==='Digit4')vybratCvet(+c.slice(-1)-1);
+    else if(c==='KeyT')vybrat('tekst');
+    else if(c==='KeyM')vybrat('marker');
+    else if(c==='KeyE')vybrat('lastik');
+    else if(c==='KeyL')vybrat('laser');
+    else if(c==='KeyP')vybrat('pero');
+    else if(c==='KeyZ')otmenit();
+    else if(c==='KeyC')steret();
+    else if(c==='KeyB')doska();
+    else if(c==='KeyG')panel(spisok);
+    else if(c==='KeyH'||c==='Slash')panel(pomosh);
+    else if(c==='KeyF')polnyy();
+    else sdelano=false;
+    if(sdelano)ev.preventDefault();
+  });
+
+  var hash=location.hash.match(/^#pokaz(?:=(\d+)(?:\.(\d+))?)?$/);
+  if(hash){voyti(false,hash[1]?+hash[1]-1:0);for(var h=+(hash[2]||0);h>0;h--)vpered()}
 })();
 </script>
 </body>
