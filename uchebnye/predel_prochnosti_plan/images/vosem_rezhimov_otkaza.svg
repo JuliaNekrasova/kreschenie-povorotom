@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 824" width="1000" height="824" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<defs><marker id="strelka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6b8299"/></marker></defs>
+<rect width="1000" height="824" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Восемь механизмов отказа</text>
+<text x="500.0" y="56" font-size="13" fill="#56636f" text-anchor="middle">Путь кислорода от внешней среды до митохондрии, звенья каждого механизма и отказы, действующие на путь извне</text>
+<text x="40" y="78" font-size="12" fill="#56636f" text-anchor="start">внешняя среда</text>
+<text x="960" y="78" font-size="12" fill="#56636f" text-anchor="end">митохондрия</text>
+<path d="M40 84 H956" stroke="#6b8299" stroke-width="1.6" fill="none" marker-end="url(#strelka)"/>
+<rect x="40" y="98" width="220" height="96" rx="6" fill="#f4f7fa" stroke="#6b8299" stroke-width="1.3"/>
+<circle cx="62" cy="120" r="12" fill="#ffffff" stroke="#b03030" stroke-width="1.6"/><text x="62" y="124.5" font-size="13" fill="#b03030" font-weight="bold" text-anchor="middle">1</text>
+<text x="82" y="124" font-size="12" fill="#56636f" text-anchor="start">Механизм 1</text>
+<text x="52" y="146" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Вентиляция альвеол</text>
+<text x="52" y="164" font-size="12" fill="#56636f" text-anchor="start">кислород не поступает в альвеолы</text>
+<path d="M262 146.0 H277" stroke="#6b8299" stroke-width="1.6" fill="none" marker-end="url(#strelka)"/>
+<rect x="40" y="208" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="208" width="4" height="54" fill="#b03030"/>
+<text x="52" y="227" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Состав вдыхаемого газа</text>
+<text x="52" y="243" font-size="11.5" fill="#56636f" text-anchor="start">высота, вытеснение кислорода</text>
+<text x="52" y="257" font-size="11.5" fill="#56636f" text-anchor="start">в замкнутом помещении</text>
+<rect x="40" y="270" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="270" width="4" height="54" fill="#b03030"/>
+<text x="52" y="289" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Верхние дыхательные пути</text>
+<text x="52" y="305" font-size="11.5" fill="#56636f" text-anchor="start">западение языка, инородное</text>
+<text x="52" y="319" font-size="11.5" fill="#56636f" text-anchor="start">тело, отёк гортани, ларингоспазм</text>
+<rect x="40" y="332" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="332" width="4" height="54" fill="#b03030"/>
+<text x="52" y="351" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Нижние дыхательные пути</text>
+<text x="52" y="367" font-size="11.5" fill="#56636f" text-anchor="start">бронхоспазм, обструкция</text>
+<text x="52" y="381" font-size="11.5" fill="#56636f" text-anchor="start">секретом и кровью</text>
+<rect x="40" y="394" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="394" width="4" height="54" fill="#b03030"/>
+<text x="52" y="413" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Дыхательный центр</text>
+<text x="52" y="429" font-size="11.5" fill="#56636f" text-anchor="start">опиоиды, седативные средства,</text>
+<text x="52" y="443" font-size="11.5" fill="#56636f" text-anchor="start">черепно-мозговая травма</text>
+<rect x="40" y="456" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="456" width="4" height="54" fill="#b03030"/>
+<text x="52" y="475" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Нервно-мышечный аппарат</text>
+<text x="52" y="491" font-size="11.5" fill="#56636f" text-anchor="start">миастения, синдром Гийена —</text>
+<text x="52" y="505" font-size="11.5" fill="#56636f" text-anchor="start">Барре, ФОС, спинальная травма</text>
+<rect x="40" y="518" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="40" y="518" width="4" height="54" fill="#b03030"/>
+<text x="52" y="537" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Грудная стенка</text>
+<text x="52" y="553" font-size="11.5" fill="#56636f" text-anchor="start">флотирующий сегмент, утомление</text>
+<text x="52" y="567" font-size="11.5" fill="#56636f" text-anchor="start">дыхательных мышц</text>
+<rect x="280" y="98" width="220" height="96" rx="6" fill="#f4f7fa" stroke="#6b8299" stroke-width="1.3"/>
+<circle cx="302" cy="120" r="12" fill="#ffffff" stroke="#b03030" stroke-width="1.6"/><text x="302" y="124.5" font-size="13" fill="#b03030" font-weight="bold" text-anchor="middle">2</text>
+<text x="322" y="124" font-size="12" fill="#56636f" text-anchor="start">Механизм 2</text>
+<text x="292" y="146" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Альвеолярно-капиллярный</text>
+<text x="292" y="164" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">перенос</text>
+<text x="292" y="182" font-size="12" fill="#56636f" text-anchor="start">кислород не переходит в кровь</text>
+<path d="M502 146.0 H517" stroke="#6b8299" stroke-width="1.6" fill="none" marker-end="url(#strelka)"/>
+<rect x="280" y="208" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="280" y="208" width="4" height="54" fill="#b03030"/>
+<text x="292" y="227" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Заполнение альвеол</text>
+<text x="292" y="243" font-size="11.5" fill="#56636f" text-anchor="start">отёк лёгких, пневмония,</text>
+<text x="292" y="257" font-size="11.5" fill="#56636f" text-anchor="start">кровь, аспирация</text>
+<rect x="280" y="270" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="280" y="270" width="4" height="54" fill="#b03030"/>
+<text x="292" y="289" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Коллапс альвеол</text>
+<text x="292" y="305" font-size="11.5" fill="#56636f" text-anchor="start">ателектаз, ОРДС</text>
+<rect x="280" y="332" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="280" y="332" width="4" height="54" fill="#b03030"/>
+<text x="292" y="351" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Отношение V/Q</text>
+<text x="292" y="367" font-size="11.5" fill="#56636f" text-anchor="start">низкое V/Q при обструкции,</text>
+<text x="292" y="381" font-size="11.5" fill="#56636f" text-anchor="start">высокое V/Q при ТЭЛА</text>
+<rect x="280" y="394" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="280" y="394" width="4" height="54" fill="#b03030"/>
+<text x="292" y="413" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Мембрана</text>
+<text x="292" y="429" font-size="11.5" fill="#56636f" text-anchor="start">интерстициальный отёк, фиброз</text>
+<rect x="520" y="98" width="220" height="96" rx="6" fill="#f4f7fa" stroke="#6b8299" stroke-width="1.3"/>
+<circle cx="542" cy="120" r="12" fill="#ffffff" stroke="#b03030" stroke-width="1.6"/><text x="542" y="124.5" font-size="13" fill="#b03030" font-weight="bold" text-anchor="middle">3</text>
+<text x="562" y="124" font-size="12" fill="#56636f" text-anchor="start">Механизм 3</text>
+<text x="532" y="146" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Доставка кровью</text>
+<text x="532" y="164" font-size="12" fill="#56636f" text-anchor="start">кислород не доставляется к тканям</text>
+<path d="M742 146.0 H757" stroke="#6b8299" stroke-width="1.6" fill="none" marker-end="url(#strelka)"/>
+<rect x="520" y="208" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="520" y="208" width="4" height="54" fill="#b03030"/>
+<text x="532" y="227" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Объём (преднагрузка)</text>
+<text x="532" y="243" font-size="11.5" fill="#56636f" text-anchor="start">кровопотеря, дегидратация</text>
+<rect x="520" y="270" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="520" y="270" width="4" height="54" fill="#b03030"/>
+<text x="532" y="289" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Сократимость</text>
+<text x="532" y="305" font-size="11.5" fill="#56636f" text-anchor="start">инфаркт миокарда, миокардит,</text>
+<text x="532" y="319" font-size="11.5" fill="#56636f" text-anchor="start">кардиомиопатия</text>
+<rect x="520" y="332" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="520" y="332" width="4" height="54" fill="#b03030"/>
+<text x="532" y="351" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Сосудистый тонус</text>
+<text x="532" y="367" font-size="11.5" fill="#56636f" text-anchor="start">анафилаксия, сепсис,</text>
+<text x="532" y="381" font-size="11.5" fill="#56636f" text-anchor="start">спинальный шок</text>
+<rect x="520" y="394" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="520" y="394" width="4" height="54" fill="#b03030"/>
+<text x="532" y="413" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Переносчик</text>
+<text x="532" y="429" font-size="11.5" fill="#56636f" text-anchor="start">анемия, карбоксигемоглобин,</text>
+<text x="532" y="443" font-size="11.5" fill="#56636f" text-anchor="start">метгемоглобин</text>
+<rect x="760" y="98" width="220" height="96" rx="6" fill="#f4f7fa" stroke="#6b8299" stroke-width="1.3"/>
+<circle cx="782" cy="120" r="12" fill="#ffffff" stroke="#b03030" stroke-width="1.6"/><text x="782" y="124.5" font-size="13" fill="#b03030" font-weight="bold" text-anchor="middle">4</text>
+<text x="802" y="124" font-size="12" fill="#56636f" text-anchor="start">Механизм 4</text>
+<text x="772" y="146" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Утилизация тканями</text>
+<text x="772" y="164" font-size="12" fill="#56636f" text-anchor="start">кислород не используется клеткой</text>
+<rect x="760" y="208" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="760" y="208" width="4" height="54" fill="#b03030"/>
+<text x="772" y="227" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Цитохромоксидаза</text>
+<text x="772" y="243" font-size="11.5" fill="#56636f" text-anchor="start">цианиды, сероводород,</text>
+<text x="772" y="257" font-size="11.5" fill="#56636f" text-anchor="start">угарный газ</text>
+<rect x="760" y="270" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="760" y="270" width="4" height="54" fill="#b03030"/>
+<text x="772" y="289" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Фосфорилирование</text>
+<text x="772" y="305" font-size="11.5" fill="#56636f" text-anchor="start">разобщение: салицилаты,</text>
+<text x="772" y="319" font-size="11.5" fill="#56636f" text-anchor="start">динитрофенол</text>
+<rect x="760" y="332" width="220" height="54" rx="4" fill="#ffffff" stroke="#c9d4de" stroke-width="1.1"/>
+<rect x="760" y="332" width="4" height="54" fill="#b03030"/>
+<text x="772" y="351" font-size="12.5" fill="#1a1a1a" font-weight="bold" text-anchor="start">Микроциркуляция</text>
+<text x="772" y="367" font-size="11.5" fill="#56636f" text-anchor="start">нарушение извлечения</text>
+<text x="772" y="381" font-size="11.5" fill="#56636f" text-anchor="start">кислорода при сепсисе</text>
+<path d="M40 588 H960" stroke="#d6dde3" stroke-width="1"/>
+<text x="40" y="606" font-size="13" fill="#56636f" text-anchor="start">Отказы вне пути кислорода и звенья, на которые они действуют</text>
+<rect x="40" y="618" width="220" height="186" rx="6" fill="#faf7f0" stroke="#c3b393" stroke-width="1.2"/>
+<circle cx="62" cy="640" r="12" fill="#ffffff" stroke="#8a6d1f" stroke-width="1.6"/><text x="62" y="644.5" font-size="13" fill="#8a6d1f" font-weight="bold" text-anchor="middle">5</text>
+<text x="82" y="644" font-size="12" fill="#56636f" text-anchor="start">Механизм 5</text>
+<text x="52" y="666" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Электрическая функция</text>
+<text x="52" y="684" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">сердца</text>
+<text x="52" y="704" font-size="11.5" fill="#56636f" text-anchor="start">тахиаритмии, брадиаритмии,</text>
+<text x="52" y="718" font-size="11.5" fill="#56636f" text-anchor="start">нарушения проведения</text>
+<text x="52" y="740" font-size="11.5" fill="#8a6d1f" font-weight="bold" text-anchor="start">Звенья воздействия:</text>
+<text x="52" y="755" font-size="11.5" fill="#1a1a1a" text-anchor="start">3 — сократимость</text>
+<text x="52" y="769" font-size="11.5" fill="#1a1a1a" text-anchor="start">и наполнение желудочков</text>
+<rect x="280" y="618" width="220" height="186" rx="6" fill="#faf7f0" stroke="#c3b393" stroke-width="1.2"/>
+<circle cx="302" cy="640" r="12" fill="#ffffff" stroke="#8a6d1f" stroke-width="1.6"/><text x="302" y="644.5" font-size="13" fill="#8a6d1f" font-weight="bold" text-anchor="middle">6</text>
+<text x="322" y="644" font-size="12" fill="#56636f" text-anchor="start">Механизм 6</text>
+<text x="292" y="666" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Давление в замкнутом</text>
+<text x="292" y="684" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">пространстве</text>
+<text x="292" y="704" font-size="11.5" fill="#56636f" text-anchor="start">череп, перикард, плевральная</text>
+<text x="292" y="718" font-size="11.5" fill="#56636f" text-anchor="start">и брюшная полости,</text>
+<text x="292" y="732" font-size="11.5" fill="#56636f" text-anchor="start">фасциальный футляр</text>
+<text x="292" y="754" font-size="11.5" fill="#8a6d1f" font-weight="bold" text-anchor="start">Звенья воздействия:</text>
+<text x="292" y="769" font-size="11.5" fill="#1a1a1a" text-anchor="start">1 — дыхательный центр,</text>
+<text x="292" y="783" font-size="11.5" fill="#1a1a1a" text-anchor="start">грудная стенка; 2 — коллапс</text>
+<text x="292" y="797" font-size="11.5" fill="#1a1a1a" text-anchor="start">альвеол; 3 — объём</text>
+<rect x="520" y="618" width="220" height="186" rx="6" fill="#faf7f0" stroke="#c3b393" stroke-width="1.2"/>
+<circle cx="542" cy="640" r="12" fill="#ffffff" stroke="#8a6d1f" stroke-width="1.6"/><text x="542" y="644.5" font-size="13" fill="#8a6d1f" font-weight="bold" text-anchor="middle">7</text>
+<text x="562" y="644" font-size="12" fill="#56636f" text-anchor="start">Механизм 7</text>
+<text x="532" y="666" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Метаболизм и внутренняя</text>
+<text x="532" y="684" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">среда</text>
+<text x="532" y="704" font-size="11.5" fill="#56636f" text-anchor="start">глюкоза, натрий, калий, pH,</text>
+<text x="532" y="718" font-size="11.5" fill="#56636f" text-anchor="start">температура</text>
+<text x="532" y="740" font-size="11.5" fill="#8a6d1f" font-weight="bold" text-anchor="start">Звенья воздействия:</text>
+<text x="532" y="755" font-size="11.5" fill="#1a1a1a" text-anchor="start">все звенья механизмов 1–4</text>
+<rect x="760" y="618" width="220" height="186" rx="6" fill="#faf7f0" stroke="#c3b393" stroke-width="1.2"/>
+<circle cx="782" cy="640" r="12" fill="#ffffff" stroke="#8a6d1f" stroke-width="1.6"/><text x="782" y="644.5" font-size="13" fill="#8a6d1f" font-weight="bold" text-anchor="middle">8</text>
+<text x="802" y="644" font-size="12" fill="#56636f" text-anchor="start">Механизм 8</text>
+<text x="772" y="666" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">Механическое разрушение</text>
+<text x="772" y="684" font-size="14" fill="#1a1a1a" font-weight="bold" text-anchor="start">контура</text>
+<text x="772" y="704" font-size="11.5" fill="#56636f" text-anchor="start">травма, разрыв органа,</text>
+<text x="772" y="718" font-size="11.5" fill="#56636f" text-anchor="start">кровотечение</text>
+<text x="772" y="740" font-size="11.5" fill="#8a6d1f" font-weight="bold" text-anchor="start">Звенья воздействия:</text>
+<text x="772" y="755" font-size="11.5" fill="#1a1a1a" text-anchor="start">1 — дыхательные пути,</text>
+<text x="772" y="769" font-size="11.5" fill="#1a1a1a" text-anchor="start">грудная стенка; 3 — объём</text>
+</svg>

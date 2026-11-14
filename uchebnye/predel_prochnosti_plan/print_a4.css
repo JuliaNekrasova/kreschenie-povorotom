@@ -1,0 +1,106 @@
+@page {
+  size: A4;
+  margin: 14mm 14mm 16mm 14mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+    font-size: 8pt;
+    color: #95a5a6;
+  }
+  @bottom-right {
+    content: "Предел прочности · план курса";
+    font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+    font-size: 7pt;
+    color: #bdc3c7;
+  }
+}
+@page :first {
+  @bottom-center { content: ""; }
+  @bottom-right { content: ""; }
+}
+
+* { box-sizing: border-box; }
+#title-block-header { display: none; }
+
+body {
+  font-family: "DejaVu Sans", "Noto Sans", sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  color: #1a1a1a;
+  hyphens: none;
+}
+
+h1 {
+  break-after: avoid;
+  font-size: 15pt;
+  margin: 0 0 8px 0;
+  padding-bottom: 5px;
+  color: #1c2833;
+  border-bottom: 2.5px solid #2c3e50;
+}
+h2 {
+  break-after: avoid;
+  font-size: 11pt;
+  color: #fff;
+  background: #2c3e50;
+  padding: 3.5px 9px;
+  border-radius: 3px;
+  margin: 12px 0 6px 0;
+}
+h3 {
+  break-after: avoid;
+  font-size: 10.6pt;
+  color: #21618c;
+  margin: 9px 0 3px 0;
+  border-left: 3px solid #5499c7;
+  padding-left: 6px;
+}
+p { margin: 4px 0; orphans: 2; widows: 2; }
+hr { display: none; }
+
+img { max-width: 100%; height: auto; }
+figure {
+  margin: 8px 0 10px 0;
+  text-align: center;
+  break-inside: avoid;
+}
+figcaption {
+  font-size: 8.2pt;
+  color: #566573;
+  margin-top: 4px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+col { width: auto !important; }
+table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  margin: 6px 0 9px 0;
+  font-size: 8.4pt;
+  break-inside: auto;
+}
+th {
+  background: #2c3e50;
+  color: #fff;
+  padding: 3px 5px;
+  border: 1px solid #2c3e50;
+  text-align: left;
+  font-size: 8.2pt;
+  font-weight: bold;
+  vertical-align: top;
+}
+td {
+  padding: 3px 5px;
+  border: 1px solid #c9d1d3;
+  text-align: left;
+  vertical-align: top;
+}
+tbody tr { break-inside: avoid; }
+tr:nth-child(even) td { background: #f5f7f8; }
+td:first-child { font-weight: bold; color: #1c2833; white-space: nowrap; }
+
+ul, ol { margin: 4px 0 7px 0; padding-left: 18px; }
+li { padding: 1.5px 0; }
+strong { font-weight: bold; }
