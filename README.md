@@ -6,13 +6,13 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="https://julianekrasova.github.io/kreschenie-povorotom/chtenie/lit_01_tsitadel/lit_01_tsitadel.html">Литературная виньетка 1: «Цитадель» А. Кронина</a> — журнальный клуб <span class="data">20.11.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/predel_prochnosti_plan/predel_prochnosti_plan.pdf">План курса «Предел прочности»</a> — учебные материалы <span class="data">14.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost.html">Предел прочности, лекция 3: острая сердечная недостаточность и отёк лёгких</a> — учебные материалы <span class="data">07.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">Предел прочности, лекция 2: острый коронарный синдром</a> — учебные материалы <span class="data">05.11.2026</span><span class="razdelitel">·</span>
 <a href="farmakologiya/protivovirusnye/protivovirusnye.pdf">Противовирусные препараты при гриппе, ОРВИ и COVID-19</a> — фармакология укладки <span class="data">18.10.2026</span><span class="razdelitel">·</span>
 <a href="manipulyacii/venoznyy_dostup/venoznyy_dostup.pdf">Периферический венозный доступ</a> — манипуляции <span class="data">11.10.2026</span><span class="razdelitel">·</span>
 <a href="razbory/soli_son_bradikardiya/soli_son_bradikardiya.pdf">Соли, сон и брадикардия</a> — клинический разбор <span class="data">11.10.2026</span><span class="razdelitel">·</span>
-<a href="farmakologiya/propafenon/propafenon.pdf">Пропафенон</a> — фармакология укладки <span class="data">08.10.2026</span><span class="razdelitel">·</span>
 </p>
 
 <div class="razdely">
@@ -63,8 +63,8 @@
 </div>
 <div class="razdel">
 <h3><a href="#chtenie">Журнальный клуб</a></h3>
-<span class="kolvo">4 материала</span>
-<p>Литература по разделам медицины, книги о профессии, разборы статей и подкастов</p>
+<span class="kolvo">5 материалов</span>
+<p>Литература по разделам медицины, книги о профессии, разборы статей и подкастов, литературные виньетки</p>
 </div>
 </div>
 
@@ -272,6 +272,7 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
+<tr><td><strong>Литературная виньетка 1. «Цитадель» А. Кронина: сыпь на ладонях</strong></td><td>Фрагмент романа и вопросы к нему; разбор: дифференциальный ряд псориазиформной сыпи ладоней, элиминационная диета А. Роу, ошибка post hoc</td><td>1.0 · 20.11.2026</td><td><a href="https://julianekrasova.github.io/kreschenie-povorotom/chtenie/lit_01_tsitadel/lit_01_tsitadel.html">HTML, с иллюстрациями</a></td></tr>
 <tr><td><strong>Остановка сердца: что изменилось после рекомендаций 2025 года</strong></td><td>Разбор двух выпусков подкаста Emergency Medicine Cases: компрессии, капнометрия, вентиляция, дефибрилляция, препараты, прекращение реанимации, ведение после восстановления кровообращения</td><td>1.1 · 12.09.2026</td><td><a href="chtenie/klub_01_ostanovka_serdtsa/klub_01_ostanovka_serdtsa.pdf">PDF, A4, 13 стр.</a></td></tr>
 <tr><td><strong>Профессиональная литература</strong></td><td>Рабочие руководства по разделам практики фельдшера: неотложная помощь, ИВЛ, кардиология, неврология, травма, токсикология, педиатрия и другие; отечественные и зарубежные издания</td><td>1.3 · 11.09.2026</td><td><a href="chtenie/professionalnaya_literatura/professionalnaya_literatura.pdf">PDF, A4, 22 стр.</a></td></tr>
 <tr><td><strong>Книги о профессии</strong></td><td>Мемуары сотрудников службы, медицинская классика, история медицины, ошибки и человеческий фактор, психология экстремальных профессий, смерть и умирание</td><td>1.1 · 11.09.2026</td><td><a href="chtenie/knigi_o_professii/knigi_o_professii.pdf">PDF, A4, 10 стр.</a></td></tr>
