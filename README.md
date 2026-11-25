@@ -6,19 +6,19 @@
      не обновления версий. При добавлении новой записи последняя
      удаляется: список всегда семь пунктов. -->
 <p class="novoe"><span class="metka">Новое:</span>
+<a href="razbory/chrezvertelnyy_perelom/chrezvertelnyy_perelom.pdf">Чрезвертельный перелом</a> — клинические разборы <span class="data">25.11.2026</span><span class="razdelitel">·</span>
 <a href="razbory/zhizneugrozhayushchaya_astma/zhizneugrozhayushchaya_astma.pdf">Жизнеугрожающая астма</a> — клинические разборы <span class="data">23.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/chtenie/lit_02_idiot/lit_02_idiot.html">Литературная виньетка 2: «Идиот» Ф.М. Достоевского</a> — журнальный клуб <span class="data">20.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/chtenie/lit_01_tsitadel/lit_01_tsitadel.html">Литературная виньетка 1: «Цитадель» А. Кронина</a> — журнальный клуб <span class="data">20.11.2026</span><span class="razdelitel">·</span>
 <a href="uchebnye/predel_prochnosti_plan/predel_prochnosti_plan.pdf">План курса «Предел прочности»</a> — учебные материалы <span class="data">14.11.2026</span><span class="razdelitel">·</span>
 <a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost/predel_prochnosti_03_ostraya_serdechnaya_nedostatochnost.html">Предел прочности, лекция 3: острая сердечная недостаточность и отёк лёгких</a> — учебные материалы <span class="data">07.11.2026</span><span class="razdelitel">·</span>
-<a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">Предел прочности, лекция 2: острый коронарный синдром</a> — учебные материалы <span class="data">05.11.2026</span><span class="razdelitel">·</span>
-<a href="farmakologiya/protivovirusnye/protivovirusnye.pdf">Противовирусные препараты при гриппе, ОРВИ и COVID-19</a> — фармакология укладки <span class="data">18.10.2026</span>
+<a href="https://julianekrasova.github.io/kreschenie-povorotom/uchebnye/predel_prochnosti_02_oks/predel_prochnosti_02_oks.html">Предел прочности, лекция 2: острый коронарный синдром</a> — учебные материалы <span class="data">05.11.2026</span>
 </p>
 
 <div class="razdely">
 <div class="razdel">
 <h3><a href="https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html">Клинические разборы</a></h3>
-<span class="kolvo">24 материала</span>
+<span class="kolvo">25 материалов</span>
 <p>Реальные вызовы: случай, вопросы до разбора, теория, исход</p>
 </div>
 <div class="razdel">
@@ -76,13 +76,13 @@
 <table width="100%">
 <thead><tr><th width="28%"><img src="assets/spacer.png" width="280" height="1" alt="">Материал</th><th width="44%"><img src="assets/spacer.png" width="440" height="1" alt="">О чём</th><th width="12%"><img src="assets/spacer.png" width="120" height="1" alt="">Версия</th><th width="16%"><img src="assets/spacer.png" width="160" height="1" alt="">Файл</th></tr></thead>
 <tbody>
-<tr><td><strong>Жизнеугрожающая астма</strong></td><td>Повторный вызов к женщине 32 лет со смешанной бронхиальной астмой через семь часов после отказа от эвакуации: гипоксемия, динамическая гиперинфляция, масочная вентиляция, электрокардиографические признаки перегрузки правых отделов</td><td>1.0 · 23.11.2026</td><td><a href="razbory/zhizneugrozhayushchaya_astma/zhizneugrozhayushchaya_astma.pdf">PDF, A4, 20 стр.</a></td></tr>
+<tr><td><strong>Чрезвертельный перелом</strong></td><td>Вызов к женщине 100 лет после падения дома: перелом проксимального отдела бедренной кости без укорочения и ротации, исключённый без рентгенографии на фоне декомпенсации сердечной недостаточности; классификация, частота, рентгенонегативные переломы, падение как симптом</td><td>1.0 · 25.11.2026</td><td><a href="razbory/chrezvertelnyy_perelom/chrezvertelnyy_perelom.pdf">PDF, A4, 16 стр.</a></td></tr>
+<tr><td><strong>Жизнеугрожающая астма</strong></td><td>Повторный вызов к женщине 32 лет со смешанной бронхиальной астмой через семь часов после отказа от эвакуации: гипоксемия, динамическая гиперинфляция, масочная вентиляция, электрокардиографические признаки перегрузки правых отделов</td><td>1.1 · 25.11.2026</td><td><a href="razbory/zhizneugrozhayushchaya_astma/zhizneugrozhayushchaya_astma.pdf">PDF, A4, 20 стр.</a></td></tr>
 <tr><td><strong>Соли, сон и брадикардия</strong></td><td>Вызов к мужчине 19 лет с сонливостью после употребления «солей»: синтетические катиноны, фаза срыва и синдром отмены психостимуляторов, физиологическая брадикардия во сне, дифференциальный ряд с оксибутиратом и спайсом</td><td>1.0 · 11.10.2026</td><td><a href="razbory/soli_son_bradikardiya/soli_son_bradikardiya.pdf">PDF, A4, 18 стр.</a></td></tr>
-<tr><td><strong>Открытая плевральная полость</strong></td><td>Вызов из поликлиники к мужчине 41 года с дефектом грудной стенки над хронической эмпиемой: физиология открытой полости, бронхоплевральный свищ, выбор повязки и раздела приказа № 535</td><td>1.0 · 08.10.2026</td><td><a href="razbory/otkrytaya_plevralnaya_polost/otkrytaya_plevralnaya_polost.pdf">PDF, A4, 20 стр.</a></td></tr>
 </tbody>
 </table>
 
-Последние материалы раздела. Полный список — 24 материала — на странице [«Клинические разборы»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html).
+Последние материалы раздела. Полный список — 25 материалов — на странице [«Клинические разборы»](https://julianekrasova.github.io/kreschenie-povorotom/razdely/razbory.html).
 
 <a id="ekg-cases"></a>
 ## ЭКГ кейсы
