@@ -6,7 +6,8 @@
 zony_bedra.png — проксимальный отдел правой бедренной кости, вид спереди:
     А — анатомические зоны и граница прикрепления капсулы сустава;
     Б — типичные линии переломов с кодами AO/OTA 2018.
-garden.png — классификация переломов шейки бедренной кости Garden.
+garden.png этим скриптом не строится: это иллюстрация Frank Gaillard
+    (Radiopaedia, rID 7823, CC BY-NC-SA 3.0).
 kadry_radiopaedia.jpg — рентгенограмма и МРТ из случая Radiopaedia
     (Tigges S., rID 187366), скомпонованы рядом; исходные кадры в radiopaedia_ishodniki/.
 
@@ -23,7 +24,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import Circle, Polygon, Arc
+from matplotlib.patches import Circle, Polygon
 from matplotlib.path import Path as MPath
 
 PAPKA = Path(__file__).resolve().parent
@@ -197,88 +198,6 @@ def risunok_zony() -> None:
     fig.savefig(PAPKA / "zony_bedra.png")
     plt.close(fig)
 
-
-def povernut(tochki: np.ndarray, centr: tuple[float, float], ugol_grad: float) -> np.ndarray:
-    a = np.radians(ugol_grad)
-    m = np.array([[np.cos(a), -np.sin(a)], [np.sin(a), np.cos(a)]])
-    return (tochki - centr) @ m.T + centr
-
-
-def panel_garden(ax, tip: int) -> None:
-    """Упрощённая схема: впадина, головка, шейка; линия — медиальные компрессионные трабекулы."""
-    cg = np.array([0.0, 0.0])
-    r = 10.0
-    # Вертлужная впадина.
-    ax.add_patch(Arc(cg, 2 * r + 5, 2 * r + 5, theta1=20, theta2=200, color=SERYY, lw=2.2))
-    # Шейка — четырёхугольник от головки вниз-латерально под 130° к диафизу.
-    os_sheyki = np.array([np.cos(np.radians(-40)), np.sin(np.radians(-40))])
-    norm = np.array([-os_sheyki[1], os_sheyki[0]])
-    konec = cg + os_sheyki * 18
-    # Дистальный фрагмент: шейка, большой и малый вертелы, начало диафиза.
-    sheyka = chaikin(np.array([
-        cg + os_sheyki * 4 + norm * 6.5, cg + os_sheyki * 17 + norm * 5.5,
-        (21, -4), (25, -3), (28, -8), (27.5, -14), (26, -38), (15.5, -38),
-        (15.5, -24), (12, -20), (13, -17.5), cg + os_sheyki * 18 - norm * 6.5,
-        cg + os_sheyki * 4 - norm * 6.5,
-    ]), 2)
-    # Линия перелома поперёк шейки.
-    lp = cg + os_sheyki * 11
-    linia = np.array([lp + norm * 6.8, lp - norm * 6.8])
-    # Трабекулы: в головке направлены к верхнему полюсу, в шейке — продолжение к дуге Адамса.
-    trab_gol = np.array([cg + np.array([2.0, 8.5]), lp - norm * 1.0])
-    trab_sh = np.array([lp - norm * 1.0, konec - norm * 5.0, (15.8, -26)])
-
-    sdvig_sheyki = np.zeros(2)
-    ugol_golovki = 0.0
-    nepolnyy = False
-    if tip == 1:
-        ugol_golovki, nepolnyy = -14.0, True      # вальгусное вколачивание, медиальный кортикал цел
-    elif tip == 2:
-        ugol_golovki = 0.0
-    elif tip == 3:
-        ugol_golovki, sdvig_sheyki = 22.0, np.array([2.5, 2.0])    # варус, частичное смещение
-    elif tip == 4:
-        ugol_golovki, sdvig_sheyki = 0.0, np.array([7.0, 7.0])     # полное смещение, головка в анатомичном положении
-
-    # Фрагмент шейки с диафизом.
-    ax.add_patch(Polygon(sheyka + sdvig_sheyki, closed=True, fc=KOST, ec=KOST_KRAY, lw=1.2, zorder=2))
-    ax.plot(*(trab_sh + sdvig_sheyki).T, color=KRASNYY, lw=1.8, zorder=4)
-    # Головка поворачивается вокруг центра.
-    golovka = Circle(cg, r, fc=KOST, ec=KOST_KRAY, lw=1.2, zorder=3)
-    ax.add_patch(golovka)
-    ax.plot(*povernut(trab_gol, tuple(cg), ugol_golovki).T, color=KRASNYY, lw=1.8, zorder=5)
-    if nepolnyy:
-        ax.plot(*linia[:1].T, alpha=0)
-        chast = np.array([linia[0], linia[0] + (linia[1] - linia[0]) * 0.65])
-        ax.plot(*chast.T, color=TEMNYY, lw=1.6, zorder=6)
-    else:
-        ax.plot(*(linia + sdvig_sheyki * 0.5).T, color=TEMNYY, lw=1.6, zorder=6)
-    ax.set_xlim(-16, 38)
-    ax.set_ylim(-40, 18)
-    ax.set_aspect("equal")
-    ax.axis("off")
-
-
-def risunok_garden() -> None:
-    opisanie = {
-        1: "I — неполный, вальгусно\nвколоченный; нижний\nкортикальный слой цел",
-        2: "II — полный,\nбез смещения;\nтрабекулы на одной линии",
-        3: "III — полный, частичное\nсмещение в варус;\nтрабекулы под углом",
-        4: "IV — полное смещение;\nголовка во впадине\nв анатомичном положении",
-    }
-    fig, osi = plt.subplots(1, 4, figsize=(10.4, 3.4))
-    for tip, ax in zip(range(1, 5), osi):
-        panel_garden(ax, tip)
-        ax.set_title(opisanie[tip], fontsize=8.6, fontweight="normal", color=TEMNYY)
-    fig.text(0.5, 0.02,
-             "Красная линия — медиальные компрессионные трабекулы головки и шейки. "
-             "I–II — стабильные, III–IV — нестабильные с нарушением кровоснабжения головки.",
-             ha="center", fontsize=8, color=SERYY)
-    fig.tight_layout(rect=(0, 0.06, 1, 1))
-    fig.savefig(PAPKA / "garden.png")
-    plt.close(fig)
-
-
 def kadry_radiopaedia() -> None:
     from PIL import Image
 
@@ -299,5 +218,4 @@ def kadry_radiopaedia() -> None:
 
 if __name__ == "__main__":
     risunok_zony()
-    risunok_garden()
     kadry_radiopaedia()
