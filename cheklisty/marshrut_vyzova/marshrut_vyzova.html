@@ -302,8 +302,9 @@ body { padding-right: 42px; }
     width: 40px; padding: 0; border: 0;
     border-radius: 12px 0 0 12px;
     background: #e0a800; color: #2a2100;
-    font-size: 19px; font-weight: 800; letter-spacing: 5px;
+    font-size: 13px; font-weight: 800; letter-spacing: 1px;
     writing-mode: vertical-rl; text-orientation: upright;
+    display: flex; align-items: center; justify-content: center;
     box-shadow: -3px 0 10px rgba(0,0,0,.28);
 }
 #knopka-deti {
@@ -574,11 +575,11 @@ body { padding-right: 42px; }
 <details class="shag" data-nomer="12"><summary><span class="nomer">12</span><span class="zag">Передача в стационар</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('12',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="12" data-idx="0" onchange="otmetitPunkt(this)"><span>Доклад по <b>SBAR</b>: ситуация → анамнез → оценка → рекомендации стационару.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="12" data-idx="1" onchange="otmetitPunkt(this)"><span>Статус «Участник СВО» — сообщить персоналу приёмного.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('03')">03 · Передача · SBAR</button></div><div class="taymer-blok"><span class="tablo" id="tablo-stacionar">15:00</span><button id="knopka-stacionar" onclick="pereklyuchitTaymer('stacionar')">Старт</button><span style="font-size:13px;color:#5b6b7c">В стационаре · 10/15 мин</span></div></div></details>
 <details class="shag" data-nomer="13"><summary><span class="nomer">13</span><span class="zag">Результат и закрытие вызова</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('13',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="13" data-idx="0" onchange="otmetitPunkt(this)"><span>Выбрать код результата. Безрезультатные — 1950 / 1951 со своими правилами заполнения.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="13" data-idx="1" onchange="otmetitPunkt(this)"><span>Констатация — код 1737, время констатации и ЭКГ совпадают, пишем ЕМИАС.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="13" data-idx="2" onchange="otmetitPunkt(this)"><span>Указать фамилию принявшего врача, дату и время.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="13" data-idx="3" onchange="otmetitPunkt(this)"><span>Нажать кнопку <b>«Завершить вызов»</b>.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('01')">01 · Коды результатов</button><button onclick="pokazatKartochku('10')">10 · Безрезультатные</button><button onclick="pokazatKartochku('61')">61 · Отказы и подписи</button><button onclick="pokazatKartochku('63')">63 · Записи: НС и ПВ</button><button onclick="pokazatKartochku('09')">09 · Констатация</button></div></div></details>
 <p class="podval">Формулировки — из приказов и регламента рабочего приложения.<br>
-Отметки шагов и таймеры сохраняются в телефоне до нажатия «Сброс».</p>
+Отметки шагов и таймеры сохраняются до «Сброса» вызова. Расход укладки хранится отдельно, до «Сброса смены» в её окне.</p>
 </main>
 <div id="panel-taymerov"></div>
 <button id="knopka-slr" onclick="slrOtkryt()">СЛР</button>
-<button id="knopka-list" onclick="listOtkryt()">ЛИСТ</button>
+<button id="knopka-list" onclick="listOtkryt()">УКЛАДКА</button>
 <button id="knopka-deti" onclick="detiOtkryt()">ДЕТИ</button>
 <dialog id="okno">
   <div class="shapka-okna"><b id="imya-okna"></b>
@@ -1149,7 +1150,7 @@ body { padding-right: 42px; }
 <dialog id="okno-list">
 <div class="shapka-okna">
   <b>Укладка — расход за смену</b>
-  <button onclick="listSbros()">Сброс</button>
+  <button onclick="listSbros()">Сброс смены</button>
   <button onclick="document.getElementById('okno-list').close()">Закрыть</button>
 </div>
 <div class="list-telo" id="list-telo"></div>
@@ -1229,7 +1230,7 @@ function pereklyuchitTaymer(id) {
 }
 
 function sbrosVsego() {
-    if (!confirm('Сбросить отметки шагов и все таймеры?')) return;
+    if (!confirm('Сбросить отметки шагов и все таймеры? Расход укладки останется.')) return;
     if (typeof konsSbros === 'function') konsSbros();
     zapusheny = {}; sdelannye = []; punkty_done = {}; sohranit();
     document.querySelectorAll('.shag').forEach(s => { s.classList.remove('sdelan'); s.open = false; });
@@ -3018,6 +3019,7 @@ function listSohranit() {
     try { localStorage.setItem('marshrut_list', JSON.stringify(LIST_OTM)); } catch (e) {}
 }
 function listSbros() {
+    if (!confirm('Сбросить расход укладки за смену?')) return;
     LIST_OTM = {};
     try { localStorage.removeItem('marshrut_list'); } catch (e) {}
     listRisovat();
