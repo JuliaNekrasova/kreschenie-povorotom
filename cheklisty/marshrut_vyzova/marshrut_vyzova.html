@@ -475,16 +475,50 @@ body { padding-right: 42px; }
 .deti-list th { background: #14304d; color: #fff; }
 .deti-list tr:nth-child(even) td { background: #f4f8fb; }
 .deti-list .snoska { font-size: 12.5px; color: #5b6b7c; margin: 8px 0 0; }
-/* семь тревог: рабочий вид и крупный вид для родителя */
-.deti-trevoga { background: #fff; border: 1px solid #c7d4e1; border-left: 4px solid #b00d0d;
-    border-radius: 0 9px 9px 0; padding: 8px 10px; margin: 7px 0; }
-.deti-trevoga b { display: block; margin-bottom: 3px; }
-.deti-trevoga ul { margin: 0; padding-left: 19px; }
-.deti-rodit .deti-trevoga { font-size: 20px; line-height: 1.4; border-left-width: 7px; padding: 12px 14px; }
-.deti-rodit .deti-trevoga b { font-size: 23px; }
-.deti-rodit .deti-fraza { font-size: 20px; }
-.deti-fraza { background: #fff4f4; border: 1px solid #d9a0a0; border-radius: 9px;
-    padding: 10px 12px; margin: 10px 0; font-weight: 600; color: #8a1414; }
+/* семь тревог: рабочий вид и крупный вид для пациента и близких, вёрстка бумажного листа */
+.st-shapka { display: flex; align-items: center; gap: 12px; border-bottom: 3px solid #b3261e;
+    padding: 4px 0 8px; margin: 10px 0 0; }
+.st-shapka .st-t { flex: 1; min-width: 0; }
+.st-kto { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #b3261e; font-weight: 700; }
+.st-h { font-size: 22px; font-weight: 700; line-height: 1.1; margin-top: 2px; color: #1d1d1f; }
+.st-pod { font-size: 13px; color: #4a4a4f; margin-top: 4px; line-height: 1.35; }
+.st-103 { flex: none; text-align: center; color: #b3261e; line-height: 1; }
+.st-103 b { display: block; font-size: 30px; letter-spacing: -0.02em; }
+.st-103 span { display: block; font-size: 9px; letter-spacing: 0.2em; font-weight: 700; margin-top: 2px; }
+.st-fraza { background: #b3261e; color: #fff; border-radius: 8px; padding: 10px 12px;
+    margin: 10px 0; font-weight: 600; line-height: 1.35; }
+.st-ryady { background: #fff; border: 1px solid #e4d4d2; border-radius: 10px; padding: 0 10px; }
+.st-r { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid #ecdedc; }
+.st-r:last-child { border-bottom: none; }
+.st-n { flex: none; width: 26px; height: 26px; border-radius: 50%; background: #b3261e; color: #fff;
+    font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.st-tx { flex: 1; min-width: 0; }
+.st-z { font-weight: 700; color: #1d1d1f; margin-bottom: 2px; line-height: 1.25; }
+.st-p { color: #2b2b30; line-height: 1.4; }
+.st-p span { display: block; position: relative; padding-left: 14px; margin-top: 2px; }
+.st-p span::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 6px; height: 6px;
+    border-radius: 50%; background: #b3261e; }
+.st-r.w { background: #fff6e0; border-radius: 8px; margin: 6px -6px 8px; padding: 9px 6px; border-bottom: none; }
+.st-r.w .st-n { background: #a86b00; }
+.st-r.w .st-p span::before { background: #a86b00; }
+.st-zag2 { display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 2px solid #1d1d1f; margin: 16px 0 6px; padding-bottom: 3px; }
+.st-zag2 b { font-size: 17px; }
+.st-zag2 small { font-size: 12px; color: #5a5a5f; }
+.st-ryady.o { border-color: #d6d6da; }
+.st-r.o .st-p span::before { background: #8a8a90; }
+.st-kv { flex: none; width: 22px; height: 22px; margin: 1px 0 0; accent-color: #b3261e; }
+.st-pechat { display: block; text-align: center; margin: 12px 0 4px; font-size: 13px; color: #24476b; }
+.deti-rodit .st-h { font-size: 28px; }
+.deti-rodit .st-zag2 b { font-size: 22px; }
+.deti-rodit .st-103 b { font-size: 40px; }
+.deti-rodit .st-fraza { font-size: 20px; padding: 12px 14px; }
+.deti-rodit .st-r { padding: 12px 0; }
+.deti-rodit .st-n { width: 34px; height: 34px; font-size: 18px; }
+.deti-rodit .st-z { font-size: 21px; }
+.deti-rodit .st-p { font-size: 19px; line-height: 1.4; }
+.deti-rodit .st-p span { padding-left: 18px; margin-top: 4px; }
+.deti-rodit .st-p span::before { width: 8px; height: 8px; top: 0.58em; }
 
 /* ---------- СЛР: окно ---------- */
 #okno-slr { position: fixed; top: 0; bottom: 0; width: 100%; max-width: 760px;
@@ -2841,48 +2875,53 @@ const VZR_OSOB = [
     ]
 ];
 
-/* Семь тревог: один рендер для детского и взрослого листа.
+/* Семь тревог: один рендер для детского и взрослого листа, вёрстка бумажного листа.
    В крупном виде — первые три пункта каждой тревоги и отмеченные особые случаи целиком. */
 function trevogiHtml(o) {
     const st = o.sost;
     if (!Array.isArray(st.osob)) st.osob = [];
+    const punkty = sp => '<div class="st-p"><span>' + sp.join('</span><span>') + '</span></div>';
+    const shapka = (zag, pod) =>
+        '<div class="st-shapka"><div class="st-t"><div class="st-kto">Семь тревог · ' + o.kto + '</div>' +
+        '<div class="st-h">' + zag + '</div>' + (pod ? '<div class="st-pod">' + pod + '</div>' : '') +
+        '</div><div class="st-103"><b>103</b><span>СРАЗУ</span></div></div>';
+    const ryad = (t, i, skolko) =>
+        '<div class="st-r' + (i === 6 ? ' w' : '') + '"><div class="st-n">' + (i + 1) + '</div>' +
+        '<div class="st-tx"><div class="st-z">' + t[0] + '</div>' +
+        punkty(skolko ? t[1].slice(0, skolko) : t[1]) + '</div></div>';
     let h = '';
     if (st.rodit) {
         h += '<button onclick="' + o.sostImya + '.rodit=false;' + o.risovat + '()" ' +
              'style="width:100%;padding:12px;border:0;border-radius:9px;background:#24476b;' +
-             'color:#fff;font-size:15px;font-weight:700;margin-bottom:10px">Вернуться к рабочему виду</button>';
-        h += '<div class="deti-fraza">Когда звонить 103 повторно</div>';
-        o.sem.forEach((t, i) => {
-            h += '<div class="deti-trevoga"><b>' + (i + 1) + '. ' + t[0] + '</b>' +
-                 t[1].slice(0, 3).join(' · ') + '</div>';
-        });
-        st.osob.forEach(i => {
-            const t = o.osob[i];
-            if (t) h += '<div class="deti-trevoga"><b>' + t[0] + '</b>' + t[1].join(' · ') + '</div>';
-        });
-        h += '<div class="deti-fraza">' + o.frazaKrupno + '</div>';
+             'color:#fff;font-size:15px;font-weight:700">Вернуться к рабочему виду</button>';
+        h += shapka('Когда снова звонить 103', '');
+        h += '<div class="st-fraza">' + o.frazaKrupno + '</div>';
+        h += '<div class="st-ryady">' + o.sem.map((t, i) => ryad(t, i, 3)).join('') + '</div>';
+        const otm = st.osob.map(i => o.osob[i]).filter(Boolean);
+        if (otm.length) {
+            h += '<div class="st-zag2"><b>Особо для вас</b></div><div class="st-ryady o">' +
+                 otm.map(t => '<div class="st-r o"><div class="st-tx"><div class="st-z">' + t[0] +
+                              '</div>' + punkty(t[1]) + '</div></div>').join('') + '</div>';
+        }
         return h;
     }
 
     h += '<button onclick="' + o.sostImya + '.rodit=true;' + o.risovat + '()" ' +
          'style="width:100%;padding:13px;border:0;border-radius:9px;background:#1d7a4d;' +
          'color:#fff;font-size:16px;font-weight:700">' + o.knopka + '</button>';
-    h += '<h3>Семь тревог</h3>';
-    h += '<p class="snoska">' + o.vvod + '</p>';
-    o.sem.forEach((t, i) => {
-        h += '<div class="deti-trevoga"><b>' + (i + 1) + '. ' + t[0] + '</b><ul><li>' +
-             t[1].join('</li><li>') + '</li></ul></div>';
-    });
-    h += '<div class="deti-fraza">' + o.fraza + '</div>';
+    h += shapka('Когда снова звонить 103', o.vvod);
+    h += '<div class="st-fraza">' + o.fraza + '</div>';
+    h += '<div class="st-ryady">' + o.sem.map((t, i) => ryad(t, i, 0)).join('') + '</div>';
 
-    h += '<h3>Особые случаи</h3>';
-    h += '<p class="snoska">Отмеченный случай выводится в крупный вид целиком.</p>';
-    o.osob.forEach((t, i) => {
-        const vybr = st.osob.includes(i);
-        h += '<div class="deti-trevoga"><label style="display:flex;gap:9px;align-items:flex-start;font-weight:700">' +
-             '<input type="checkbox" style="width:20px;height:20px;flex:none;margin-top:1px"' +
-             (vybr ? ' checked' : '') + ' onchange="trevogiOsob(' + o.sostImya + ',' + i + ',this.checked)">' + t[0] + '</label><ul><li>' + t[1].join('</li><li>') + '</li></ul></div>';
-    });
+    h += '<div class="st-zag2"><b>Особые случаи</b><small>отмечает бригада</small></div>';
+    h += '<p class="snoska" style="margin:0 0 6px">Отмеченный случай выводится в крупный вид целиком.</p>';
+    h += '<div class="st-ryady o">' + o.osob.map((t, i) =>
+        '<label class="st-r o"><input type="checkbox" class="st-kv"' +
+        (st.osob.includes(i) ? ' checked' : '') +
+        ' onchange="trevogiOsob(' + o.sostImya + ',' + i + ',this.checked)">' +
+        '<div class="st-tx"><div class="st-z">' + t[0] + '</div>' + punkty(t[1]) + '</div></label>'
+    ).join('') + '</div>';
+    h += '<a class="st-pechat" href="' + o.pdf + '" target="_blank" rel="noopener">Лист для печати, A5 с двух сторон (PDF)</a>';
     return h;
 }
 
@@ -2895,7 +2934,7 @@ function trevogiOsob(st, i, da) {
 
 function detiTrevogi() {
     return trevogiHtml({
-        sost: DETI, sostImya: 'DETI', risovat: 'detiRisovat',
+        sost: DETI, sostImya: 'DETI', risovat: 'detiRisovat', kto: 'ребёнок', pdf: 'sem_trevog_deti.pdf',
         sem: DETI_SEM, osob: DETI_OSOB,
         knopka: 'Показать родителю крупно',
         vvod: 'Признаки, при появлении которых родителю следует повторно вызвать 103, ' +
@@ -2923,7 +2962,7 @@ function vzrRisovat() {
     const telo = document.getElementById('telo-okna');
     telo.innerHTML = '<div class="deti-list' + (VZR.rodit ? ' deti-rodit' : '') + '">' +
         trevogiHtml({
-            sost: VZR, sostImya: 'VZR', risovat: 'vzrRisovat',
+            sost: VZR, sostImya: 'VZR', risovat: 'vzrRisovat', kto: 'взрослые', pdf: 'sem_trevog_vzroslye.pdf',
             sem: VZR_SEM, osob: VZR_OSOB,
             knopka: 'Показать пациенту и близким крупно',
             vvod: 'Признаки, при появлении которых пациенту или близким следует повторно вызвать 103, ' +
