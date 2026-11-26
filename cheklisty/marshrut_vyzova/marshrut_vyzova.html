@@ -309,9 +309,7 @@ body { padding-right: 42px; }
 #knopka-deti { background: #1d7a4d; color: #fff; font-size: 19px; letter-spacing: 5px; }
 #bokovye #knopka-oborud {
     background: #4a5866; color: #fff;
-    font-size: 12px; letter-spacing: 0.5px; line-height: 1;
-    text-orientation: mixed; transform: rotate(180deg);
-    border-radius: 0 12px 12px 0; box-shadow: 3px 0 10px rgba(0,0,0,.28);
+    font-size: 13px; letter-spacing: 1px;
 }
 /* Горизонтальный телефон: четыре полосы не помещаются по высоте, буквы слипаются.
    Кнопки становятся рядом, над панелью таймеров, обычным текстом. */
@@ -329,7 +327,6 @@ body { padding-right: 42px; }
         border-radius: 10px; transform: none;
         box-shadow: 0 2px 8px rgba(0,0,0,.28);
     }
-    #bokovye #knopka-oborud { font-size: 12px; }
 }
 
 #okno-deti { position: fixed; top: 0; bottom: 0; width: 100%; max-width: 760px;
@@ -665,7 +662,7 @@ body { padding-right: 42px; }
 <button id="knopka-slr" onclick="slrOtkryt()">СЛР</button>
 <button id="knopka-list" onclick="listOtkryt()">УКЛАДКА</button>
 <button id="knopka-deti" onclick="detiOtkryt()">ДЕТИ</button>
-<button id="knopka-oborud" onclick="obOtkryt()">ОБОРУДОВАНИЕ</button>
+<button id="knopka-oborud" onclick="obOtkryt()">ТЕХНИКА</button>
 </div>
 <dialog id="okno">
   <div class="shapka-okna"><b id="imya-okna"></b>
