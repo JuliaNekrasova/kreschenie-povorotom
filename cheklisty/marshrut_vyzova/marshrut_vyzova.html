@@ -648,12 +648,12 @@ body { padding-right: 42px; }
 <details class="shag" data-nomer="3"><summary><span class="nomer">3</span><span class="zag">«Прибытие»</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('3',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="3" data-idx="0" onchange="otmetitPunkt(this)"><span>Нажать <b>«Прибытие»</b> и запустить таймер: норматив на вызове <b>30–40 минут</b>.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="3" data-idx="1" onchange="otmetitPunkt(this)"><span><b>СИЗ</b> — по ситуации.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('61')">61 · Отказы и подписи</button></div><div class="taymer-blok"><span class="tablo" id="tablo-vyzov">40:00</span><button id="knopka-vyzov" onclick="pereklyuchitTaymer('vyzov')">Старт</button><span style="font-size:13px;color:#5b6b7c">На вызове · 30/40 мин</span></div></div></details>
 <details class="shag" data-nomer="4"><summary><span class="nomer">4</span><span class="zag">Анамнез и осмотр</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('4',this)">✔</span></summary><div class="telo"><div class="krasnoe">Новой находкой — поделиться с напарником сразу.<small>Пока её можно учесть в осмотре и тактике.</small></div><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="4" data-idx="0" onchange="otmetitPunkt(this)"><span>Анамнез — <b>SAMPLE</b>, осмотр — <b>ABCDE</b>, дифференциальный диагноз.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="4" data-idx="1" onchange="otmetitPunkt(this)"><span>Передача ЭКП.</span></li></ul><ul class="zametki"><li>Ребёнок до года — описать родничок.</li><li><b>ВАШ</b> пишется при: <b>травмах · невралгии · онкологии · ожогах</b> → карточка 05.</li><li>Аллергия: при аллергическом диагнозе «аллергию отрицает» <b>не нажимать</b>.</li><li>Беременность: с 12 недель — ВДМ и выделения; с 22 недель — плюс положение, предлежание, ЧСС плода.</li><li>Сезонный травматизм (гололёд): в карте отметка, адрес места получения травмы, согласие на передачу данных.</li><li>Боль в жалобах: характер, локализация, интенсивность, иррадиация, с чем связана, чем купируется.</li></ul><div class="kartochki"><button onclick="pokazatKartochku('05')">05 · Шкалы боли</button><button onclick="pokazatKartochku('21')">21 · Асцит</button><button onclick="pokazatKartochku('22')">22 · Инсульт</button><button onclick="pokazatKartochku('23')">23 · RASS</button><button onclick="pokazatKartochku('24')">24 · Шкала комы Глазго (взрослые)</button><button onclick="pokazatKartochku('25')">25 · NEWS</button><button onclick="pokazatKartochku('26')">26 · ПДР</button><button onclick="pokazatKartochku('27')">27 · ВДМ</button><button onclick="pokazatKartochku('28')">28 · ИМТ</button><button onclick="pokazatKartochku('29')">29 · Апгар</button><button onclick="pokazatKartochku('30')">30 · Westley</button><button onclick="pokazatKartochku('31')">31 · Женева (ТЭЛА)</button><button onclick="pokazatKartochku('32')">32 · Wells (DVT)</button><button onclick="pokazatKartochku('33')">33 · CRB-65</button><button onclick="pokazatKartochku('34')">34 · Альварадо</button><button onclick="pokazatKartochku('11')">11 · БА · ХОБЛ · пневмония</button><button onclick="pokazatKartochku('35')">35 · ШОКС</button><button onclick="pokazatKartochku('40')">40 · Экспресс-тестирование</button><button onclick="pokazatKartochku('41')">41 · Дегидратация</button><button onclick="pokazatKartochku('51')">51 · Нормы у детей</button><button onclick="pokazatKartochku('54')">54 · ОДН · степени</button><button onclick="pokazatKartochku('60')">60 · СД у детей</button><button onclick="pokazatKartochku('62')">62 · Кровотечение из ВРВП</button></div></div></details>
 <details class="shag" data-nomer="5"><summary><span class="nomer">5</span><span class="zag">Постановка диагноза</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('5',this)">✔</span></summary><div class="telo"><div class="krasnoe">Объясняет ли диагноз главный симптом?<small>Если не объясняет — диагноз пока рабочий, поиск продолжается.</small></div><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="5" data-idx="2" onchange="otmetitPunkt(this)"><span>Взять код станции и формулировку из нужной карточки.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="5" data-idx="1" onchange="otmetitPunkt(this)"><span>Осложнения — в диагноз обязательно. Второй диагноз — только если лечил.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="5" data-idx="0" onchange="otmetitPunkt(this)"><span>Диагноз с заглавной, диагнозы разделять точкой, код МКБ не копировать.</span></li></ul><ul class="zametki"><li>Повод не совпал с жалобами и осмотром — отметить в карте как «боли в животе отрицает», «ангинозные боли отрицает» и пр.</li></ul><div class="kartochki"><button onclick="pokazatKartochku('04')">04 · Диагноз · повод</button><button onclick="pokazatKartochku('08')">08 · ГБ · коды</button><button onclick="pokazatKartochku('75')">75 · ХСН · тахикардия · гипотония</button><button onclick="pokazatKartochku('11')">11 · БА · ХОБЛ · пневмония</button><button onclick="pokazatKartochku('02')">02 · Акушерство</button><button onclick="pokazatKartochku('06')">06 · Аллергия</button><button onclick="pokazatKartochku('09')">09 · Констатация</button><button onclick="pokazatKartochku('19')">19 · Заболевания периферической нервной системы</button><button onclick="pokazatKartochku('20')">20 · Заболевания кожи</button><button onclick="pokazatKartochku('46')">46 · Травмы: описание</button><button onclick="pokazatKartochku('53')">53 · Ожоги у детей</button><button onclick="pokazatKartochku('60')">60 · СД у детей</button><button onclick="pokazatKartochku('62')">62 · Кровотечение из ВРВП</button><button onclick="pokazatKartochku('64')">64 · Инфекции</button></div></div></details>
-<details class="shag" data-nomer="6" data-vopros="1"><summary><span class="nomer">6</span><span class="zag">Консилиум по диагнозу и тактике?</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('6',this)">✔</span></summary><div class="telo"><div class="krasnoe">Есть сомнение — сказать до решения.<small>«Меня беспокоит…» → «Мне некомфортно…» → «Это небезопасно». С опорой на то, что видно и измерено.</small></div><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="0" onchange="otmetitPunkt(this)"><span>Проверить список показаний к дистанционному консилиуму.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="1" onchange="otmetitPunkt(this)"><span>Профильные консультанты: акушер-гинеколог · психиатр · реаниматолог ЦКС · токсиколог.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="2" onchange="otmetitPunkt(this)"><span>Отказ от эвакуации — сначала стоп-перечень (карточка 76).</span></li></ul><div class="konsilium" id="konsilium"><label>Возраст, лет<input id="kons-vozrast" type="number" min="0" max="120" inputmode="numeric" oninput="sovetKonsiliuma()"></label><label>Диагноз или повод<input id="kons-diagnoz" type="text" autocomplete="off" oninput="sovetKonsiliuma()"></label><label>Место<select id="kons-mesto" onchange="sovetKonsiliuma()"><option value="">не выбрано</option><option value="dom">Дом</option><option value="ulica">Улица</option><option value="fsin">МВД / ФСИН</option></select></label><div id="kons-gruppy"></div><div id="kons-sovet" class="kons-sovet"></div></div><div class="kartochki"><button onclick="pokazatKartochku('76')">76 · Стоп перед отказом</button><button onclick="pokazatKartochku('16')">16 · Консилиум: диагноз</button></div></div></details>
+<details class="shag" data-nomer="6" data-vopros="1"><summary><span class="nomer">6</span><span class="zag">Консилиум по диагнозу и тактике?</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('6',this)">✔</span></summary><div class="telo"><div class="krasnoe">Есть сомнение — сказать до решения.<small>«Меня беспокоит…» → «Мне некомфортно…» → «Это небезопасно». С опорой на то, что видно и измерено.</small></div><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="0" onchange="otmetitPunkt(this)"><span>Проверить список показаний к дистанционному консилиуму.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="1" onchange="otmetitPunkt(this)"><span>Профильные консультанты: акушер-гинеколог · психиатр · реаниматолог ЦКС · токсиколог.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="6" data-idx="2" onchange="otmetitPunkt(this)"><span>Отказ от эвакуации — сначала стоп-перечень (карточка 76).</span></li></ul><div class="konsilium" id="konsilium"><label>Возраст, лет<input id="kons-vozrast" type="number" min="0" max="120" inputmode="numeric" oninput="sovetKonsiliuma()"></label><label>Диагноз или повод<input id="kons-diagnoz" type="text" autocomplete="off" oninput="sovetKonsiliuma()"></label><label>Место<select id="kons-mesto" onchange="sovetKonsiliuma()"><option value="">не выбрано</option><option value="dom">Дом</option><option value="ulica">Улица</option><option value="fsin">МВД / ФСИН</option></select></label><div id="kons-gruppy"></div><div id="kons-sovet" class="kons-sovet"></div></div><div class="kartochki"><button onclick="pokazatKartochku('76')">76 · Стоп перед отказом</button><button onclick="vzrTrevogiOtkryt()">Семь тревог · взрослые</button><button onclick="pokazatKartochku('16')">16 · Консилиум: диагноз</button></div></div></details>
 <details class="shag" data-nomer="7" data-vybor="1"><summary><span class="nomer">7</span><span class="zag">Терапия</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('7',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="7" data-idx="0" onchange="otmetitPunkt(this)"><span>Сверка с действующими алгоритмами.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="7" data-idx="1" onchange="otmetitPunkt(this)"><span>При каждом введении: <b>название, доза, единица, путь, скорость, растворитель</b>.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('44')">44 · Адреналин</button><button onclick="pokazatKartochku('45')">45 · Магнезия</button><button onclick="pokazatKartochku('42')">42 · Кетамин</button><button onclick="pokazatKartochku('63')">63 · Записи: НС и ПВ</button><button onclick="pokazatKartochku('43')">43 · Шприцевой насос</button><button onclick="pokazatKartochku('12')">12 · Морфин внутрь</button><button onclick="pokazatKartochku('55')">55 · Допамин</button><button onclick="pokazatKartochku('56')">56 · Добутамин</button><button onclick="pokazatKartochku('57')">57 · Норэпинефрин</button><button onclick="pokazatKartochku('58')">58 · Эпинефрин</button><button onclick="pokazatKartochku('59')">59 · Диазепам детям</button><button onclick="pokazatKartochku('48')">48 · Проходимость ДП</button><button onclick="pokazatKartochku('49')">49 · Параметры ИВЛ</button><button onclick="pokazatKartochku('47')">47 · Размеры трубок</button><button onclick="pokazatKartochku('50')">50 · Новорожденный</button><button onclick="pokazatKartochku('52')">52 · Промывание желудка</button><button onclick="pokazatKartochku('62')">62 · Кровотечение из ВРВП</button></div></div></details>
 <details class="shag" data-nomer="8"><summary><span class="nomer">8</span><span class="zag">Запрос места, выезд в стационар</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('8',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="8" data-idx="0" onchange="otmetitPunkt(this)"><span>Запросить место, сообщить статус «Участник СВО» диспетчеру эвакуации, если он есть.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="8" data-idx="1" onchange="otmetitPunkt(this)"><span>Заполнить чеклист с сердечком (!).</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="8" data-idx="2" onchange="otmetitPunkt(this)"><span>Нажать кнопку «Выезд в стационар».</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('13')">13 · Участник СВО</button><button onclick="pokazatKartochku('17')">17 · Консилиум: госпитализация</button><button onclick="pokazatKartochku('39')">39 · Безнадзорные в ОВД</button><button onclick="pokazatKartochku('40')">40 · Экспресс-тестирование</button></div></div></details>
 <details class="shag" data-nomer="9" data-vopros="1" data-vybor="1"><summary><span class="nomer">9</span><span class="zag">Транспортировка: кислород и/или ЭКГ-мониторинг?</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('9',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="9" data-idx="0" data-odin="1" onchange="otmetitPunkt(this)"><span><b>Показаний нет</b> — ни кислород, ни мониторинг по критериям не показаны.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="9" data-idx="1" onchange="otmetitPunkt(this)"><span><b>Кислород</b> — при SpO₂ &lt; 92% или по «Алгоритмам» по диагнозу (ОКС, шок, п. АС, обширные ожоги, отравление CO). Цель ≥ 92% (≥ 90% при ХОБЛ/СДЛС).</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="9" data-idx="2" onchange="otmetitPunkt(this)"><span><b>ЭКГ-мониторинг</b> — при 1+ критериям: боль в груди, ЧСС &gt; 120, одышка/SpO₂ &lt; 93%, обморок, слабость/бледность, АД сист. &lt; 90, нарушение ритма/проводимости, ST-сдвиг, «красный поток».</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="9" data-idx="3" onchange="otmetitPunkt(this)"><span>Печать: 1 критерий — в начале и в конце; 2+ критерия — <b>каждые 5–6 минут</b>.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('18')">18 · ЭКГ-мониторинг</button></div></div></details>
 <details class="shag" data-nomer="10"><summary><span class="nomer">10</span><span class="zag">Передача в стационар</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('10',this)">✔</span></summary><div class="telo"><div class="krasnoe">Второй номер может дополнить доклад.<small>Если что-то важное не прозвучало: время последнего нормального самочувствия, ключевая находка, динамика.</small></div><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="10" data-idx="0" onchange="otmetitPunkt(this)"><span>Доклад по <b>SBAR</b>: ситуация → анамнез → оценка → рекомендации стационару.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="10" data-idx="1" onchange="otmetitPunkt(this)"><span>Статус «Участник СВО» — сообщить персоналу приёмного.</span></li></ul><div class="kartochki"><button onclick="pokazatKartochku('03')">03 · Передача · SBAR</button></div><div class="taymer-blok"><span class="tablo" id="tablo-stacionar">15:00</span><button id="knopka-stacionar" onclick="pereklyuchitTaymer('stacionar')">Старт</button><span style="font-size:13px;color:#5b6b7c">В стационаре · 10/15 мин</span></div></div></details>
-<details class="shag" data-nomer="11"><summary><span class="nomer">11</span><span class="zag">Результат и закрытие вызова</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('11',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="0" onchange="otmetitPunkt(this)"><span>Выбрать код результата.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="2" onchange="otmetitPunkt(this)"><span>При госпитализации указать фамилию принявшего врача, дату и время.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="3" onchange="otmetitPunkt(this)"><span>Нажать кнопку <b>«Завершить вызов»</b>.</span></li></ul><ul class="zametki"><li>Безрезультатные — 1950 / 1951 со своими правилами заполнения.</li><li>Констатация — код 1737, время констатации и ЭКГ совпадают, пишем ЕМИАС.</li></ul><div class="kartochki"><button onclick="pokazatKartochku('76')">76 · Стоп перед отказом</button><button onclick="pokazatKartochku('01')">01 · Коды результатов</button><button onclick="pokazatKartochku('10')">10 · Безрезультатные</button><button onclick="pokazatKartochku('61')">61 · Отказы и подписи</button><button onclick="pokazatKartochku('63')">63 · Записи: НС и ПВ</button><button onclick="pokazatKartochku('09')">09 · Констатация</button></div></div></details>
+<details class="shag" data-nomer="11"><summary><span class="nomer">11</span><span class="zag">Результат и закрытие вызова</span><span class="strela">›</span><span class="gotovo" onclick="event.preventDefault();event.stopPropagation();otmetit('11',this)">✔</span></summary><div class="telo"><ul><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="0" onchange="otmetitPunkt(this)"><span>Выбрать код результата.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="2" onchange="otmetitPunkt(this)"><span>При госпитализации указать фамилию принявшего врача, дату и время.</span></li><li class="punkt"><input type="checkbox" class="chek" data-shag="11" data-idx="3" onchange="otmetitPunkt(this)"><span>Нажать кнопку <b>«Завершить вызов»</b>.</span></li></ul><ul class="zametki"><li>Безрезультатные — 1950 / 1951 со своими правилами заполнения.</li><li>Констатация — код 1737, время констатации и ЭКГ совпадают, пишем ЕМИАС.</li></ul><div class="kartochki"><button onclick="pokazatKartochku('76')">76 · Стоп перед отказом</button><button onclick="vzrTrevogiOtkryt()">Семь тревог · взрослые</button><button onclick="pokazatKartochku('01')">01 · Коды результатов</button><button onclick="pokazatKartochku('10')">10 · Безрезультатные</button><button onclick="pokazatKartochku('61')">61 · Отказы и подписи</button><button onclick="pokazatKartochku('63')">63 · Записи: НС и ПВ</button><button onclick="pokazatKartochku('09')">09 · Констатация</button></div></div></details>
 <p class="podval">Формулировки — из приказов и регламента рабочего приложения.<br>
 Отметки шагов и таймеры сохраняются до «Сброса» вызова. Расход укладки и отметки оборудования хранятся отдельно, до «Сброса смены» в своих окнах.</p>
 </main>
@@ -2594,112 +2594,345 @@ function detiNormy() {
 }
 
 const DETI_SEM = [
-    ['Дыхание — стало хуже', [
-        'Дышит заметно чаще, чем сейчас, и не успокаивается',
-        'Втягиваются межрёберные промежутки, ямка над грудиной, под рёбрами',
-        'Появились свист, клёкот, кряхтение на выдохе',
-        'Раздуваются крылья носа при каждом вдохе',
-        'Не может говорить или плакать целыми фразами — только короткие слова между вдохами']],
-    ['Цвет — стал не такой', [
-        'Синева вокруг рта, на губах, на кончиках пальцев, на мочках ушей',
-        'Бледность «как простыня» с сероватым или мраморным оттенком',
-        'При плаче синеет и долго не розовеет']],
-    ['Сознание — стал не такой', [
-        'Не смотрит в глаза, не отзывается на имя, не тянется к маме',
-        'Вялый, обмякший, «как тряпочка», заторможенный — даже когда не спит',
-        'Или наоборот необычно возбуждён, мечется, неуспокаиваем',
-        'Не удаётся разбудить или будится с трудом и тут же снова «уплывает»',
-        'Любой эпизод подёргиваний, закатывания глаз, обмякания — даже короткий']],
-    ['Питьё и еда — отказ', [
-        'Грудничок не сосёт грудь или бутылочку, отказывается от двух кормлений подряд',
-        'Старше — не пьёт совсем больше 4–6 часов, включая любимый напиток',
-        'Срыгивает или рвёт всё, что выпил, больше трёх раз подряд']],
-    ['Подгузник и туалет — сухо', [
-        'Грудничок: сухой подгузник 6 часов и больше, норма — мокрый каждые 2–3 часа',
-        'Старше: не мочился больше 8 часов',
-        'Моча тёмная, концентрированная, мало',
-        'Глаза запали, родничок запал, плачет без слёз, во рту сухо']],
-    ['Температура — поведение поменялось', [
-        'Жаропонижающее не действует 1,5–2 часа или сбивает на полчаса',
-        'Выше 39 °C и при этом вялый, не реагирует — важна не цифра, а поведение',
-        'Холодные руки и ноги при горячем теле, мраморность, озноб с дрожью',
-        'Любая температура у грудничка до 3 месяцев — уже повод позвонить']],
-    ['Боль и новые симптомы', [
-        'Боль в животе, голове, груди, ухе, которая усиливается или не проходит за 1–2 часа',
-        'Новая сыпь, особенно если не бледнеет при нажатии стаканом',
-        'Любое новое и непонятное поведение, которого не было при нашем приходе']]
+    [
+        "Дыхание стало тяжелее",
+        [
+            "Дышит заметно чаще, чем при бригаде, и не успокаивается",
+            "При вдохе втягивается кожа между рёбрами, над грудиной или под рёбрами",
+            "Кряхтит или стонет на выдохе, раздуваются крылья носа",
+            "Не может плакать или говорить как обычно: короткие слова между вдохами",
+            "Появился свист или клокотание при дыхании"
+        ]
+    ],
+    [
+        "Кожа: цвет и сыпь",
+        [
+            "Синеют губы, кожа вокруг рта или кончики пальцев",
+            "Сыпь, которая не бледнеет при нажатии прозрачным стаканом",
+            "Кожа бледная, серая или мраморная; руки и ноги холодные при горячем теле",
+            "При плаче синеет и долго не розовеет"
+        ]
+    ],
+    [
+        "Сознание и поведение",
+        [
+            "Вялый, обмякший, не смотрит в глаза, не отзывается на имя",
+            "Трудно разбудить, или просыпается и сразу снова засыпает",
+            "Судороги, подёргивания, закатывание глаз — даже короткие",
+            "Необычно возбуждён, мечется, успокоить не удаётся"
+        ]
+    ],
+    [
+        "Питьё и моча",
+        [
+            "Не пьёт; грудной ребёнок пропустил два кормления подряд",
+            "Рвота или срыгивание после каждого питья, три раза подряд и больше",
+            "Мочится реже обычного или подгузник остаётся сухим дольше обычного",
+            "Плачет без слёз, сухой рот, запал родничок"
+        ]
+    ],
+    [
+        "Температура",
+        [
+            "Ребёнку меньше 3 месяцев, и температура 38 °C и выше",
+            "Температура снизилась, а ребёнок остаётся вялым, не играет, не пьёт",
+            "Температура держится 5 дней и дольше"
+        ]
+    ],
+    [
+        "Боль",
+        [
+            "Боль в животе, голове или ухе сильнее, чем при бригаде, или не проходит",
+            "У мальчика — боль в мошонке или в паху: 103 сразу",
+            "Не даёт дотронуться до живота, лежит неподвижно, поджав ноги"
+        ]
+    ],
+    [
+        "Ваше беспокойство",
+        [
+            "Вам тревожнее, чем было при бригаде, даже если трудно объяснить почему",
+            "Вы чувствуете, что дома не справляетесь"
+        ]
+    ]
 ];
 
-const DETI_DOBAVKI = [
-    ['ОРВИ, бронхит, ларингит, бронхиолит', [
-        'Лающий кашель и хрипы на вдохе в покое — может быть круп III степени',
-        'Свист на выдохе, которого раньше не было',
-        'Слюнотечение, не может глотать, сидит подавшись вперёд — не укладывать на спину, 103 сразу',
-        'Ночью ухудшается резче']],
-    ['Высокая лихорадка', [
-        'Судороги, даже короткие',
-        'После судорог не приходит в себя дольше 30 минут или с очаговым дефицитом',
-        'Ригидность затылка, сильная головная боль, светобоязнь, рвота на пике температуры',
-        'Геморрагическая сыпь: тест стаканом — не бледнеет']],
-    ['Рвота и диарея', [
-        'Кровь в стуле или рвоте, «кофейная гуща»',
-        'Боль в животе, локализованная в одной точке дольше 2 часов, особенно справа внизу',
-        'Живот вздутый, твёрдый, не даёт прикоснуться',
-        'Отказ от любой жидкости и рвота фонтаном у грудничка']],
-    ['После аллергической реакции', [
-        'Отёк губ, языка, осиплость — продолжается или возвращается',
-        'Сыпь распространяется, зуд по всему телу',
-        'Затруднённое дыхание, свистящие хрипы',
-        'Тошнота, рвота, боль в животе вместе с сыпью — вторая фаза анафилаксии']],
-    ['Травма головы, оставлен дома', [
-        'Повторная рвота после травмы',
-        'Усиливающаяся головная боль',
-        'Сонливость: будить каждые 2 часа первые 6 часов',
-        'Прозрачная жидкость из носа или уха',
-        'Асимметрия зрачков, лица, силы в руках; судороги, дезориентация']],
-    ['После судорожного эпизода', [
-        'Повторный эпизод в течение суток',
-        'Эпизод дольше 5 минут — не ждать окончания, 103',
-        'Не возвращается к обычному поведению дольше часа',
-        'Односторонняя неврологическая симптоматика после приступа']]
+const DETI_OSOB = [
+    [
+        "Если кашель, круп, бронхиолит",
+        [
+            "Шумный вдох или лающий кашель в покое, а не только при плаче",
+            "Слюнотечение, не может глотать, сидит, подавшись вперёд, — не укладывать, 103 сразу",
+            "Свист на выдохе, которого раньше не было",
+            "Ночью стало резко хуже"
+        ]
+    ],
+    [
+        "Если высокая температура",
+        [
+            "Судороги, даже короткие",
+            "После судорог не приходит в себя дольше 30 минут или не двигает рукой или ногой",
+            "Сильная головная боль, боль в шее при наклоне головы, раздражает свет",
+            "Сыпь, которая не бледнеет при нажатии стаканом"
+        ]
+    ],
+    [
+        "Если рвота и понос",
+        [
+            "Кровь в стуле или в рвоте, рвота «кофейной гущей»",
+            "Боль в одном месте живота дольше 2 часов, особенно справа внизу",
+            "Живот вздут, твёрдый, не даёт дотронуться",
+            "Грудной ребёнок: рвота фонтаном"
+        ]
+    ],
+    [
+        "Если была аллергическая реакция",
+        [
+            "Отёк губ или языка, осиплость — не проходит или вернулся",
+            "Сыпь распространяется, зудит всё тело",
+            "Стало трудно дышать, появился свист",
+            "Рвота или боль в животе вместе с сыпью: реакция может вернуться через несколько часов"
+        ]
+    ],
+    [
+        "Если был удар головой",
+        [
+            "Рвота",
+            "Головная боль усиливается",
+            "Сонливость дольше часа в то время, когда ребёнок обычно бодр; трудно разбудить",
+            "Прозрачная жидкость или кровь из носа или уха",
+            "Разные зрачки, перекос лица, слабость в руке или ноге, судороги, не узнаёт близких"
+        ]
+    ],
+    [
+        "Если были судороги",
+        [
+            "Повторные судороги в течение суток",
+            "Судороги дольше 5 минут — не ждать окончания, звонить 103",
+            "Не возвращается к обычному поведению дольше часа",
+            "Слабость в одной руке или ноге после приступа"
+        ]
+    ]
 ];
 
-function detiTrevogi() {
+const VZR_SEM = [
+    [
+        "Дыхание стало тяжелее",
+        [
+            "Одышка сильнее, чем при бригаде, или появилась в покое",
+            "Не может договорить фразу на одном вдохе",
+            "Не может лежать: садится, чтобы дышать",
+            "Синеют губы"
+        ]
+    ],
+    [
+        "Кожа: цвет и сыпь",
+        [
+            "Кожа бледная, серая или мраморная",
+            "Холодный липкий пот",
+            "Точки или синяки, которые не бледнеют при нажатии прозрачным стаканом"
+        ]
+    ],
+    [
+        "Сознание, речь и движения",
+        [
+            "Перекос лица, слабость в руке или ноге, невнятная речь — 103 сразу и запомнить время",
+            "Трудно разбудить, засыпает посреди разговора",
+            "Путается, не узнаёт близких, ведёт себя не как обычно",
+            "Обморок или потемнение в глазах при вставании",
+            "Судороги"
+        ]
+    ],
+    [
+        "Питьё и моча",
+        [
+            "Не может пить",
+            "Рвота после каждого питья",
+            "Не мочился 12 часов и больше"
+        ]
+    ],
+    [
+        "Температура",
+        [
+            "Температура 38 °C и выше с сильным ознобом и дрожью",
+            "Температура вместе со спутанностью или одышкой",
+            "Сильная ломота во всём теле, «так плохо никогда не было»"
+        ]
+    ],
+    [
+        "Боль",
+        [
+            "Боль сильнее, чем при бригаде, сместилась или стала постоянной",
+            "Давящая или жгучая боль в груди, особенно с одышкой или потом",
+            "Внезапная сильнейшая головная боль",
+            "Живот стал твёрдым, боль не даёт пошевелиться или кашлянуть"
+        ]
+    ],
+    [
+        "Ваше ощущение",
+        [
+            "Стало хуже, чем было при бригаде, даже если трудно сказать, что именно",
+            "Близким кажется, что человек «не такой», как обычно"
+        ]
+    ]
+];
+
+const VZR_OSOB = [
+    [
+        "Если подозревали кровотечение",
+        [
+            "Чёрный дёгтеобразный стул",
+            "Рвота кровью или «кофейной гущей»",
+            "Головокружение или обморок при вставании",
+            "Нарастают бледность и слабость"
+        ]
+    ],
+    [
+        "Если было падение",
+        [
+            "Не может встать или опереться на ногу",
+            "Не может пользоваться рукой; нарастают боль, отёк, синяк",
+            "Принимает препараты, разжижающие кровь: головная боль, рвота или сонливость в ближайшие дни"
+        ]
+    ],
+    [
+        "Если был удар головой",
+        [
+            "Рвота",
+            "Головная боль усиливается",
+            "Сонливость дольше часа, трудно разбудить",
+            "Путается, плохо говорит, слабость в руке или ноге",
+            "Шатается, трудно ходить, ухудшилось зрение",
+            "Прозрачная жидкость или кровь из носа или уха"
+        ]
+    ],
+    [
+        "Если высокое давление",
+        [
+            "Сильная головная боль, рвота",
+            "Перекос лица, слабость в руке, невнятная речь",
+            "Боль в груди или одышка",
+            "Внезапное ухудшение зрения"
+        ]
+    ],
+    [
+        "Если сердечная недостаточность",
+        [
+            "Одышка лёжа, приходится спать сидя",
+            "Отёки ног растут",
+            "Вес прибавился больше чем на 2 кг за 3 дня — к врачу в течение суток; если вместе с одышкой — 103"
+        ]
+    ],
+    [
+        "Если была аллергическая реакция",
+        [
+            "Отёк губ или языка, осиплость — не проходит или вернулся",
+            "Сыпь распространяется, зудит всё тело",
+            "Стало трудно дышать, появился свист",
+            "Рвота или боль в животе вместе с сыпью: реакция может вернуться через несколько часов"
+        ]
+    ],
+    [
+        "Если сахар снижают таблетками или инсулином",
+        [
+            "Потливость, дрожь, голод, сердцебиение — проверить сахар; если низкий, сразу съесть или выпить сладкое",
+            "Спутанность, странное поведение, трудно разбудить — 103 сразу",
+            "Сахар снова ниже 4 ммоль/л, хотя после прошлого снижения поели"
+        ]
+    ]
+];
+
+/* Семь тревог: один рендер для детского и взрослого листа.
+   В крупном виде — первые три пункта каждой тревоги и отмеченные особые случаи целиком. */
+function trevogiHtml(o) {
+    const st = o.sost;
+    if (!Array.isArray(st.osob)) st.osob = [];
     let h = '';
-    if (DETI.rodit) {
-        h += '<button onclick="DETI.rodit=false;detiRisovat()" ' +
+    if (st.rodit) {
+        h += '<button onclick="' + o.sostImya + '.rodit=false;' + o.risovat + '()" ' +
              'style="width:100%;padding:12px;border:0;border-radius:9px;background:#24476b;' +
              'color:#fff;font-size:15px;font-weight:700;margin-bottom:10px">Вернуться к рабочему виду</button>';
         h += '<div class="deti-fraza">Когда звонить 103 повторно</div>';
-        DETI_SEM.forEach((t, i) => {
+        o.sem.forEach((t, i) => {
             h += '<div class="deti-trevoga"><b>' + (i + 1) + '. ' + t[0] + '</b>' +
                  t[1].slice(0, 3).join(' · ') + '</div>';
         });
-        h += '<div class="deti-fraza">Звоните сразу. Лучше зря, чем поздно. ' +
-             'У детей всё разворачивается за 1–2 часа.</div>';
+        st.osob.forEach(i => {
+            const t = o.osob[i];
+            if (t) h += '<div class="deti-trevoga"><b>' + t[0] + '</b>' + t[1].join(' · ') + '</div>';
+        });
+        h += '<div class="deti-fraza">' + o.frazaKrupno + '</div>';
         return h;
     }
 
-    h += '<button onclick="DETI.rodit=true;detiRisovat()" ' +
+    h += '<button onclick="' + o.sostImya + '.rodit=true;' + o.risovat + '()" ' +
          'style="width:100%;padding:13px;border:0;border-radius:9px;background:#1d7a4d;' +
-         'color:#fff;font-size:16px;font-weight:700">Показать родителю крупно</button>';
+         'color:#fff;font-size:16px;font-weight:700">' + o.knopka + '</button>';
     h += '<h3>Семь тревог</h3>';
-    h += '<p class="snoska">Признаки, при появлении которых родителю следует повторно вызвать 103, ' +
-         'если ребёнок остаётся дома.</p>';
-    DETI_SEM.forEach((t, i) => {
+    h += '<p class="snoska">' + o.vvod + '</p>';
+    o.sem.forEach((t, i) => {
         h += '<div class="deti-trevoga"><b>' + (i + 1) + '. ' + t[0] + '</b><ul><li>' +
              t[1].join('</li><li>') + '</li></ul></div>';
     });
-    h += '<div class="deti-fraza">«Если что-то из этих семи появилось или ухудшилось — сразу 103, ' +
-         'не думайте, что нас обременили. Лучше мы приедем зря, чем поздно. ' +
-         'У детей всё может развернуться за 1–2 часа». Не ждать утра и участкового.</div>';
+    h += '<div class="deti-fraza">' + o.fraza + '</div>';
 
-    h += '<h3>Добавки по ситуации</h3>';
-    DETI_DOBAVKI.forEach(t => {
-        h += '<div class="deti-trevoga"><b>' + t[0] + '</b><ul><li>' +
-             t[1].join('</li><li>') + '</li></ul></div>';
+    h += '<h3>Особые случаи</h3>';
+    h += '<p class="snoska">Отмеченный случай выводится в крупный вид целиком.</p>';
+    o.osob.forEach((t, i) => {
+        const vybr = st.osob.includes(i);
+        h += '<div class="deti-trevoga"><label style="display:flex;gap:9px;align-items:flex-start;font-weight:700">' +
+             '<input type="checkbox" style="width:20px;height:20px;flex:none;margin-top:1px"' +
+             (vybr ? ' checked' : '') + ' onchange="trevogiOsob(' + o.sostImya + ',' + i + ',this.checked)">' + t[0] + '</label><ul><li>' + t[1].join('</li><li>') + '</li></ul></div>';
     });
     return h;
+}
+
+function trevogiOsob(st, i, da) {
+    st.osob = (st.osob || []).filter(x => x !== i);
+    if (da) st.osob.push(i);
+    st.osob.sort((x, y) => x - y);
+    if (st === DETI) detiSohranit();
+}
+
+function detiTrevogi() {
+    return trevogiHtml({
+        sost: DETI, sostImya: 'DETI', risovat: 'detiRisovat',
+        sem: DETI_SEM, osob: DETI_OSOB,
+        knopka: 'Показать родителю крупно',
+        vvod: 'Признаки, при появлении которых родителю следует повторно вызвать 103, ' +
+              'если ребёнок остаётся дома.',
+        fraza: '«Если что-то из этого появилось или стало хуже — сразу 103, ' +
+               'не думайте, что нас обременили. Лучше мы приедем зря, чем поздно. ' +
+               'У детей всё может развернуться за 1–2 часа». Не ждать утра и участкового.',
+        frazaKrupno: 'Звоните сразу. Лучше зря, чем поздно. ' +
+                     'У детей всё разворачивается за 1–2 часа.'
+    });
+}
+
+const VZR = {rodit: false, osob: []};
+
+function vzrTrevogiOtkryt() {
+    VZR.rodit = false;
+    VZR.osob = [];
+    vzrRisovat();
+    const okno = document.getElementById('okno');
+    if (!okno.open) okno.showModal();
+}
+
+function vzrRisovat() {
+    document.getElementById('imya-okna').textContent = 'Семь тревог · взрослые';
+    const telo = document.getElementById('telo-okna');
+    telo.innerHTML = '<div class="deti-list' + (VZR.rodit ? ' deti-rodit' : '') + '">' +
+        trevogiHtml({
+            sost: VZR, sostImya: 'VZR', risovat: 'vzrRisovat',
+            sem: VZR_SEM, osob: VZR_OSOB,
+            knopka: 'Показать пациенту и близким крупно',
+            vvod: 'Признаки, при появлении которых пациенту или близким следует повторно вызвать 103, ' +
+                  'если пациент остаётся дома.',
+            fraza: '«Если что-то из этого появилось или стало хуже — сразу 103. ' +
+                   'Лучше мы приедем зря, чем поздно». Не ждать утра и поликлиники.',
+            frazaKrupno: 'Звоните 103 сразу, не ждите утра и поликлиники. Лучше зря, чем поздно.'
+        }) + '</div>';
+    telo.scrollTop = 0;
 }
 
 function detiRisovat() {
